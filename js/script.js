@@ -26,7 +26,7 @@ $(document).ready(function (){
     //Маски на телефоны
     $('input[type=tel]').mask('+9(999)999-99-99');
     //=====================================
-    
+
     /*------------------------------*/
     //=====================================
     $('.fancybox_recall').click(function (){
@@ -113,4 +113,52 @@ $(document).ready(function (){
         });
     }
     slickComment();
+
+    function googleMap(mapWrap){
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(cordX,cordY);
+            var myOptions = {
+                zoom: 14,
+                center: myLatlng,
+                disableDefaultUI: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                zoomControlOptions: {
+                position: google.maps.ControlPosition.LEFT_BOTTOM
+                }
+            }
+            var map = new google.maps.Map(document.getElementById(mapWrap), myOptions);
+
+            var contentString = '<div class="marker-test">'+googleText+'</div>';
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                animation: google.maps.Animation.DROP,
+            });
+
+            /*анимация при клике на маркер*/
+            marker.addListener('click', toggleBounce);
+            function toggleBounce() {
+            if (marker.getAnimation() !== null) {
+                marker.setAnimation(null);
+            } else {
+                marker.setAnimation(google.maps.Animation.BOUNCE);
+            }
+            }
+            /*/анимация при клике на маркер*/
+
+            /*По клику открываеться инфоблок*/
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(map,marker);
+            });
+
+        }
+        initialize();
+    }
+    if ($('#contact_map').length) {
+        googleMap('contact_map');
+    };
 });

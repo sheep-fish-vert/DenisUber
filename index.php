@@ -15,6 +15,13 @@
         <link type="text/css" rel="stylesheet" href="css/dev_2.css">
         <link type="text/css" rel="stylesheet" href="css/dev_4.css">
 
+        <script>
+            var ajaxUrl = 'ajax.php'
+            var cordX =59.947774,
+                cordY =30.272796
+                googleText = 'Санкт-Петербург, 7-я линия В.О., д.76, офис 511';
+        </script>
+
         <title>Отель</title>
     </head>
 
@@ -752,7 +759,68 @@
             </div>
         <div class="wrapper dv8 acl">
             <div class="container acl">
-
+                <div class="contacts">
+                    <div class="title_container">
+                        <h2>КОНТАКТЫ</h2>
+                    </div>
+                    <div class="contacts_wrap">
+                        <div class="contacts_form form-we-need">
+                            <form action="ajax.php" name="zakaz" class="contacts-form">
+                                <div class="contact-form-row cfix">
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="text" name="contact_name" required="required" value="" placeholder="Имя">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="email" name="contact_email" required="required" placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <textarea name="contact_area" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-form-row cfix">
+                                    <div class="contact-form-item-submit">
+                                        <button type="submit" class="contact-submit">
+                                            <span>заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="contacts_map">
+                            <div id="contact_map"></div>
+                            <div class="contacts_addres">
+                                <div class="contacts_addres_row">
+                                    <span class="icon icon-1"></span>
+                                    <p>199178, Санкт-Петербург, 7-я линия В.О., д.76, офис 511</p>
+                                </div>
+                                <div class="contacts_addres_row">
+                                    <span class="icon icon-2"></span>
+                                    <a href="mailto:uber@mail.ru">Uber@mail.ru</a>
+                                </div>
+                                <div class="contacts_addres_row">
+                                    <span class="icon icon-3"></span>
+                                    <a href="callto:+74956637373">+7 (495) 663-73-73</a>
+                                </div>
+                                <div class="contacts_addres_row">
+                                    <span class="icon icon-4"></span>
+                                    <p>Время работы Ежедневно с 9:00-22:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="wrapper dv9 acl">
@@ -802,15 +870,16 @@
     />
     <script type="text/javascript" src="lib/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="js/slick.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/device.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="js/validate_script.js"></script>
-    
+
     <script type="text/javascript" src="js/ajax.js"></script>
-    
+
 </body>
 
 </html>
