@@ -7,7 +7,9 @@
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/animate_passat.css">
         <link type="text/css" rel="stylesheet" href="css/tmp.css">
+        <link type="text/css" rel="stylesheet" href="css/dev1.css">
         <link type="text/css" rel="stylesheet" href="css/dev_4.css">
+
         <title>Отель</title>
     </head>
     <body>
