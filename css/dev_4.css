@@ -1,4 +1,6 @@
-.comment_slider{}
-.comment_slider .title_container{font-size: 36px;font-family: "Proxima Nova";color:#fff;text-transform: uppercase;line-height: 36px;text-align: center;font-weight: 900;position: relative;}
+.dv7 .container{}
+.comment_slider{min-height: 635px;text-align: center;padding-top: 67px;}
+.comment_slider_img{position: absolute;top: 0;left: 0;}
+.comment_slider .title_container{font-size: 36px;font-family: "Proxima Nova";color:#fff;text-transform: uppercase;line-height: 36px;text-align: center;font-weight: 900;position: relative;display: inline-block;}
 .comment_slider .title_container:before{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #fff;left: -30px;top: 13px;}
-.comment_slider .title_container:before{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #2c2c2c;right: -30px;top: 13px;}
+.comment_slider .title_container:after{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #fff;right: -30px;top: 13px;}
