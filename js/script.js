@@ -159,6 +159,7 @@ $(document).ready(function (){
             slidesToScroll: 1,
             slidesToShow: 1,
             infinite: true,
+            autoplay:true,
             prevArrow:'<button type="button" class="slick-prev"></button>',
             nextArrow:'<button type="button" class="slick-next"></button>'
         });
