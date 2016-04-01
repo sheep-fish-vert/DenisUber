@@ -212,6 +212,7 @@ function fancyboxForm(){
 
 $(document).ready(function(){
     validate('.zakaz-form', { submitFunction: validationCall });
+    validate('.pop-form', { submitFunction: validationCall });
 
    Maskedinput();
    fancyboxForm();

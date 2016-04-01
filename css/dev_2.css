@@ -1,3 +1,5 @@
+.cfix:after{content: '';display: block;height: 0;font-size: 1px;line-height: 1px;overflow: hidden;clear: both;}
+
 .dv6 >* {box-sizing: border-box; }
 .dv6 .left-side{ width: 62%; float: left; min-height: 560px; display: flex; align-items: center; justify-content: center;}
 .dv6 .left-side h2{  font-size: 100px; font-family: "ProximaNova", sans-serif; color: rgb(65, 65, 65); line-height: 1.2; text-align: center;  }
@@ -8,12 +10,21 @@
 /* form */
 .form-we-need form{max-width: 360px; width: 100%;}
 .form-we-need form .contact-form-item-input { padding: 15px 0; }
-.form-we-need form .contact-form-item-input input{width: 100%; height: 50px; border: none; box-sizing: border-box; background-color: #f7f7f7;font-size: 18px; font-family: "ProximaNova", sans-serif; color: rgb(129, 129, 129); line-height: 50px; outline: none; padding-left: 15px;}
+.form-we-need form .contact-form-item-input input{width: 100%; height: 50px; border: none; box-sizing: border-box; background-color: #f7f7f7;font-size: 18px; font-family: "ProximaNova", sans-serif; color: rgb(129, 129, 129); line-height: 50px; outline: none; padding-left: 15px; transition: all 0.5s;}
+.form-we-need form .contact-form-item-input  label{display: none !important; }
+.form-we-need form .contact-form-item-input input.error{box-shadow: inset 0px 0px 5px 3px red;}
 
 .form-we-need form .contact-form-item-submit{padding-top: 15px;}
 .form-we-need form .contact-form-item-submit .contact-submit{ width: 100%; height: 50px; background-color: #95b9df; color: white; border: none; outline: none;font-size: 14px; font-family: "ProximaNova", sans-serif;  color: rgb(254, 254, 254); text-transform: uppercase; font-weight: 400; border: 2px solid transparent; transition: all 0.3s; cursor: pointer;}
 .form-we-need form .contact-form-item-submit .contact-submit:hover{border: 2px solid black; background-color: white; color: black; }
 
+/* popup */
+#recall{background-color: white; width:1000px; }
+#recall .convert .left-spice{width: 50%; max-height: 511px; overflow: hidden; float: left;}
+#recall .convert .right-spice{width: 50%;height: 511px; float: left; display: flex; justify-content: center; align-items: center;}
+#recall .convert .right-spice .converting {width: 360px;}
+#recall .right-spice .title-form{ font-size: 30px; font-family: "ProximaNova", sans-serif; color: rgb(108, 146, 199);  font-weight: 700; line-height: 1.2; text-align: center; padding-bottom: 50px;}
+#recall .convert .right-spice .form-we-need{width: 100%;}
 
 @media screen and (max-width: 1920px){
 
@@ -26,7 +37,7 @@
 
 }
 @media screen and (max-width: 1280px){
-
+    #recall{background-color: white; width:auto; }
 }
 @media screen and (max-width: 1024px){
     .dv6 .left-side {width: 100%; float: none; min-height: 0; padding: 40px 0 20px;}
@@ -35,7 +46,8 @@
 
 }
 @media screen and (max-width: 992px){
-
+    #recall .convert .left-spice {display: none;}
+    #recall .convert .right-spice {float: none; width: 100%;box-sizing: border-box; height: auto; padding: 50px 20px;}
 }
 
 @media screen and (max-width: 789px){
@@ -67,6 +79,9 @@
 
 /* fancybox */
 
+.fancybox-skin .fancybox-close{top: 5px; right: 5px; background-image: none; width: 20px; height: 20px; overflow: hidden;}
+.fancybox-skin .fancybox-close:before{content: ''; position: absolute; left: -4px; top: 14px; width: 36px; height: 2px; transform: rotate(45deg); background-color: black; }
+.fancybox-skin .fancybox-close:after{content: ''; position: absolute;right: -4px; top: 14px; width: 36px; height: 2px; transform: rotate(-45deg); background-color: black; }
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
