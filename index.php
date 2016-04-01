@@ -631,9 +631,12 @@
         </div>
         <div class="wrapper dv6 acl">
             <div class="container acl">
-                <div class="wrap-content">
+                <div class="wrap-content cfix">
                     <div class="left-side">
-                        <h2>ЗАКАЖИТЕ <br/>  <span>ПРЯМО СЕЙЧАС</span></h2>
+                        <div class="convert">
+                            <h2>ЗАКАЖИТЕ </h2>
+                            <p>ПРЯМО СЕЙЧАС</p>
+                        </div>                        
                     </div>
                     <div class="right-side">
                         <form action="ajax.php" name="" class="contact-form">
@@ -661,9 +664,9 @@
                                 </div>
                             </div>
                             <div class="contact-form-row cfix">
-                                <div class="contact-form-item">
+                                <div class="contact-form-item-submit">
                                     <button type="submit" class="contact-submit">
-                                        <span>Отправить заявку</span>
+                                        <span>заказать</span>
                                     </button>
                                 </div>
                             </div>
@@ -671,9 +674,9 @@
 
                     </div>
                 </div>
-            </div>
-
-            <div class="wrapper dv7 acl">
+            </div>            
+        </div>
+        <div class="wrapper dv7 acl">
                 <div class="comment_slider_img">
                     <img src="img/dv7/comment_slider_img.jpg" alt="">
                 </div>
@@ -686,7 +689,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <div class="wrapper dv8 acl">
             <div class="container acl">
             </div>
