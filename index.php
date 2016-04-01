@@ -8,6 +8,8 @@
         <link type="text/css" rel="stylesheet" href="css/animate_passat.css">
         <link type="text/css" rel="stylesheet" href="css/tmp.css">
         <link type="text/css" rel="stylesheet" href="css/dev1.css">
+        <link type="text/css" rel="stylesheet" href="css/dev_4.css">
+
         <title>Отель</title>
     </head>
     <body>
@@ -615,7 +617,16 @@
                 </div>
             </div>
             <div class="wrapper dv7 acl">
+                <div class="comment_slider_img">
+                    <img src="img/dv7/comment_slider_img.jpg" alt="">
+                </div>
                 <div class="container acl">
+                    <div class="comment_slider">
+                        <div class="title_container">
+                            <h2>ОТЗЫВЫ</h2>
+                        </div>
+
+                    </div>
                 </div>
             </div>
             <div class="wrapper dv8 acl">
@@ -667,6 +678,7 @@
         <link rel="stylesheet" href="lib/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
         <script type="text/javascript" src="lib/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
+        <script type="text/javascript" src="js/slick.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/ajax.js"></script>
     </body>
