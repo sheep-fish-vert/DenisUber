@@ -873,7 +873,7 @@
                <div class="left-spice">
                    <img src="img/dv6/pop.jpg" alt="" />
                </div>
-               <div class="right-spice">                   
+               <div class="right-spice">
                     <div class="converting">
                         <div class="title-form"> ÜBER </div>
                         <div class="form-we-need">
@@ -910,7 +910,7 @@
                                 </div>
                             </form>
                         </div>
-                    </div>                   
+                    </div>
                </div>
            </div>
         </div>
@@ -921,6 +921,31 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="footer-nav">
+            <ul>
+                <li>
+                    <a href="#">КАК ЭТО РАБОТАЕТ</a>
+                </li>
+                <li>
+                    <a href="#">ПРИЕМУЩЕСТВА</a>
+                </li>
+                <li>
+                    <a href="#">УСЛУГИ</a>
+                </li>
+                <li>
+                    <a href="#">ОТЗЫВЫ</a>
+                </li>
+                <li>
+                    <a href="#">КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copy">
+            <p>© 2016 Uber. Все права защищены</p>
+        </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
 
