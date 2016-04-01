@@ -91,10 +91,10 @@ p,h1,h2,h3,ul,li{
     flex-wrap: wrap;
 }
 .fixed .logo_container .logo{
-    
+
 }
 .fixed .header_menu_container{
-    
+
 }
 .fixed .header_menu_container ul{
     flex-direction: row;
@@ -105,7 +105,7 @@ p,h1,h2,h3,ul,li{
     flex-wrap: wrap;
 }
 .fixed .header_menu_container ul li{
-    
+
 }
 .fixed .header_menu_container ul li a:hover:after{
     border-radius: 50%;
@@ -144,7 +144,7 @@ p,h1,h2,h3,ul,li{
     position: relative;
 }
 .fixed .tel_container{
-    
+
 }
 .fixed .tel_container a{
     font-size: 16px;
@@ -223,7 +223,7 @@ p,h1,h2,h3,ul,li{
     margin-right: 50px;
 }
 .dv1 .slider .left_desc .title{
-    
+
 }
 .dv1 .slider .left_desc .title h1{
     font-size: 150px;
@@ -257,7 +257,7 @@ p,h1,h2,h3,ul,li{
     width: 100%;
 }
 .dv1 .slider .left_desc .buttons_wrapper .auto_recall{
-    
+
 }
 .dv1 .slider .left_desc .buttons_wrapper .auto_recall a{
     width: 200px;
@@ -272,7 +272,7 @@ p,h1,h2,h3,ul,li{
     text-transform: uppercase;
 }
 .dv1 .slider .left_desc .buttons_wrapper .call_back{
-    
+
 }
 .dv1 .slider .left_desc .buttons_wrapper .call_back a{
     width: 200px;
@@ -585,7 +585,7 @@ p,h1,h2,h3,ul,li{
     text-align: left;
 }
 .dv3 .items_wrapper .items_container ul li .inline_container .content .txt_container .li_content{
-    
+
 }
 .dv3 .items_wrapper .items_container ul li .inline_container .content .txt_container .li_content p{
     font-size: 14px;

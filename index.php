@@ -55,7 +55,7 @@
                                             </div>
                                             <div class="desc">
                                                 <p>
-                                                    офисные и квартирные <br>перезды 
+                                                    офисные и квартирные <br>перезды
                                                 </p>
                                             </div>
                                             <div class="buttons_wrapper">
@@ -419,10 +419,10 @@
                                                 <div class="txt_wrapper">
                                                     <div class="txt_container">
                                                         <p>
-                                                            Большое количество элементов интерера зачастую оставляют 
-                                                            при переезде, так как его трудно разбирать и собирать 
+                                                            Большое количество элементов интерера зачастую оставляют
+                                                            при переезде, так как его трудно разбирать и собирать
                                                             на новом месте. Компания UBER уже <br>
-                                                            десяток лет занимаеться подобными работами, и мы 
+                                                            десяток лет занимаеться подобными работами, и мы
                                                             знаем как правильно это сделать !
                                                         </p>
                                                     </div>
@@ -445,9 +445,9 @@
                                                     <div class="txt_container">
                                                         <p>
                                                             Самая популярная услуга компании, ежедневно
-                                                            мы помагаем перехать десяткам офисов. 
-                                                            Правильно составленый алгоритм работ делает 
-                                                            весь процесс быстрым, если его правильно 
+                                                            мы помагаем перехать десяткам офисов.
+                                                            Правильно составленый алгоритм работ делает
+                                                            весь процесс быстрым, если его правильно
                                                             спланировать. <br>И ЭТО НАША ЗАДАЧА.
                                                         </p>
                                                     </div>
@@ -469,11 +469,11 @@
                                                 <div class="txt_wrapper">
                                                     <div class="txt_container">
                                                         <p>
-                                                            Покупка новой сантехники, подставок для бытовой 
-                                                            техники, и других мелочей всегда трудность, 
-                                                            когда мы покидаем старое место жительства. 
-                                                            Теперь не нужно думать об этом, UBER обо 
-                                                            всем позаботится ! Мы не оставляем за 
+                                                            Покупка новой сантехники, подставок для бытовой
+                                                            техники, и других мелочей всегда трудность,
+                                                            когда мы покидаем старое место жительства.
+                                                            Теперь не нужно думать об этом, UBER обо
+                                                            всем позаботится ! Мы не оставляем за
                                                             собой ничего... кроме позитивных эмоций!
                                                         </p>
                                                     </div>
@@ -604,7 +604,42 @@
                     </div>
                 </div>
             </div>
+
+            <div class="wrapper dv5 acl">
+                <div class="container acl">
+                </div>
+            </div>
+            <div class="wrapper dv6 acl">
+                <div class="container acl">
+                </div>
+            </div>
+            <div class="wrapper dv7 acl">
+                <div class="container acl">
+                </div>
+            </div>
+            <div class="wrapper dv8 acl">
+                <div class="container acl">
+                </div>
+            </div>
+            <div class="wrapper dv9 acl">
+                <div class="container acl">
+                </div>
+            </div>
+            <div class="wrapper dv10 acl">
+                <div class="container acl">
+                </div>
+            </div>
+            <div class="wrapper dv11 acl">
+                <div class="container acl">
+                </div>
+            </div>
         </div>
+
+
+
+
+
+
         <div class="hidden_block">
             <div id="recall">
                 заявка
@@ -615,7 +650,7 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
-        
+
         <!-- Add mousewheel plugin (this is optional) -->
         <script type="text/javascript" src="lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
@@ -630,7 +665,7 @@
 
         <link rel="stylesheet" href="lib/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
         <script type="text/javascript" src="lib/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-        
+
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/ajax.js"></script>
     </body>
