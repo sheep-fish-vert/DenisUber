@@ -18,7 +18,7 @@ function goTo(){
         }else{
             var target = $(href).offset().top;
         }
-        
+
         $(scroller).animate({scrollTop:target},500);
     });
 }
@@ -30,7 +30,7 @@ $(document).ready(function (){
     var incorrect_name_placeholder = "Укажите Ваше имя";
     var incorrect_phone_placeholder = "Укажите Ваш телефон";
     var incorrect_email_placeholder = "Укажите Ваш E-mail";
-    
+
     $("form").submit(function () {
         cor = true;
         var name = $(this).find("input[name='name']");
@@ -120,21 +120,21 @@ $(document).ready(function (){
             $('.dv1 .slider .item').removeClass('active');
             $('.dv1 .slider .item').eq(cur_index).addClass('active');
         }
-        
+
         setInterval(function (){
             if(!$('.dv1 .slider').hasClass('hover')){
                 next();
             }
         },5000);
     }
-    
-    
+
+
     //==================================================
-    
+
     //Табы ==============================================
     var items=$('.dv4 .in_tabs_wrapper .in_tabs_container ul li');
     var count=$(items).length;
-    
+
     var max_height=0;
     for(var i=0;i<count;i++){
         if($(items).eq(i).outerHeight()>max_height){
@@ -152,4 +152,16 @@ $(document).ready(function (){
     //===================================================
     slider();
     goTo();
+
+
+    function slickComment(){
+        $('.comment_slider_wrap').slick({
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            prevArrow:'<button type="button" class="slick-prev"></button>',
+            nextArrow:'<button type="button" class="slick-next"></button>'
+        });
+    }
+    slickComment();
 });

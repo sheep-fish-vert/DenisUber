@@ -625,7 +625,59 @@
                         <div class="title_container">
                             <h2>ОТЗЫВЫ</h2>
                         </div>
-
+                        <div class="comment_slider_wrap">
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
