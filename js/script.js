@@ -160,4 +160,35 @@ $(document).ready(function (){
     if ($('#contact_map').length) {
         googleMap('contact_map');
     };
+
+    function navigationScroll_Click(){
+        var headHeight = $('.wrapper.fixed').outerHeight();
+
+        $(window).scroll(function(event) {
+            var scrolltop = $(window).scrollTop();
+            $('.header_menu_container li').removeClass('active');
+            var point = -1;
+            $('.has_nav').each(function(index, el) {
+                if( scrolltop >= $(this).offset().top-180 ){
+                    point = index;
+                }
+
+            });
+            if(point != (-1)){
+                $('.header_menu_container li').eq(point).addClass('active');
+            }
+        });
+
+        $('.header_menu_container li a,.footer-nav li a').click(function(event) {
+            event.preventDefault();
+            var ide = $(this).attr('href');
+
+            $('body,html').animate({
+                scrollTop: $(ide).offset().top-180},
+                800);
+        });
+
+
+    }
+    navigationScroll_Click();
 });

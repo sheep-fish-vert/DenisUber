@@ -42,20 +42,20 @@
 
                     <div class="header_menu_container acl">
                         <ul>
-                            <li class="active">
-                                <a href="#">КАК ЭТО РАБОТАЕТ</a>
+                            <li>
+                                <a href="#how_it_work">КАК ЭТО РАБОТАЕТ</a>
                             </li>
                             <li>
-                                <a href="#">ПРИЕМУЩЕСТВА</a>
+                                <a href="#advantage">ПРИЕМУЩЕСТВА</a>
                             </li>
                             <li>
-                                <a href="#">УСЛУГИ</a>
+                                <a href="#our_services">УСЛУГИ</a>
                             </li>
                             <li>
-                                <a href="#">ОТЗЫВЫ</a>
+                                <a href="#comments">ОТЗЫВЫ</a>
                             </li>
                             <li>
-                                <a href="#">КОНТАКТЫ</a>
+                                <a href="#contacts">КОНТАКТЫ</a>
                             </li>
                         </ul>
                     </div>
@@ -188,7 +188,7 @@
                 <div class="navigator"></div>
             </div>
         </div>
-        <div class="wrapper dv2 acl">
+        <div class="wrapper dv2 acl has_nav" id="how_it_work">
             <div class="container acl">
                 <div class="title_container acl">
                     <h2>КАК ЭТО РАБОТАЕТ</h2>
@@ -241,7 +241,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper dv3 acl">
+        <div class="wrapper dv3 acl has_nav" id="advantage">
             <div class="container acl">
                 <div class="title_container acl">
                     <h2>Приемущества</h2>
@@ -440,7 +440,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper dv4 acl">
+        <div class="wrapper dv4 acl has_nav" id="our_services">
             <div class="container acl">
                 <div class="title_container acl">
                     <h2>наши услуги</h2>
@@ -692,7 +692,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper dv7 acl">
+        <div class="wrapper dv7 acl has_nav" id="comments">
                 <div class="comment_slider_img">
                     <img src="img/dv7/comment_slider_img.jpg" alt="">
                 </div>
@@ -757,7 +757,7 @@
                     </div>
                 </div>
             </div>
-        <div class="wrapper dv8 acl">
+        <div class="wrapper dv8 acl has_nav" id="contacts">
             <div class="container acl">
                 <div class="contacts">
                     <div class="title_container">
@@ -827,14 +827,6 @@
             <div class="container acl">
             </div>
         </div>
-        <div class="wrapper dv10 acl">
-            <div class="container acl">
-            </div>
-        </div>
-        <div class="wrapper dv11 acl">
-            <div class="container acl">
-            </div>
-        </div>
     </div>
 
 
@@ -900,19 +892,19 @@
         <div class="footer-nav">
             <ul>
                 <li>
-                    <a href="#">КАК ЭТО РАБОТАЕТ</a>
+                    <a href="#how_it_work">КАК ЭТО РАБОТАЕТ</a>
                 </li>
                 <li>
-                    <a href="#">ПРИЕМУЩЕСТВА</a>
+                    <a href="#advantage">ПРИЕМУЩЕСТВА</a>
                 </li>
                 <li>
-                    <a href="#">УСЛУГИ</a>
+                    <a href="#our_services">УСЛУГИ</a>
                 </li>
                 <li>
-                    <a href="#">ОТЗЫВЫ</a>
+                    <a href="#comments">ОТЗЫВЫ</a>
                 </li>
                 <li>
-                    <a href="#">КОНТАКТЫ</a>
+                    <a href="#contacts">КОНТАКТЫ</a>
                 </li>
             </ul>
         </div>
