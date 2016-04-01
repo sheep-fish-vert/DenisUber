@@ -645,7 +645,7 @@
                         <div class="convert">
                             <h2>ЗАКАЖИТЕ </h2>
                             <p>ПРЯМО СЕЙЧАС</p>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="right-side form-we-need">
                         <form action="ajax.php" name="zakaz" class="zakaz-form">
@@ -683,7 +683,7 @@
 
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
         <div class="wrapper dv7 acl">
                 <div class="comment_slider_img">
@@ -752,6 +752,7 @@
             </div>
         <div class="wrapper dv8 acl">
             <div class="container acl">
+
             </div>
         </div>
         <div class="wrapper dv9 acl">

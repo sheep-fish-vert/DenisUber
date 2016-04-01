@@ -1,5 +1,5 @@
 /*dv7*/
-.comment_slider{min-height: 635px;text-align: center;padding-top: 67px;}
+.comment_slider{min-height: 570px;text-align: center;padding-top: 67px;}
 .comment_slider_img{position: absolute;top: 0;left: 0;}
 .comment_slider .title_container{font-size: 36px;font-family: "Proxima Nova";color:#fff;text-transform: uppercase;line-height: 36px;text-align: center;font-weight: 900;position: relative;display: inline-block;}
 .comment_slider .title_container:before{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #fff;left: -30px;top: 13px;}
@@ -18,7 +18,15 @@
 .comment_slider_wrap .slider_person_desc .slider_person_text{font-size: 16px;color: #f4f4f4;text-align: left;font-family: "Proxima Nova";}
 .comment_slider_wrap .slick-arrow{top: 56%;-webkit-transform: translate(0, -50%) rotate(-225deg);transform: translate(0, -50%) rotate(-225deg);height: 20px;width: 20px;border-right: 3px solid #fff;border-bottom: 3px solid #fff;position: absolute;border-left: none;border-top: none;background: transparent;left: 6px;cursor: pointer;outline: none;}
 .comment_slider_wrap .slick-arrow.slick-next{left: auto;right: 6px;-webkit-transform: translate(0, -50%) rotate(-45deg);transform: translate(0, -50%) rotate(-45deg);}
-/*//*dv7*/
+/*/dv7*/
+
+/*dv8*/
+.dv8{background: url(../img/some-pattern.jpg) left top;min-height: 831px;}
+.dv8>*{box-sizing: border-box;}
+/*/dv8*/
+
+
+
 
 @media screen and (max-width: 479px){
     /*dv7*/
