@@ -1,0 +1,130 @@
+.animated {
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@-webkit-keyframes passat {
+  from{
+      left: 0px;
+  }
+  5%{
+  }
+  10%{
+  }
+  15%{
+  }
+  20%{
+  }
+  25%{
+  }
+  30%{
+  }
+  35%{
+  }
+  40%{
+      left: 900px;
+  }
+  45%{
+      transform: rotate(13deg) scale(0.791) skew(1deg) translate(0px);
+  }
+  50%{
+  }
+  55%{
+  }
+  60%{
+  }
+  65%{
+  }
+  70%{
+  }
+  75%{
+  }
+  80%{
+  }
+  85%{
+  }
+  90%{
+  }
+  95%{
+  }
+  to{
+      
+  }
+}
+@keyframes passat {
+  from{
+      left: 0px;
+      
+  }
+  40%{
+    transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    left: 950px;
+    transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    top: 153px;
+    transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+
+  }
+  42%{
+      left: 990px;
+      transform: rotate(13deg) scale(1) skew(1deg) translate(0px);
+      top: 170px;
+      transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(-20deg) rotateZ(20deg);
+  }
+  45%{
+      left: 1050px;
+      transform: rotate(40deg) scale(1) skew(1deg) translate(0px);
+      top: 220px;
+      transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(-50deg) rotateZ(40deg);
+  }
+  50%{
+    left: 1100px;
+    transform: rotate(90deg) scale(1) skew(1deg) translate(0px);
+    top: 340px;
+    transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(-90deg) rotateZ(60deg);
+  }
+  55%{
+      left: 1050px;
+      transform: rotate(40deg) scale(1) skew(1deg) translate(0px);
+      top: 480px;
+      transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(-130deg) rotateZ(40deg);
+  }
+  58%{
+      left: 990px;
+      transform: rotate(13deg) scale(1) skew(1deg) translate(0px);
+      top: 530px;
+      transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(-160deg) rotateZ(20deg);
+  }
+  60%{
+    left: 950px;
+    transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+    top: 553px;
+    transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(-180deg) rotateZ(0deg);
+
+  }
+  70%{
+      
+  }
+  75%{
+  }
+  80%{
+  }
+  85%{
+  }
+  90%{
+  }
+  95%{
+  }
+  to{
+       left: 0px;
+      top: 553px;
+       transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+       transform: perspective(500px) rotate(0deg) rotateX(0deg) rotateY(-180deg) rotateZ(0deg);
+  }
+}
+
+.passat {
+    -webkit-animation-name: passat;
+    animation-name: passat;
+    
+}

@@ -1,0 +1,287 @@
+.dv4{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url(../img/dv4/bg.png);
+    margin: 0 auto 0 auto;
+}
+.dv4 .container{
+    position: relative;
+    padding: 0 0 130px 0;
+    box-sizing: border-box;
+}
+.dv4 .container .title_container{
+    padding: 335px 24px 40px 24px;
+    display: table;
+    position: relative;
+}
+.dv4 .container .title_container h2{
+    font-size: 30px;
+    font-family: "Proxima Nova";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.dv4 .container .title_container:before{
+    background-color: #424242;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    left: -3px;
+    top: 346px;
+    content: '';
+    display: block;
+    border-radius: 50%;
+}
+.dv4 .container .title_container:after{
+    background-color: #424242;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    right: -3px;
+    top: 346px;
+    content: '';
+    display: block;
+    border-radius: 50%;
+}
+.dv4 .tab_control_wrapper{
+    
+}
+.dv4 .tab_control_wrapper .tab_control_container{
+    
+}
+.dv4 .tab_control_wrapper .tab_control_container ul{
+    position: relative;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li{
+    
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li.active{
+    background-color: #95b9df;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li:hover{
+    background-color: #95b9df;
+    cursor: pointer;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .img_li_wrapper{
+    
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .img_li_wrapper .img_container{
+    width: 40px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 0px;
+    width: 110px;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li:hover .content_li_container .img_li_wrapper .img_container{
+    background-position-y: -46px;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li.active .content_li_container .img_li_wrapper .img_container{
+    background-position-y: -46px;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .txt_li_wrapper{
+    
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .txt_li_wrapper .txt_li_container{
+    
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .txt_li_wrapper .txt_li_container .title_li_container{
+    padding: 20px 0 18px 0;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .txt_li_wrapper .txt_li_container .title_li_container h3{
+    font-size: 18px;
+    font-family: "Proxima Nova";
+    color: rgb(49, 49, 49);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 18px;
+    text-align: left;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li:hover .content_li_container .txt_li_wrapper .txt_li_container .title_li_container h3{
+    color: #fff;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li.active .content_li_container .txt_li_wrapper .txt_li_container .title_li_container h3{
+    color: #fff;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .txt_li_wrapper .txt_li_container .txt_wrapper{
+    
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .txt_li_wrapper .txt_li_container .txt_wrapper .txt_container{
+    width: 365px;
+    padding: 0 0 20px 0;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li .content_li_container .txt_li_wrapper .txt_li_container .txt_wrapper .txt_container p{
+    font-size: 14px;
+    font-family: "Proxima Nova";
+    color: rgb(49, 49, 49);
+    line-height: 1.2;
+    text-align: left;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li:hover .content_li_container .txt_li_wrapper .txt_li_container .txt_wrapper .txt_container p{
+    color: #fff;
+}
+.dv4 .tab_control_wrapper .tab_control_container ul li.active .content_li_container .txt_li_wrapper .txt_li_container .txt_wrapper .txt_container p{
+    color: #fff;
+}
+.dv4 .in_tabs_wrapper{
+    position: absolute;
+    top: 140px;
+    right: -50px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 43.7px 2.3px rgba(0, 0, 0, 0.59);
+    width: 700px;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container{
+    
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul{
+    position: relative;
+    
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li{
+    z-index: 10;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -webkit-transition: opacity .70s ease-in-out;
+    -moz-transition: opacity .70s ease-in-out;
+    -ms-transition: opacity .70s ease-in-out;
+    -o-transition: opacity .7s ease-in-out;
+    transition: opacity .7s ease-in-out;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li.active{
+    z-index: 30;
+    opacity: 1;
+    -webkit-transition: opacity .70s ease-in-out;
+    -moz-transition: opacity .70s ease-in-out;
+    -ms-transition: opacity .70s ease-in-out;
+    -o-transition: opacity .7s ease-in-out;
+    transition: opacity .7s ease-in-out;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper{
+    
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .top_img{
+    
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .top_img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper{
+    
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .left_img_container{
+    width: 50%;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .left_img_container img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .center_tab_text_wrapper{
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .center_tab_text_wrapper .text_flex{
+ 
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .center_tab_text_wrapper p{
+    font-size: 14px;
+    font-family: "Proxima Nova";
+    color: #4c4c4c;
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 30px;
+    position: relative;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .center_tab_text_wrapper p:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: -22px;
+    background-color: #bcd6ed;
+    width: 33px;
+    height: 5px;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .bot_tab_wrapper{
+    
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .bot_tab_wrapper .bot_tab_container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .bot_tab_wrapper .bot_tab_container .left_img_container{
+    width: 50%;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .bot_tab_wrapper .bot_tab_container .left_img_container img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .bot_tab_wrapper .bot_tab_container .right_img_container{
+    width: 50%;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .bot_tab_wrapper .bot_tab_container .right_img_container img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .btn_tab_container{
+    padding: 30px 0 0 0;
+}
+.dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .btn_tab_container a{
+    width: 200px;
+    height: 45px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    background-color: #95b9df;
+    margin: 0 auto 0 auto;
+    font-size: 14px;
+    font-family: "Proxima Nova";
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+}
