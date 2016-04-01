@@ -20,12 +20,19 @@
 
 <body>
     <div class="global_wrapper acl">
+
         <div class="wrapper fixed acl">
             <div class="container acl">
                 <div class="fex_box_wrapper">
+
                     <div class="logo_container acl">
                         <div class="logo"><img src="img/fixed/logo.png" alt="false"></div>
                     </div>
+
+                    <div class="tel_container acl">
+                        <a href="tel:+74956637373">+7 (495) 663-73-73</a>
+                    </div>
+
                     <div class="header_menu_container acl">
                         <ul>
                             <li class="active">
@@ -45,12 +52,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="tel_container acl">
-                        <a href="tel:+74956637373">+7 (495) 663-73-73</a>
-                    </div>
+
                 </div>
             </div>
         </div>
+
         <div class="wrapper dv1 acl">
             <div class="slider_wrapper acl">
                 <div class="slider">
