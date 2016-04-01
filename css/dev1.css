@@ -14,7 +14,6 @@
     overflow: hidden;
     max-width: 1920px;
     margin: 0 auto;
-    min-width: 1200px;
     width: 100%;
     position: relative;
     height: 780px;
@@ -47,8 +46,12 @@
     transition: opacity .7s ease-in-out;
 }
 .dv1 .slider_wrapper .slider .item .container{
-    padding: 216px 30px 245px 30px;
+    height:768px;
     box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 0 20px;
 }
 .dv1 .slider .flex_container{
     flex-direction: row;
@@ -198,4 +201,14 @@
     background-image: url(../img/dv1/bot_bg.png);
     height: 24px;
     width: 100%;
+}
+
+@media screen and (max-width: 1200px){
+
+    /* slider-top */
+
+        .dv1 .slider .flex_container{justify-content:space-around;}
+
+    /* /slider-top */
+
 }

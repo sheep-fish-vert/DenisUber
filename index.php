@@ -3,6 +3,9 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
         <link type="text/css" rel="stylesheet" href="fonts/fonts.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/animate_passat.css">
