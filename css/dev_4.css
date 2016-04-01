@@ -27,6 +27,7 @@
 .dv8 .contacts_wrap{text-align: left;}
 .dv8 .contacts_wrap:after{content: '';display: block;clear: both;}
 .dv8 .contacts_form{width: 44%;float: left;}
+.dv8 .contacts_form.form-we-need form .contact-form-item-submit .contact-submit{max-width: 200px;}
 .dv8 .contacts_map{width: 44%;float: right;}
 .dv8 .title_container{font-size: 36px;font-family: "Proxima Nova";color:#2c2c2c;text-transform: uppercase;line-height: 36px;text-align: center;font-weight: 900;position: relative;display: inline-block;padding-bottom: 112px;}
 .dv8 .title_container:before{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #2c2c2c;left: -30px;top: 13px;}
@@ -43,12 +44,25 @@
 .dv8 #contact_map{height: 291px;width: 100%;margin-bottom: 37px;}
 /*/dv8*/
 
+/*footer*/
+.footer{background-color: #282828;text-align: center;}
+.footer .footer-nav{padding-top: 54px;padding-bottom: 36px;}
+.footer .footer-nav li{display: inline-block;margin: 0 2.1%;}
+.footer .footer-nav li a{display: inline-block;text-decoration: none;color: #f6f6f6;font-family: "ProximaNova", sans-serif;font-weight: bold;padding: 0 5px;text-transform: uppercase;transition: all ease .2s;}
+.footer .footer-copy{padding-bottom: 25px;font-size: 14px;color: #3d3d3d;font-family: "ProximaNova", sans-serif;}
+.footer .footer-nav li a:hover{color: rgb(149, 185, 223);}
+/*/footer*/
 
 
 @media screen and (max-width: 880px){
     /*dv8*/
     .dv8 .contacts_form,.dv8 .contacts_map{width: 49%;}
     /*/dv8*/
+
+    /*footer*/
+    .footer .footer-nav{padding-top: 29px;padding-bottom: 0px;}
+    .footer .footer-nav li{display: block;text-align: center;margin-bottom: 11px}
+    /*/footer*/
 }
 @media screen and (max-width: 767px){
     /*dv8*/
