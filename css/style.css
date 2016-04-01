@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 65px 0 0 0;
+    min-width: 320px;
 }
 input.incorrect,textarea.incorrect{
     color: red!important;
@@ -46,117 +47,6 @@ p,h1,h2,h3,ul,li{
 }
 .hidden_block{
     display: none;
-}
-.wrapper.fixed{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    z-index: 2000;
-    overflow: visible;
-    background-color: #ffffff;
-}
-.fixed .container{
-    position: relative;
-}
-.fixed .container:after{
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0px;
-    bottom: -24px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-image: url(../img/fixed/texture.png);
-    height: 24px;
-    width: 100%;
-}
-.fixed .container .fex_box_wrapper{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    display: inline-flex;
-    flex-wrap: wrap;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 30px;
-}
-.fixed .logo_container{
-    height: 65px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-.fixed .logo_container .logo{
-
-}
-.fixed .header_menu_container{
-
-}
-.fixed .header_menu_container ul{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-.fixed .header_menu_container ul li{
-
-}
-.fixed .header_menu_container ul li a:hover:after{
-    border-radius: 50%;
-    background-color: rgb(149, 185, 223);
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    left: 50%;
-    margin-left: -5px;
-    bottom: -17px;
-    content: '';
-    display: block;
-}
-.fixed .header_menu_container ul li.active a:after{
-    border-radius: 50%;
-    background-color: rgb(149, 185, 223);
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    left: 50%;
-    margin-left: -5px;
-    bottom: -17px;
-    content: '';
-    display: block;
-}
-
-.fixed .header_menu_container ul li a{
-    font-size: 14px;
-    font-family: "Proxima Nova";
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    text-decoration: none;
-    padding: 0 17px;
-    position: relative;
-}
-.fixed .tel_container{
-
-}
-.fixed .tel_container a{
-    font-size: 16px;
-    font-family: "Proxima Nova";
-    color: rgb(40, 40, 40);
-    font-weight: bold;
-    line-height: 1.2;
-    text-align: left;
-    text-decoration: none;
-}
-.fixed .tel_container a:hover{
-    text-decoration: underline;
 }
 
 .dv2{

@@ -2,18 +2,21 @@
 
 <html lang="ru">
 
-<head>
-    <meta charset="utf-8" />
-    <link type="text/css" rel="stylesheet" href="fonts/fonts.css">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <link type="text/css" rel="stylesheet" href="css/animate_passat.css">
-    <link type="text/css" rel="stylesheet" href="css/tmp.css">
-    <link type="text/css" rel="stylesheet" href="css/dev1.css">
-    <link type="text/css" rel="stylesheet" href="css/dev_2.css">
-    <link type="text/css" rel="stylesheet" href="css/dev_4.css">
+    <head>
+        <meta charset="utf-8" />
 
-    <title>Отель</title>
-</head>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
+        <link type="text/css" rel="stylesheet" href="fonts/fonts.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="css/animate_passat.css">
+        <link type="text/css" rel="stylesheet" href="css/tmp.css">
+        <link type="text/css" rel="stylesheet" href="css/dev1.css">
+        <link type="text/css" rel="stylesheet" href="css/dev_2.css">
+        <link type="text/css" rel="stylesheet" href="css/dev_4.css">
+
+        <title>Отель</title>
+    </head>
 
 <body>
     <div class="global_wrapper acl">
