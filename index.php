@@ -663,7 +663,7 @@
                         </div>
                         <div class="row4"> <span>ваши</span> <span>Вещи</span> <span>скажут</span> <span>вам</span></div>
                         <div class="row5">спасибо</div>
-                        <a href="#" class="bottonrow">
+                        <a href="#recall" class="bottonrow fancybox_recall">
                            заказать
                         </a>
                     </div>

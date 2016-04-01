@@ -29,10 +29,14 @@
 .dv5 .supertext .row3{font-size: 36px; line-height: 1; font-weight: 400; display: flex; justify-content: space-between;}
 .dv5 .supertext .row4{font-size: 45px; line-height: 1; font-weight: 700; display: flex; justify-content: space-between;}
 .dv5 .supertext .row5{font-size: 120px; line-height: 1; font-weight: 100; display: flex; justify-content: space-between;}
-.dv5 .supertext .bottonrow{position: relative; display: flex; justify-content: center; align-items: center; padding: 0 80px; height: 80px; width: 100%; background-color: #95b9df; text-decoration: none; text-align: center; color: white; box-sizing: border-box; }
+.dv5 .supertext .bottonrow{position: relative; display: flex; justify-content: center; align-items: center; padding: 0 80px; height: 80px; width: 100%; background-color: #95b9df; text-decoration: none; text-align: center; color: white; box-sizing: border-box; font-weight: 600; font-size: 18px;border: 3px solid transparent; transition: all 0.5s; }
 
-.dv5 .supertext .bottonrow:after{content: ''; position: absolute; top: 10px; bottom: 10px; left: 10px; right: calc(100% - 70px); border: 3px solid white; }
-.dv5 .supertext .bottonrow:before{content: ''; position: absolute; width:18px; height: 18px;  top: calc(50% - 10px); right: calc(100% - 48px); border-top: 3px solid white; border-left: 3px solid white; transform: rotate(135deg); }
+.dv5 .supertext .bottonrow:after{content: ''; position: absolute; top: 10px; bottom: 10px; left: 10px; right: calc(100% - 70px); border: 3px solid white; transition: all 0.5s;}
+.dv5 .supertext .bottonrow:before{content: ''; position: absolute; width:18px; height: 18px;  top: calc(50% - 10px); right: calc(100% - 48px); border-top: 3px solid white; border-left: 3px solid white; transform: rotate(135deg); transition: all 0.5s;}
+
+.dv5 .supertext .bottonrow:hover{border: 3px solid black; background-color: white; color: black;}
+.dv5 .supertext .bottonrow:hover:after{border-color: black;}
+.dv5 .supertext .bottonrow:hover:before{border-color: black;}
 
 /* popup */
 #recall{background-color: white; width:1000px; }
@@ -89,12 +93,12 @@
 @media screen and (max-width: 620px){
     .dv5 .supertext{max-width:none; width: 100%; font-family: "ProximaNova", sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; }
 
-    .dv5 .supertext .row1{font-size: 28px; line-height: 1; font-weight: 600; display: flex; justify-content: space-between; }
-    .dv5 .supertext .row2{font-size: 90px; line-height: 1;  font-weight: 700; display: flex; justify-content: space-between;}
-    .dv5 .supertext .row3{font-size: 18px; line-height: 1; font-weight: 400; display: flex; justify-content: space-between;}
-    .dv5 .supertext .row4{font-size: 24px; line-height: 1; font-weight: 700; display: flex; justify-content: space-between;}
-    .dv5 .supertext .row5{font-size: 60px; line-height: 1; font-weight: 100; display: flex; justify-content: space-between;}
-  
+    .dv5 .supertext .row1{font-size: 28px;}
+    .dv5 .supertext .row2{font-size: 90px;}
+    .dv5 .supertext .row3{font-size: 18px;}
+    .dv5 .supertext .row4{font-size: 24px;}
+    .dv5 .supertext .row5{font-size: 60px;}
+    .dv5 .supertext .bottonrow {padding: 0 20px 0 80px;}
 }
 
 @media screen and (max-width: 479px){
