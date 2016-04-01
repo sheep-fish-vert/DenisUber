@@ -427,9 +427,9 @@
         background-color: #d6e5ff;
         margin-bottom: 30px;
     }
-    .dv3 .container{
+    .global_wrapper .dv3.wrapper .container{
         box-sizing: border-box;
-        padding: 68px 0 110px 0 !important;
+        padding: 68px 0 110px 0;
         position: relative;
     }
     .dv3 .container:before{
@@ -533,7 +533,8 @@
         flex-wrap: wrap;
     }
     .dv3 .items_wrapper .items_container ul li .inline_container .content{
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
@@ -558,7 +559,7 @@
         flex-wrap: wrap;
     }
     .dv3 .items_wrapper .items_container ul li .inline_container .content .txt_container{
-        width: 175px;
+        width: calc(100% - 60px);
     }
     .dv3 .items_wrapper .items_container ul li .inline_container .content .txt_container .li_title{
         padding: 0 0 6px 0;
@@ -583,7 +584,8 @@
         text-align: left;
     }
     .dv3 .btns_wrapper{
-        width: 420px;
+        max-width: 420px;
+        width: 100%;
         margin: 0 auto 0 auto;
     }
     .dv3 .btns_wrapper .btns_container{
@@ -647,6 +649,12 @@
 
     /* /dv2 */
 
+    /* dv3 */
+
+        .global_wrapper .dv3.wrapper .container{padding: 68px 10px 110px 10px;}
+
+    /* /dv3 */
+
 }
 
 @media screen and (max-width: 1200px){
@@ -664,6 +672,22 @@
         }
 
     /* /slider-top */
+
+}
+@media screen and (max-width: 1170px){
+
+    /* dv3 */
+
+        .dv3 .items_wrapper .items_container{background-image: none;}
+        .dv3 .items_wrapper .items_container ul li{padding-left:10px;padding-right: 10px;box-sizing:border-box;}
+        .dv3 .items_wrapper .items_container ul li .inline_container .content{max-width: 350px;}
+        .dv3 .items_wrapper .items_container ul li:nth-child(2n-1) .inline_container{justify-content: flex-end;}
+        .dv3 .items_wrapper .items_container ul li:nth-child(2n-1) .inline_container .content{flex-direction: row-reverse;}
+        .dv3 .items_wrapper .items_container ul li:nth-child(2n-1) .inline_container .content .txt_container .li_title h3, .dv3 .items_wrapper .items_container ul li:nth-child(2n-1) .inline_container .content .txt_container .li_content p{text-align: right;}
+        .dv3 .items_wrapper .items_container ul li:nth-child(2n) .inline_container{justify-content: flex-start;}
+        .dv3 .items_wrapper .items_container ul li .inline_container .content .txt_container .li_content p br{display: none;}
+
+    /* /dv3 */
 
 }
 @media screen and (max-width: 767px){
@@ -698,6 +722,22 @@
 
 }
 
+@media screen and (max-width: 520px){
+
+    /* dv3 */
+
+        .dv3 .items_wrapper{padding: 40px 0 15px 0;}
+        .dv3 .items_wrapper .items_container ul li{width: 100%;}
+        .dv3 .items_wrapper .items_container ul li .inline_container .content{max-width: none;width: 100%;justify-content:center;}
+        .dv3 .items_wrapper .items_container ul li .inline_container .content .img_wrapper{margin-bottom: 20px;}
+        .dv3 .items_wrapper .items_container ul li .inline_container .content .txt_container{width: 100%;}
+        .dv3 .items_wrapper .items_container ul li:nth-child(2n-1) .inline_container .content .txt_container .li_title h3, .dv3 .items_wrapper .items_container ul li:nth-child(2n-1) .inline_container .content .txt_container .li_content p, .dv3 .items_wrapper .items_container ul li .inline_container .content .txt_container .li_title h3, .dv3 .items_wrapper .items_container ul li .inline_container .content .txt_container .li_content p{text-align: center;}
+
+
+    /* /dv3 */
+
+}
+
 @media screen and (max-width: 479px){
 
     /* slider-top */
@@ -715,7 +755,7 @@
 
     /* header */
 
-        .fixed .header_menu_container{width: calc(100% + 10px);margin:0 -5px;}
+        .fixed .header_menu_container{width: calc(100% + 20px);margin:0 -10px;}
         .fixed .header_menu_container ul li a{padding: 0 8px;}
 
     /* /header */
@@ -725,5 +765,13 @@
         .dv2 .items_wrapper .items_container ul li{width: 100%;}
 
     /* /dv2 */
+
+    /* dv3 */
+
+        .dv3 .title_container h2{font-size: 28px;}
+        .dv3 .btns_wrapper .btns_container{justify-content:center;}
+        .dv3 .btns_wrapper .btns_container .btn_car{margin-bottom: 20px;}
+
+    /* /dv3 */
 
 }
