@@ -456,7 +456,7 @@
 
     /* header */
 
-        .fixed .container .fex_box_wrapper{display: flex;flex-wrap:wrap;justify-content:space-between;align-items: center;padding: 0;}
+        .fixed .container .fex_box_wrapper{display: flex;flex-wrap:wrap;justify-content:space-between;align-items: center;padding: 0 10px;}
         .fixed .logo_container{position: static;}
         .fixed .tel_container{position: static;}
         .fixed .header_menu_container{max-width: none;padding: 10px 0 25px 0;}
