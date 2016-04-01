@@ -642,7 +642,32 @@
         </div>
 
         <div class="wrapper dv5 acl">
+            <div class="comment_slider_img">
+                <img src="img/dv6/pop666.jpg" alt="">
+            </div>
             <div class="container acl">
+                <div class="convert">
+                    <div class="supertext">
+                        <div class="row1"> <span>Доверьте</span><span>переезд </span></div>
+                        <div class="row2"> 
+                            <span>U</span> 
+                            <span>b</span>
+                            <span>e</span>
+                            <span>r</span>
+                        </div>
+                        <div class="row3">
+                            <span> и </span>  
+                            <span>подарите</span>  
+                            <span>себе</span> 
+                            <span>спокойствие </span>
+                        </div>
+                        <div class="row4"> <span>ваши</span> <span>Вещи</span> <span>скажут</span> <span>вам</span></div>
+                        <div class="row5">спасибо</div>
+                        <a href="#recall" class="bottonrow fancybox_recall">
+                           заказать
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="wrapper dv6 acl">
