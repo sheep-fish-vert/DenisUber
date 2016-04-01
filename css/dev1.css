@@ -25,16 +25,12 @@
         width: 100%;
     }
     .fixed .container .fex_box_wrapper{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
         position: relative;
-        display: inline-flex;
-        flex-wrap: wrap;
         width: 100%;
         box-sizing: border-box;
         padding: 0 30px;
     }
+    .fixed .container .fex_box_wrapper:after{content:'';display: block;width: 100%;height: 0;clear: both;}
     .fixed .logo_container{
         height: 65px;
         flex-direction: row;
@@ -43,12 +39,22 @@
         position: relative;
         display: inline-flex;
         flex-wrap: wrap;
+        position: absolute;
+        left:30px;
+        top:calc(50% - 32px);
     }
     .fixed .logo_container .logo{
 
     }
     .fixed .header_menu_container{
-
+        position: relative;
+        max-width: calc(100% - 300px);
+        width: 100%;
+        margin: 0 auto;
+        min-height: 65px;
+        display: flex;
+        align-items:center;
+        padding:10px 0;
     }
     .fixed .header_menu_container ul{
         flex-direction: row;
@@ -57,9 +63,11 @@
         position: relative;
         display: inline-flex;
         flex-wrap: wrap;
+        margin-bottom: -25px;
+        width: 100%;
     }
     .fixed .header_menu_container ul li{
-
+        margin-bottom: 25px;
     }
     .fixed .header_menu_container ul li a:hover:after{
         border-radius: 50%;
@@ -98,7 +106,13 @@
         position: relative;
     }
     .fixed .tel_container{
-
+        min-height: 65px;
+        display: flex;
+        justify-content:flex-end;
+        align-items:center;
+        position: absolute;
+        right: 30px;
+        top:calc(50% - 32px);
     }
     .fixed .tel_container a{
         font-size: 16px;
@@ -342,6 +356,18 @@
     /* /slider-top */
 
 }
+@media screen and (max-width: 767px){
+
+    /* header */
+
+        .fixed .container .fex_box_wrapper{display: flex;flex-wrap:wrap;justify-content:space-between;align-items: center;padding: 0;}
+        .fixed .logo_container{position: static;}
+        .fixed .tel_container{position: static;}
+        .fixed .header_menu_container{max-width: none;padding: 10px 0 25px 0;}
+
+    /* /header */
+
+}
 
 @media screen and (max-width: 666px){
 
@@ -370,5 +396,12 @@
         .dv1 .slider .right_desc .desc p{font-size: 24px;line-height: 30px;}
 
     /* /slider-top */
+
+    /* header */
+
+        .fixed .header_menu_container{width: calc(100% + 10px);margin:0 -5px;}
+        .fixed .header_menu_container ul li a{padding: 0 8px;}
+
+    /* /header */
 
 }
