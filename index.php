@@ -615,6 +615,9 @@
                 </div>
             </div>
             <div class="wrapper dv7 acl">
+                <div class="comment_slider_img">
+                    <img src="img/dv7/comment_slider_img.jpg" alt="">
+                </div>
                 <div class="container acl">
                     <div class="comment_slider">
                         <div class="title_container">
