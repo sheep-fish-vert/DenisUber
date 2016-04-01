@@ -890,7 +890,10 @@
            </div>
         </div>
         <div id="spas">
-            спасибо
+            <div class="convert">
+                <div class="headtext">Спасибо за заявку</div>
+                <div class="textafter">Мы свяжемся с Вами в ближайшее время</div>
+            </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>

@@ -1,6 +1,7 @@
 .cfix:after{content: '';display: block;height: 0;font-size: 1px;line-height: 1px;overflow: hidden;clear: both;}
 
 .dv6 >* {box-sizing: border-box; }
+.dv6 { background: url(../img/some-pattern.jpg) left top;}
 .dv6 .left-side{ width: 62%; float: left; min-height: 560px; display: flex; align-items: center; justify-content: center;}
 .dv6 .left-side h2{  font-size: 100px; font-family: "ProximaNova", sans-serif; color: rgb(65, 65, 65); line-height: 1.2; text-align: center;  }
 .dv6 .left-side p{font-family: "ProximaNova", sans-serif; color: rgb(65, 65, 65); font-size: 72px; line-height: 1.2; text-align: center; }
@@ -25,6 +26,10 @@
 #recall .convert .right-spice .converting {width: 360px;}
 #recall .right-spice .title-form{ font-size: 30px; font-family: "ProximaNova", sans-serif; color: rgb(108, 146, 199);  font-weight: 700; line-height: 1.2; text-align: center; padding-bottom: 50px;}
 #recall .convert .right-spice .form-we-need{width: 100%;}
+
+#spas{ width: 300px;padding: 40px 20px ; display: flex; justify-content: center; align-items: center; }
+#spas .convert .headtext{font-size: 26px; font-family: "ProximaNova", sans-serif; text-align: center;padding-bottom: 10px;}
+#spas .convert .textafter{font-size: 18px; font-family: "ProximaNova", sans-serif;text-align: center;}
 
 @media screen and (max-width: 1920px){
 

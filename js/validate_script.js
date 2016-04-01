@@ -107,7 +107,7 @@ function validationCall(form){
         success : function(data){
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
-                popNext("#call_success", "call-popup");
+                popNext("#spas", "#recall");
             }
             else {
                thisForm.trigger('reset');
@@ -159,7 +159,7 @@ function validationCallDocuments(form){
         cache:false,
         success: function(response) {
             thisForm.trigger("reset");
-            popNext("#call_success", "call-popup");
+            popNext("#spas", "#recall");
         }
     });
 
@@ -210,7 +210,8 @@ function fancyboxForm(){
   })
 }
 
-$(document).ready(function(){
+$(document).ready(function() {
+
     validate('.zakaz-form', { submitFunction: validationCall });
     validate('.pop-form', { submitFunction: validationCall });
     validate('.contacts-form', { submitFunction: validationCall });

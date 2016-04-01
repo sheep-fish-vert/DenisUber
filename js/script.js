@@ -27,7 +27,6 @@ $(document).ready(function (){
     $('input[type=tel]').mask('+9(999)999-99-99');
     //=====================================
 
-    /*------------------------------*/
     //=====================================
     $('.fancybox_recall').click(function (){
         var form=$(this).data('form-pop');
