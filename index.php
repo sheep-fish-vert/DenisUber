@@ -645,10 +645,10 @@
                         <div class="convert">
                             <h2>ЗАКАЖИТЕ </h2>
                             <p>ПРЯМО СЕЙЧАС</p>
-                        </div>                        
+                        </div>
                     </div>
-                    <div class="right-side">
-                        <form action="ajax.php" name="" class="contact-form">
+                    <div class="right-side form-we-need">
+                        <form action="ajax.php" name="zakaz" class="zakaz-form">
                             <div class="contact-form-row cfix">
                                 <div class="contact-form-item">
                                     <div class="contact-form-item-input form_row">
@@ -660,7 +660,7 @@
                                 <div class="contact-form-item">
                                     <div class="contact-form-item-input form_row">
                                         <div class="form_input">
-                                            <input type="email" name="contact_email" required="required" value="" placeholder="E-mail">
+                                            <input type="email" name="contact_email" required="required" placeholder="E-mail">
                                         </div>
                                     </div>
                                 </div>
@@ -683,7 +683,7 @@
 
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
         <div class="wrapper dv7 acl">
                 <div class="comment_slider_img">
@@ -694,12 +694,65 @@
                         <div class="title_container">
                             <h2>ОТЗЫВЫ</h2>
                         </div>
-
+                        <div class="comment_slider_wrap">
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         <div class="wrapper dv8 acl">
             <div class="container acl">
+
             </div>
         </div>
         <div class="wrapper dv9 acl">
@@ -751,8 +804,13 @@
 
     <script type="text/javascript" src="js/slick.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/device.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="js/validate_script.js"></script>
+    
     <script type="text/javascript" src="js/ajax.js"></script>
+    
 </body>
 
 </html>
