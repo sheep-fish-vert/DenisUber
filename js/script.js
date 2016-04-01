@@ -26,59 +26,7 @@ $(document).ready(function (){
     //Маски на телефоны
     $('input[type=tel]').mask('+9(999)999-99-99');
     //=====================================
-    /*-------Обработчик форм---------*/
-    var incorrect_name_placeholder = "Укажите Ваше имя";
-    var incorrect_phone_placeholder = "Укажите Ваш телефон";
-    var incorrect_email_placeholder = "Укажите Ваш E-mail";
-
-    $("form").submit(function () {
-        cor = true;
-        var name = $(this).find("input[name='name']");
-        var phone = $(this).find("input[name='phone']");
-        var email = $(this).find("input[name='email']");
-        var result = true;
-        if (name.val() != "" && name.val() != incorrect_name_placeholder) {
-            name.removeClass('incorrect');
-        } else {
-            name.addClass('incorrect');
-            name.val(incorrect_name_placeholder);
-            cor = false;
-            result = false;
-        }
-        if (email.val() != "" && IsEmail(mail.val()) && email.val() != incorrect_email_placeholder) {
-            email.removeClass('incorrect');
-        } else {
-            email.addClass('incorrect');
-            email.val(incorrect_email_placeholder);
-            cor = false;
-            result = false;
-        }
-        if (phone.val() != "" && phone.val() != incorrect_phone_placeholder) {
-            phone.removeClass('incorrect');
-        } else {
-            phone.addClass('incorrect');
-            phone.val(incorrect_phone_placeholder);
-            cor = false;
-            result = false;
-        }
-        if (result) { return true; } else { return false; }
-    });
-    $("input[type='text'],input[type='tel'],input[name='email']").click(function ()
-    {
-        if ($(this).val() == incorrect_name_placeholder)
-        {
-            $(this).val("");
-        }
-        if ($(this).val() == incorrect_phone_placeholder)
-        {
-            $(this).val("");
-        }
-        if ($(this).val() == incorrect_email_placeholder)
-        {
-            $(this).val("");
-        }
-        $(this).removeClass('incorrect');
-    });
+    
     /*------------------------------*/
     //=====================================
     $('.fancybox_recall').click(function (){

@@ -647,8 +647,8 @@
                             <p>ПРЯМО СЕЙЧАС</p>
                         </div>
                     </div>
-                    <div class="right-side">
-                        <form action="ajax.php" name="" class="contact-form">
+                    <div class="right-side form-we-need">
+                        <form action="ajax.php" name="zakaz" class="zakaz-form">
                             <div class="contact-form-row cfix">
                                 <div class="contact-form-item">
                                     <div class="contact-form-item-input form_row">
@@ -660,7 +660,7 @@
                                 <div class="contact-form-item">
                                     <div class="contact-form-item-input form_row">
                                         <div class="form_input">
-                                            <input type="email" name="contact_email" required="required" value="" placeholder="E-mail">
+                                            <input type="email" name="contact_email" required="required" placeholder="E-mail">
                                         </div>
                                     </div>
                                 </div>
@@ -804,8 +804,13 @@
 
     <script type="text/javascript" src="js/slick.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/device.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="js/validate_script.js"></script>
+    
     <script type="text/javascript" src="js/ajax.js"></script>
+    
 </body>
 
 </html>
