@@ -20,12 +20,19 @@
 
 <body>
     <div class="global_wrapper acl">
+
         <div class="wrapper fixed acl">
             <div class="container acl">
                 <div class="fex_box_wrapper">
+
                     <div class="logo_container acl">
                         <div class="logo"><img src="img/fixed/logo.png" alt="false"></div>
                     </div>
+
+                    <div class="tel_container acl">
+                        <a href="tel:+74956637373">+7 (495) 663-73-73</a>
+                    </div>
+
                     <div class="header_menu_container acl">
                         <ul>
                             <li class="active">
@@ -45,12 +52,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="tel_container acl">
-                        <a href="tel:+74956637373">+7 (495) 663-73-73</a>
-                    </div>
+
                 </div>
             </div>
         </div>
+
         <div class="wrapper dv1 acl">
             <div class="slider_wrapper acl">
                 <div class="slider">
@@ -688,7 +694,59 @@
                         <div class="title_container">
                             <h2>ОТЗЫВЫ</h2>
                         </div>
-
+                        <div class="comment_slider_wrap">
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="bquote">
+                                    <img src="img/dv7/bquote.png" alt="">
+                                </div>
+                                <div class="slider_text">
+                                    Хорошие художники копируют, великие художники воруют.
+                                </div>
+                                <div class="slider_person">
+                                    <div class="slider_person_img">
+                                        <img src="img/dv7/slider_person_img.png" alt="">
+                                    </div>
+                                    <div class="slider_person_desc">
+                                        <div class="slider_person_name">Паша Макаров</div>
+                                        <div class="slider_person_text">Дизайнер</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
