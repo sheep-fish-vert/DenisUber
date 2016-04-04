@@ -16,7 +16,7 @@
 .comment_slider_wrap .slider_person_desc{}
 .comment_slider_wrap .slider_person_desc .slider_person_name{padding-top: 27px;color: #0077a9;font-size: 24px;font-weight: 800;font-family: "Proxima Nova";text-align: left;}
 .comment_slider_wrap .slider_person_desc .slider_person_text{font-size: 16px;color: #f4f4f4;text-align: left;font-family: "Proxima Nova";}
-.comment_slider_wrap .slick-arrow{top: 56%;-webkit-transform: translate(0, -50%) rotate(-225deg);transform: translate(0, -50%) rotate(-225deg);height: 20px;width: 20px;border-right: 3px solid #fff;border-bottom: 3px solid #fff;position: absolute;border-left: none;border-top: none;background: transparent;left: 6px;cursor: pointer;outline: none;}
+.comment_slider_wrap .slick-arrow{top: 56%; z-index: 30; -webkit-transform: translate(0, -50%) rotate(-225deg);transform: translate(0, -50%) rotate(-225deg);height: 20px;width: 20px;border-right: 3px solid #fff;border-bottom: 3px solid #fff;position: absolute;border-left: none;border-top: none;background: transparent;left: 6px;cursor: pointer;outline: none;}
 .comment_slider_wrap .slick-arrow.slick-next{left: auto;right: 6px;-webkit-transform: translate(0, -50%) rotate(-45deg);transform: translate(0, -50%) rotate(-45deg);}
 /*/dv7*/
 

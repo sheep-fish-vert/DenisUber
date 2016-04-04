@@ -77,8 +77,7 @@
                                         </div>
                                         <div class="desc">
                                             <p>
-                                                офисные и квартирные
-                                                <br>перезды
+                                                Офисные переезды
                                             </p>
                                         </div>
                                         <div class="buttons_wrapper">
@@ -106,7 +105,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" style="background-image: url(img/dv1/bg.jpg);">
+                    <div class="item" style="background-image: url(img/dv1/d.jpg);">
                         <div class="container acl">
                             <div class="fex_wrapper">
                                 <div class="flex_container">
@@ -116,8 +115,7 @@
                                         </div>
                                         <div class="desc">
                                             <p>
-                                                офисные и квартирные
-                                                <br>перезды 2
+                                                Дачные переезды
                                             </p>
                                         </div>
                                         <div class="buttons_wrapper">
@@ -131,13 +129,13 @@
                                     </div>
                                     <div class="right_desc">
                                         <div class="title">
-                                            <h2>ОФИСНЫЕ ПЕРЕЕЗДЫ</h2>
+                                            <h2>ДАЧНЫЕ ПЕРЕЕЗДЫ</h2>
                                         </div>
                                         <div class="desc">
                                             <p>
-                                                Монтаж и демонтаж мебели,
-                                                <br>аккуратная погрузка уже входит
-                                                <br>в стоимость работы грузчиков
+                                                Демонтаж и монтаж элементов<br>
+                                                интерера, мебели и сан техники. <br>
+                                                Делаем даже самые сложные задачи
                                             </p>
                                         </div>
                                     </div>
@@ -145,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" style="background-image: url(img/dv1/bg.jpg);">
+                    <div class="item" style="background-image: url(img/dv1/o.jpg);">
                         <div class="container acl">
                             <div class="fex_wrapper">
                                 <div class="flex_container">
@@ -155,8 +153,7 @@
                                         </div>
                                         <div class="desc">
                                             <p>
-                                                офисные и квартирные
-                                                <br>перезды 3
+                                                Квартирные переезды
                                             </p>
                                         </div>
                                         <div class="buttons_wrapper">
@@ -170,13 +167,11 @@
                                     </div>
                                     <div class="right_desc">
                                         <div class="title">
-                                            <h2>ОФИСНЫЕ ПЕРЕЕЗДЫ</h2>
+                                            <h2>КВАРТИРНЫЕ ПЕРЕЕЗДЫ</h2>
                                         </div>
                                         <div class="desc">
                                             <p>
-                                                Монтаж и демонтаж мебели,
-                                                <br>аккуратная погрузка уже входит
-                                                <br>в стоимость работы грузчиков
+                                                Аккуратные и квалифициолванные<br> грузчики - новое слово в перевозках!
                                             </p>
                                         </div>
                                     </div>
@@ -657,8 +652,8 @@
                         </div>
                         <div class="row3">
                             <span> и </span>  
-                            <span>подарите</span>  
-                            <span>себе</span> 
+                            <span>подарите </span>  
+                            <span>себе </span> 
                             <span>спокойствие </span>
                         </div>
                         <div class="row4"> <span>ваши</span> <span>Вещи</span> <span>скажут</span> <span>вам</span></div>
@@ -680,7 +675,7 @@
                         </div>
                     </div>
                     <div class="right-side form-we-need">
-                        <form action="ajax.php" name="zakaz" class="zakaz-form">
+                        <form action="mail/mailer.php" name="zakaz" class="zakaz-form">
                             <div class="contact-form-row cfix">
                                 <div class="contact-form-item">
                                     <div class="contact-form-item-input form_row">
@@ -790,7 +785,7 @@
                     </div>
                     <div class="contacts_wrap">
                         <div class="contacts_form form-we-need">
-                            <form action="ajax.php" name="zakaz" class="contacts-form">
+                            <form action="mail/mailer.php" name="zakaz" class="contacts-form">
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item">
                                         <div class="contact-form-item-input form_row">
@@ -869,7 +864,7 @@
                     <div class="converting">
                         <div class="title-form"> ÜBER </div>
                         <div class="form-we-need">
-                            <form action="ajax.php" name="pop" class="pop-form">
+                            <form action="mail/mailer.php" name="pop" class="pop-form">
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item">
                                         <div class="contact-form-item-input form_row">

@@ -26,7 +26,10 @@
 
 .dv5 .supertext .row1{font-size: 55px; line-height: 1; font-weight: 600; display: flex; justify-content: space-between; }
 .dv5 .supertext .row2{font-size: 180px; line-height: 1;  font-weight: 700; display: flex; justify-content: space-between;}
-.dv5 .supertext .row3{font-size: 36px; line-height: 1; font-weight: 400; display: flex; justify-content: space-between;}
+.dv5 .supertext .row3{font-size: 34px; line-height: 1; font-weight: 400; display: flex; justify-content: space-between;  }
+.dv5 .supertext .row3 span{
+    padding-right: 3px;
+}
 .dv5 .supertext .row4{font-size: 45px; line-height: 1; font-weight: 700; display: flex; justify-content: space-between;}
 .dv5 .supertext .row5{font-size: 120px; line-height: 1; font-weight: 100; display: flex; justify-content: space-between;}
 .dv5 .supertext .bottonrow{position: relative; display: flex; justify-content: center; align-items: center; padding: 0 80px; height: 80px; width: 100%; background-color: #95b9df; text-decoration: none; text-align: center; color: white; box-sizing: border-box; font-weight: 600; font-size: 18px;border: 3px solid transparent; transition: all 0.5s; }
