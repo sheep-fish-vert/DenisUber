@@ -121,6 +121,7 @@ $(document).ready(function (){
                 center: myLatlng,
                 disableDefaultUI: false,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scrollwheel: false,
                 zoomControlOptions: {
                 position: google.maps.ControlPosition.LEFT_BOTTOM
                 }
@@ -187,8 +188,35 @@ $(document).ready(function (){
                 scrollTop: $(ide).offset().top-180},
                 800);
         });
-
-
     }
     navigationScroll_Click();
+
+    function headeButer(menuMobile,toggleMenu){
+        if(menuMobile){
+            menuMobile.click(function(event) {
+                if($(window).width()<=1024){
+                    $(this).toggleClass('active');
+                    toggleMenu.stop().slideToggle();
+                }
+            });
+            $(document).on('click touchstart',function (event){
+                if($(window).width()<=1024){
+                    var div = toggleMenu;
+                    if (!div.is(event.target) && div.has(event.target).length === 0 && !menuMobile.is(event.target) && menuMobile.has(event.target).length === 0)
+                        {
+                            toggleMenu.slideUp();
+                            menuMobile.removeClass('active');
+                        }
+                }
+            });
+        }
+    }
+    headeButer($('.wrapper.fixed .mobile-button'),$('.fixed .header_menu_container'));
+    headeButer($('.footer .mobile-button'),$('.footer-nav ul'));
+
+    $(window).resize(function(event) {
+        if( $(window).width()>= 1024 ) {
+            $('.fixed .header_menu_container').removeAttr('style');
+        }
+    });
 });

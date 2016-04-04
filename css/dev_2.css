@@ -89,8 +89,8 @@
 @media screen and (max-width: 666px){
     .dv6 .left-side p { font-size: 36px;}
     .dv6 .left-side h2 { font-size: 50px;}
-    
-    
+
+
 }
 
 @media screen and (max-width: 620px){
@@ -109,6 +109,10 @@
 }
 @media screen and (max-width: 320px){
 
+    .dv5 .supertext .row3 span{padding: 0;}
+    .dv5 .supertext{letter-spacing: 0.4px;}
+    .dv5 .supertext .row3 {font-size: 16px;}
+    .dv5 .supertext .row4 {font-size: 20px;display: block;text-align: center;letter-spacing: -0.1px;}
 }
 
 

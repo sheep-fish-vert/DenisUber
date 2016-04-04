@@ -59,7 +59,7 @@
                             </li>
                         </ul>
                     </div>
-
+                    <div class="mobile-button-wrap"><span class="mobile-button"><span></span></span></div>
                 </div>
             </div>
         </div>
@@ -644,16 +644,16 @@
                 <div class="convert">
                     <div class="supertext">
                         <div class="row1"> <span>Доверьте</span><span>переезд </span></div>
-                        <div class="row2"> 
-                            <span>U</span> 
+                        <div class="row2">
+                            <span>U</span>
                             <span>b</span>
                             <span>e</span>
                             <span>r</span>
                         </div>
                         <div class="row3">
-                            <span> и </span>  
-                            <span>подарите </span>  
-                            <span>себе </span> 
+                            <span> и </span>
+                            <span>подарите </span>
+                            <span>себе </span>
                             <span>спокойствие </span>
                         </div>
                         <div class="row4"> <span>ваши</span> <span>Вещи</span> <span>скажут</span> <span>вам</span></div>
@@ -927,6 +927,7 @@
                     <a href="#contacts">КОНТАКТЫ</a>
                 </li>
             </ul>
+            <div class="mobile-button-wrap"><span class="mobile-button"><span></span></span></div>
         </div>
         <div class="footer-copy">
             <p>© 2016 Uber. Все права защищены</p>
