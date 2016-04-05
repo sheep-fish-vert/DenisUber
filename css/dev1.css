@@ -991,7 +991,7 @@
     .fotogallery-item a:hover:before{opacity: 1;}
     .fotogallery-item img{max-width: 100%;position: relative;z-index: 0;}
     .fotogallery-main .slick-list{overflow: hidden;position: relative;z-index: 0;}
-    .fotogallery-main .slick-arrow{position: absolute;width: 66px;height: 98.5%;background-color: rgba(0, 0, 0, .9);z-index: 1;padding: 0;border: none;top:0;}
+    .fotogallery-main .slick-arrow{position: absolute;width: 66px;height: 98.5%;background-color: rgba(0, 0, 0, .9);z-index: 1;padding: 0;border: none;top:0;color:transparent;}
     .fotogallery-main .slick-arrow:hover{background-color:rgba(0, 0, 0, .6);}
     .fotogallery-main .slick-prev{left: 0;}
     .fotogallery-main .slick-prev:before{content:'';display: block;position:absolute;background-image:url(../img/fotogallery/slick-prev.png);width: 15px;height: 25px;background-repeat: no-repeat;left:calc(50% - 7.5px);top:calc(50% - 12.5px);}
