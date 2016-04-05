@@ -73,11 +73,11 @@
                                 <div class="flex_container">
                                     <div class="left_desc">
                                         <div class="title">
-                                            <h1>Über</h1>
+                                            <h1>easy <span>moving</span></h1>
                                         </div>
                                         <div class="desc">
                                             <p>
-                                                Офисные переезды
+                                                офисные переезды
                                             </p>
                                         </div>
                                         <div class="buttons_wrapper">
@@ -111,7 +111,7 @@
                                 <div class="flex_container">
                                     <div class="left_desc">
                                         <div class="title">
-                                            <h1>Über</h1>
+                                            <h1>easy <span>moving</span></h1>
                                         </div>
                                         <div class="desc">
                                             <p>
@@ -149,7 +149,7 @@
                                 <div class="flex_container">
                                     <div class="left_desc">
                                         <div class="title">
-                                            <h1>Über</h1>
+                                            <h1>easy <span>moving</span></h1>
                                         </div>
                                         <div class="desc">
                                             <p>
@@ -446,30 +446,6 @@
                             <li class="active">
                                 <div class="content_li_container">
                                     <div class="img_li_wrapper">
-                                        <div class="img_container" style="background-image: url(img/dv4/i1.png)"></div>
-                                    </div>
-                                    <div class="txt_li_wrapper">
-                                        <div class="txt_li_container">
-                                            <div class="title_li_container">
-                                                <h3>Дачный переезд</h3>
-                                            </div>
-                                            <div class="txt_wrapper">
-                                                <div class="txt_container">
-                                                    <p>
-                                                        Большое количество элементов интерера зачастую оставляют при переезде, так как его трудно разбирать и собирать на новом месте.
-                                                        Компания UBER уже
-                                                        <br> десяток лет занимаеться подобными работами, и мы знаем как правильно
-                                                        это сделать !
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="content_li_container">
-                                    <div class="img_li_wrapper">
                                         <div class="img_container" style="background-image: url(img/dv4/i2.png)"></div>
                                     </div>
                                     <div class="txt_li_wrapper">
@@ -513,6 +489,31 @@
                                     </div>
                                 </div>
                             </li>
+                            <li>
+                                <div class="content_li_container">
+                                    <div class="img_li_wrapper">
+                                        <div class="img_container" style="background-image: url(img/dv4/i1.png)"></div>
+                                    </div>
+                                    <div class="txt_li_wrapper">
+                                        <div class="txt_li_container">
+                                            <div class="title_li_container">
+                                                <h3>Дачный переезд</h3>
+                                            </div>
+                                            <div class="txt_wrapper">
+                                                <div class="txt_container">
+                                                    <p>
+                                                        Большое количество элементов интерера зачастую оставляют при переезде, так как его трудно разбирать и собирать на новом месте.
+                                                        Компания UBER уже
+                                                        <br> десяток лет занимаеться подобными работами, и мы знаем как правильно
+                                                        это сделать !
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -520,43 +521,6 @@
                     <div class="in_tabs_container">
                         <ul>
                             <li class="active">
-                                <div class="tab_content_wrapper">
-                                    <div class="tab_content_container">
-                                        <div class="top_img">
-                                            <img alt="false" src="img/dv4/i_t_1.jpg">
-                                        </div>
-                                        <div class="center_tab_wrapper">
-                                            <div class="center_tab_container">
-                                                <div class="left_img_container">
-                                                    <img alt="false" src="img/dv4/i_c_1.jpg">
-                                                </div>
-                                                <div class="center_tab_text_wrapper">
-                                                    <div class="text_flex">
-                                                        <p>
-                                                            В настоящее время, дачный переезд – очень актуальный для многих людей. Ведь загородный дом - это отличная возможность отдохнуть
-                                                            от городской суеты.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="bot_tab_wrapper">
-                                            <div class="bot_tab_container">
-                                                <div class="left_img_container">
-                                                    <img alt="false" src="img/dv4/i_b_l_1.jpg">
-                                                </div>
-                                                <div class="right_img_container">
-                                                    <img alt="false" src="img/dv4/i_b_r_1.jpg">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="btn_tab_container">
-                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab1-btn">заказать</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
                                 <div class="tab_content_wrapper">
                                     <div class="tab_content_container">
                                         <div class="top_img">
@@ -630,6 +594,43 @@
                                     </div>
                                 </div>
                             </li>
+                            <li>
+                                <div class="tab_content_wrapper">
+                                    <div class="tab_content_container">
+                                        <div class="top_img">
+                                            <img alt="false" src="img/dv4/i_t_1.jpg">
+                                        </div>
+                                        <div class="center_tab_wrapper">
+                                            <div class="center_tab_container">
+                                                <div class="left_img_container">
+                                                    <img alt="false" src="img/dv4/i_c_1.jpg">
+                                                </div>
+                                                <div class="center_tab_text_wrapper">
+                                                    <div class="text_flex">
+                                                        <p>
+                                                            В настоящее время, дачный переезд – очень актуальный для многих людей. Ведь загородный дом - это отличная возможность отдохнуть
+                                                            от городской суеты.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bot_tab_wrapper">
+                                            <div class="bot_tab_container">
+                                                <div class="left_img_container">
+                                                    <img alt="false" src="img/dv4/i_b_l_1.jpg">
+                                                </div>
+                                                <div class="right_img_container">
+                                                    <img alt="false" src="img/dv4/i_b_r_1.jpg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn_tab_container">
+                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab1-btn">заказать</a>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -645,10 +646,7 @@
                     <div class="supertext">
                         <div class="row1"> <span>Доверьте</span><span>переезд </span></div>
                         <div class="row2">
-                            <span>U</span>
-                            <span>b</span>
-                            <span>e</span>
-                            <span>r</span>
+                            <span>easy moving</span>
                         </div>
                         <div class="row3">
                             <span> и </span>
@@ -665,13 +663,16 @@
                 </div>
             </div>
         </div>
+
         <div class="wrapper dv6 acl">
             <div class="container acl">
                 <div class="wrap-content cfix">
                     <div class="left-side">
                         <div class="convert">
-                            <h2>ЗАКАЖИТЕ </h2>
-                            <p>ПРЯМО СЕЙЧАС</p>
+                            <h2>ЗАКАЖИТЕ</h2>
+                            <p><span>свой переезд вместе с</span></p>
+                            <p><b>Easy Moving</b></p>
+                            <p>ПРЯМО СЕЙЧАС!</p>
                         </div>
                     </div>
                     <div class="right-side form-we-need">
@@ -722,7 +723,12 @@
                             <h2>ОТЗЫВЫ</h2>
                         </div>
                         <div class="comment_slider_wrap">
+
                             <div class="item">
+                                <a href="img/dv7/coment-image1.png" class="fancybox">
+                                    <img src="img/dv7/coment-image1.png" alt="" />
+                                </a>
+                                <!--
                                 <div class="bquote">
                                     <img src="img/dv7/bquote.png" alt="">
                                 </div>
@@ -738,8 +744,14 @@
                                         <div class="slider_person_text">Дизайнер</div>
                                     </div>
                                 </div>
+                                -->
                             </div>
+
                             <div class="item">
+                                <a href="img/dv7/coment-image2.png" class="fancybox">
+                                    <img src="img/dv7/coment-image2.png" alt="" />
+                                </a>
+                                <!--
                                 <div class="bquote">
                                     <img src="img/dv7/bquote.png" alt="">
                                 </div>
@@ -755,8 +767,14 @@
                                         <div class="slider_person_text">Дизайнер</div>
                                     </div>
                                 </div>
+                                -->
                             </div>
+
                             <div class="item">
+                                <a href="img/dv7/coment-image3.png" class="fancybox">
+                                    <img src="img/dv7/coment-image3.png" alt="" />
+                                </a>
+                                <!--
                                 <div class="bquote">
                                     <img src="img/dv7/bquote.png" alt="">
                                 </div>
@@ -772,11 +790,186 @@
                                         <div class="slider_person_text">Дизайнер</div>
                                     </div>
                                 </div>
+                                -->
                             </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image4.png" class="fancybox">
+                                    <img src="img/dv7/coment-image4.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image5.png" class="fancybox">
+                                    <img src="img/dv7/coment-image5.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image1.png" class="fancybox">
+                                    <img src="img/dv7/coment-image1.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image2.png" class="fancybox">
+                                    <img src="img/dv7/coment-image2.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image3.png" class="fancybox">
+                                    <img src="img/dv7/coment-image3.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image4.png" class="fancybox">
+                                    <img src="img/dv7/coment-image4.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image5.png" class="fancybox">
+                                    <img src="img/dv7/coment-image5.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image1.png" class="fancybox">
+                                    <img src="img/dv7/coment-image1.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image2.png" class="fancybox">
+                                    <img src="img/dv7/coment-image2.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image3.png" class="fancybox">
+                                    <img src="img/dv7/coment-image3.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image4.png" class="fancybox">
+                                    <img src="img/dv7/coment-image4.png" alt="" />
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="img/dv7/coment-image5.png" class="fancybox">
+                                    <img src="img/dv7/coment-image5.png" alt="" />
+                                </a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
+        <div class="wrapper our-clients">
+            <div class="container">
+
+                <div class="container-title">
+                    <span>наши клиенты</span>
+                </div>
+
+                <div class="our-clients-main">
+                    <div class="our-clients-item">
+                        <a href="#">
+                            <img src="img/our-client/our-client1.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="our-clients-item">
+                        <a href="#">
+                            <img src="img/our-client/our-client2.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="our-clients-item">
+                        <a href="#">
+                            <img src="img/our-client/our-client3.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="our-clients-item">
+                        <a href="#">
+                            <img src="img/our-client/our-client4.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="our-clients-item">
+                        <a href="#">
+                            <img src="img/our-client/our-client5.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="our-clients-item">
+                        <a href="#">
+                            <img src="img/our-client/our-client6.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="wrapper fotogallery">
+            <div class="container with-texture">
+
+                <div class="container-title">
+                    <span>фотогалерея</span>
+                </div>
+
+                <div class="fotogallery-wrap">
+                    <div class="fotogallery-main">
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
+                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         <div class="wrapper dv8 acl has_nav" id="contacts">
             <div class="container acl">
                 <div class="contacts">
@@ -909,10 +1102,18 @@
         </div>
     </div>
     <footer class="footer">
+
+        <div class="footer-telefone">
+            <a href="callto:+74956637373">+7 (495) 663-73-73</a>
+        </div>
+        <div class="footer-socials">
+            <a href="#">VKONTAKTE</a>
+            <a href="#">INSTAGRAM</a>
+        </div>
         <div class="footer-nav">
             <ul>
                 <li>
-                    <a href="#how_it_work">КАК ЭТО РАБОТАЕТ</a>
+                    <a href="#how_it_work">КАК МЫ РАБОТАЕМ</a>
                 </li>
                 <li>
                     <a href="#advantage">ПРИЕМУЩЕСТВА</a>

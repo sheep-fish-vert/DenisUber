@@ -4,11 +4,20 @@
 .comment_slider .title_container{font-size: 36px;font-family: "Proxima Nova";color:#fff;text-transform: uppercase;line-height: 36px;text-align: center;font-weight: 900;position: relative;display: inline-block;}
 .comment_slider .title_container:before{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #fff;left: -30px;top: 13px;}
 .comment_slider .title_container:after{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #fff;right: -30px;top: 13px;}
-.comment_slider_wrap{position: relative;z-index: 1;max-width: 875px;width: 100%;margin:0 auto;overflow: hidden;padding-top: 78px;}
-.comment_slider_wrap .item{display: inline-block;}
+.comment_slider_wrap{position: relative;z-index: 1;width: 100%;margin:0 auto;overflow: hidden;padding-top: 78px;}
+.comment_slider_wrap .slick-dots ul{text-align: center;}
+.comment_slider_wrap .slick-dots li{display: inline-block;margin: 0 5px;}
+.comment_slider_wrap .slick-dots button{padding: 0;margin: 0;border: none;color:transparent;font-size: 0;background-color: #fff;width: 10px;height: 10px;border-radius: 50%;max-height: none;cursor: pointer;outline:none;}
+.comment_slider_wrap .slick-dots li.slick-active button{background-color: #6c92c7;}
+.comment_slider_wrap .item{display: inline-block;text-align: center;}
+.comment_slider_wrap .item img{position: relative;z-index: 0;}
+.comment_slider_wrap .item .fancybox{display: inline-block;box-shadow:0 3px 3px 0 rgba(0, 0, 0, .35);background-color: #fff;position: relative;}
+.comment_slider_wrap .item .fancybox:before{content:'';position: absolute;left:calc(50% - 16px);top:calc(50% - 16px);width: 31px;height: 31px;background-image:url(../img/dv7/loop-icon.png);display: block;opacity: 0;z-index: 1;}
+.comment_slider_wrap .item .fancybox:hover:before{opacity: 1;}
+
 .comment_slider_wrap .slick-slide{outline: none;}
-.comment_slider_wrap .slider_text{font-size: 24px;font-family: "Proxima Nova";font-weight: 600;color: white;font-style: italic;padding-top: 100px;padding-bottom: 70px;padding-left: 10px;
-    padding-right: 10px;}
+.comment_slider_wrap .slick-list{margin-bottom: 20px;}
+.comment_slider_wrap .slider_text{font-size: 24px;font-family: "Proxima Nova";font-weight: 600;color: white;font-style: italic;padding-top: 100px;padding-bottom: 70px;padding-left: 10px;padding-right: 10px;}
 .comment_slider_wrap .slider_person{max-width: 320px;width: 100%;margin:0 auto;}
 .comment_slider_wrap .slider_person:after{clear: both;display: block;content: '';}
 .comment_slider_wrap .slider_person_img{width: 100px;height: 100px;overflow: hidden;border-radius: 50%;position: relative;float: left;margin-right: 20px;}
@@ -45,11 +54,16 @@
 /*/dv8*/
 
 /*footer*/
-.footer{background-color: #282828;text-align: center;}
-.footer .footer-nav{padding-top: 54px;padding-bottom: 36px;}
+.footer{background-color: #282828;text-align: center;background-image:url(../img/footer/footer-background.png);background-repeat: no-repeat;background-position: center center;position: relative;}
+.footer-telefone{padding-top:26px;margin-bottom: 20px;}
+.footer-telefone a, .footer-socials a{font-size: 14px;color:#fff;text-decoration: none;font-family: "ProximaNova", sans-serif;}
+.footer-telefone a:hover, .footer-socials a:hover{text-decoration: underline;}
+.footer-socials a{margin-right: 15px;}
+.footer-socials a:last-child{margin-right: 0;}
+.footer .footer-nav{padding-top: 30px;padding-bottom: 36px;}
 .footer .footer-nav li{display: inline-block;margin: 0 2.1%;}
 .footer .footer-nav li a{display: inline-block;text-decoration: none;color: #f6f6f6;font-family: "ProximaNova", sans-serif;font-weight: bold;padding: 0 5px;text-transform: uppercase;transition: all ease .2s;}
-.footer .footer-copy{padding-bottom: 25px;font-size: 14px;color: #3d3d3d;font-family: "ProximaNova", sans-serif;}
+.footer .footer-copy{padding-bottom: 25px;font-size: 14px;color: #e4e4e4;font-family: "ProximaNova", sans-serif;}
 .footer .footer-nav li a:hover{color: rgb(149, 185, 223);}
 /*/footer*/
 

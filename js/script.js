@@ -22,7 +22,46 @@ function goTo(){
         $(scroller).animate({scrollTop:target},500);
     });
 }
+
+function fotogalleryInit(){
+
+    $('.fotogallery-main').slick({
+        slidesToScroll: 3,
+        slidesToShow: 3,
+        infinite: true,
+        arrows:true,
+        dots:true,
+        responsive:[
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll:3
+                }
+            },
+            {
+                breakpoint: 667,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll:2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll:1
+                }
+            }
+        ]
+    });
+
+}
+
 $(document).ready(function (){
+
+    fotogalleryInit();
+
     //Маски на телефоны
     $('input[type=tel]').mask('+9(999)999-99-99');
     //=====================================
@@ -102,14 +141,55 @@ $(document).ready(function (){
 
 
     function slickComment(){
+
         $('.comment_slider_wrap').slick({
-            slidesToScroll: 1,
-            slidesToShow: 1,
+            slidesToScroll: 5,
+            slidesToShow: 5,
             infinite: true,
             autoplay:true,
-            prevArrow:'<button type="button" class="slick-prev"></button>',
-            nextArrow:'<button type="button" class="slick-next"></button>'
+            arrows:false,
+            dots:true,
+            responsive:[
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll:3
+                    }
+                },
+                {
+                    breakpoint: 667,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll:1,
+                        arrows:true,
+                        dots:false,
+                        prevArrow:'<button type="button" class="slick-prev"></button>',
+                        nextArrow:'<button type="button" class="slick-next"></button>'
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll:1,
+                        arrows:true,
+                        dots:false,
+                        prevArrow:'<button type="button" class="slick-prev"></button>',
+                        nextArrow:'<button type="button" class="slick-next"></button>'
+                    }
+                }
+            ]
+            /*prevArrow:'<button type="button" class="slick-prev"></button>',
+            nextArrow:'<button type="button" class="slick-next"></button>'*/
         });
+
+        $('.fancybox').fancybox({
+            padding:0,
+            fitToView:true,
+            autoSize:true
+        });
+
     }
     slickComment();
 
