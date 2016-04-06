@@ -22,7 +22,7 @@
                 googleText = 'Санкт-Петербург, 7-я линия В.О., д.76, офис 511';
         </script>
 
-        <title>Отель</title>
+        <title>Офисные перееезды в Санкт-Петербурге (СПб)</title>
     </head>
 
 <body>
@@ -171,7 +171,7 @@
                                         </div>
                                         <div class="desc">
                                             <p>
-                                                Аккуратные и квалифициолванные<br> грузчики - новое слово в перевозках!
+                                                Аккуратные и квалифицированные<br> грузчики - новое слово в перевозках!
                                             </p>
                                         </div>
                                     </div>
@@ -1055,7 +1055,7 @@
                </div>
                <div class="right-spice">
                     <div class="converting">
-                        <div class="title-form"> ÜBER </div>
+                        <div class="title-form">EASY moving</div>
                         <div class="form-we-need">
                             <form action="mail/mailer.php" name="pop" class="pop-form">
                                 <div class="contact-form-row cfix">
