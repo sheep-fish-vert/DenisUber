@@ -8,6 +8,7 @@
         z-index: 2000;
         overflow: visible;
         background-color: #ffffff;
+        opacity: 0.8;
     }
     .fixed .container{
         position: relative;
@@ -1011,7 +1012,7 @@
 
 
 /*new fix*/
-.mobile-button-wrap{display: none;}
+.mobile-button-wrap{display: none; cursor: pointer;}
 
 @media screen and (max-width: 1024px){
     /*header button*/
