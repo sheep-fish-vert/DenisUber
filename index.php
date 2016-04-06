@@ -766,7 +766,7 @@
 
                         <div class="item">
                             <a href="img/dv7/coment-image1.jpg" class="fancybox">
-                                <img src="img/dv7/coment-image1.jpg" alt="" />
+                                <img src="img/dv7/coment-image4.jpg" alt="" />
                             </a>
                             <!--
                             <div class="bquote">
@@ -789,7 +789,7 @@
 
                         <div class="item">
                             <a href="img/dv7/coment-image2.jpg" class="fancybox">
-                                <img src="img/dv7/coment-image2.jpg" alt="" />
+                                <img src="img/dv7/coment-image5.jpg" alt="" />
                             </a>
                             <!--
                             <div class="bquote">
@@ -835,13 +835,13 @@
 
                         <div class="item">
                             <a href="img/dv7/coment-image4.jpg" class="fancybox">
-                                <img src="img/dv7/coment-image4.jpg" alt="" />
+                                <img src="img/dv7/coment-image2.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="item">
                             <a href="img/dv7/coment-image5.jpg" class="fancybox">
-                                <img src="img/dv7/coment-image5.jpg" alt="" />
+                                <img src="img/dv7/coment-image1.jpg" alt="" />
                             </a>
                         </div>
 
