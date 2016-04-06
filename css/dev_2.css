@@ -3,7 +3,7 @@
 .dv6 >* {box-sizing: border-box; }
 .dv6 { background: url(../img/some-pattern.jpg) left top;}
 .dv6 .left-side{ width: 62%; float: left; min-height: 560px; display: flex; align-items: center; justify-content: center;}
-.dv6 .left-side h2{  font-size: 100px; font-family: "ProximaNova", sans-serif;font-weight: 600; color: #545454; line-height: 1.2; text-align: center;  }
+.dv6 .left-side h2{  font-size: 96.2px; font-family: "ProximaNova", sans-serif;font-weight: 600; color: #545454; line-height: 1.2; text-align: center;  }
 .dv6 .left-side p{font-family: "ProximaNova", sans-serif; color: rgb(65, 65, 65); font-size: 64px; line-height: 80px; text-align: center; }
 .dv6 .left-side p span{font-size: 51px;color:#414141;line-height: 50px;display: block;margin-top: -26px;margin-bottom: 10px;}
 .dv6 .left-side p b{color:#fff;font-weight: 700;font-size: 70px;background-color: #419fc0;text-transform: uppercase;letter-spacing: 3.5px;}
@@ -29,7 +29,7 @@
     .dv5 .container{display: flex; justify-content: center; align-items: center; height: 790px; }
     .dv5 .supertext{max-width:625px; font-family: "ProximaNova", sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; }
 
-    .dv5 .supertext .row1{font-size: 55px; line-height: 1; font-weight: 600; display: flex; justify-content: space-between; }
+    .dv5 .supertext .row1{font-size: 59px; line-height: 1; font-weight: 600; display: flex; justify-content: space-between; }
     .dv5 .supertext .row2{font-size: 180px; line-height: 1;  font-weight: 700; display: flex; justify-content: space-between;}
     .dv5 .supertext .row2 span{font-size: 88px;}
     .dv5 .supertext .row3{font-size: 34px; line-height: 1; font-weight: 400; display: flex; justify-content: space-between;  }
@@ -37,7 +37,7 @@
         padding-right: 3px;
     }
     .dv5 .supertext .row4{font-size: 45px; line-height: 1; font-weight: 700; display: flex; justify-content: space-between;}
-    .dv5 .supertext .row5{font-size: 120px; line-height: 1; font-weight: 100; display: flex; justify-content: space-between;}
+    .dv5 .supertext .row5{font-size: 125px; line-height: 1; font-weight: 100; display: flex; justify-content: space-between;}
     .dv5 .supertext .bottonrow{position: relative; display: flex; justify-content: center; align-items: center; padding: 0 80px; height: 80px; width: 100%; background-color: #95b9df; text-decoration: none; text-align: center; color: white; box-sizing: border-box; font-weight: 600; font-size: 18px;border: 3px solid transparent; transition: all 0.5s; }
 
     .dv5 .supertext .bottonrow:after{content: ''; position: absolute; top: 10px; bottom: 10px; left: 10px; right: calc(100% - 70px); border: 3px solid white; transition: all 0.5s;}
@@ -50,12 +50,14 @@
 /* /div5 */
 
 /* popup */
-#recall{background-color: white; width:1000px; }
-#recall .convert .left-spice{width: 50%; max-height: 511px; overflow: hidden; float: left;}
-#recall .convert .right-spice{width: 50%;height: 511px; float: left; display: flex; justify-content: center; align-items: center;}
-#recall .convert .right-spice .converting {width: 360px;}
-#recall .right-spice .title-form{ font-size: 30px; font-family: "ProximaNova", sans-serif; color: rgb(108, 146, 199);  font-weight: 700; line-height: 1.2; text-align: center; padding-bottom: 50px;}
-#recall .convert .right-spice .form-we-need{width: 100%;}
+.popup-main{background-color: white; width:1000px; }
+.popup-main .convert .left-spice{width: 50%; max-height: 511px; overflow: hidden; float: left;}
+.popup-main .convert .right-spice{width: 50%;height: 511px; float: left; display: flex; justify-content: center; align-items: center;}
+.popup-main .convert .right-spice .converting {width: 360px;}
+.popup-main .right-spice .title-form{padding-bottom: 50px; text-align: center;}
+.popup-main .right-spice .title-form h6{ font-size: 30px; font-family: "ProximaNova", sans-serif; color: rgb(108, 146, 199);  font-weight: 700; line-height: 1.2; margin:0;}
+.popup-main .right-spice .title-form p{font-size: 14px;color:#000;font-weight: bold;font-family:'Proxima Nova', sans-serif;}
+.popup-main .convert .right-spice .form-we-need{width: 100%;}
 
 #spas{ width: 300px;padding: 40px 20px ; display: flex; justify-content: center; align-items: center; }
 #spas .convert .headtext{font-size: 26px; font-family: "ProximaNova", sans-serif; text-align: center;padding-bottom: 10px;}
@@ -91,13 +93,20 @@
 
 @media screen and (max-width: 767px){
 
+    .dv5 .supertext{ max-width: 450px;width: 100%; font-family: "ProximaNova", sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; }
+    .dv5 .supertext .row1{font-size: 43px;}
+    .dv5 .supertext .row2{font-size: 90px;}
+    .dv5 .supertext .row2 span{font-size: 63.7px;}
+    .dv5 .supertext .row3{font-size: 26px;}
+    .dv5 .supertext .row4{font-size: 33px;}
+    .dv5 .supertext .row5{font-size: 91px;}
+    .dv5 .supertext .bottonrow {padding: 0 20px 0 80px;}
 }
 
 
 @media screen and (max-width: 666px){
 
     .dv5 .container{height: 450px;}
-    .dv5 .supertext .row2 span{font-size: 60px;}
 
     .dv6 .left-side p { font-size: 36px;line-height: 48px;}
     .dv6 .left-side h2 { font-size: 50px;}
@@ -107,28 +116,19 @@
 }
 
 @media screen and (max-width: 620px){
-    .dv5 .supertext{max-width:none; width: 100%; font-family: "ProximaNova", sans-serif; color: rgb(255, 255, 255); text-transform: uppercase; }
 
-    .dv5 .supertext .row1{font-size: 28px;}
-    .dv5 .supertext .row2{font-size: 90px;}
-    .dv5 .supertext .row3{font-size: 18px;}
-    .dv5 .supertext .row4{font-size: 24px;}
-    .dv5 .supertext .row5{font-size: 62px;}
-    .dv5 .supertext .bottonrow {padding: 0 20px 0 80px;}
+
 }
 
 @media screen and (max-width: 479px){
 
-    .dv5 .supertext .row2 span{font-size: 43.9px;}
-    .dv5 .supertext .row4{font-size: 22.2px;line-height: 25px;}
+    .dv5 .supertext{max-width: 280px;}
+    .dv5 .supertext .row1{font-size: 26px;}
+    .dv5 .supertext .row2 span{font-size: 38.9px;}
+    .dv5 .supertext .row3{font-size: 16px;}
+    .dv5 .supertext .row4{font-size: 20.2px;line-height: 25px;}
+    .dv5 .supertext .row5{font-size: 56px;}
 
-}
-@media screen and (max-width: 320px){
-
-    .dv5 .supertext .row3 span{padding: 0;}
-    .dv5 .supertext{letter-spacing: 0.4px;}
-    .dv5 .supertext .row3 {font-size: 16px;}
-    .dv5 .supertext .row4 {display: block;text-align: center;letter-spacing: -0.1px;}
 }
 
 

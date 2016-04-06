@@ -47,10 +47,10 @@
     }
     .fixed .header_menu_container{
         position: relative;
-        max-width: calc(100% - 300px);
+        max-width: calc(100% - 240px);
         width: 100%;
-        margin: 0 auto;
-        min-height: 65px;
+        margin-left: 100px;
+        min-height: 80px;
         display: flex;
         align-items:center;
         padding:10px 0;
@@ -101,7 +101,7 @@
         line-height: 1.2;
         text-align: left;
         text-decoration: none;
-        padding: 0 17px;
+        padding: 0 12px;
         position: relative;
     }
     .fixed .tel_container{
@@ -114,7 +114,7 @@
         top:calc(50% - 32px);
     }
     .fixed .tel_container a{
-        font-size: 16px;
+        font-size: 17px;
         font-family: "Proxima Nova";
         color: rgb(40, 40, 40);
         font-weight: bold;
@@ -501,11 +501,11 @@
         font-weight: 900;
     }
     .dv3 .items_wrapper{
-        padding: 120px 0 15px 0;
+        padding: 120px 0 0px 0;
     }
     .dv3 .items_wrapper .items_container{
         background-image: url(../img/dv3/car.png);
-        background-position: center center;
+        background-position: center 40%;
         background-repeat: no-repeat;
     }
     .dv3 .items_wrapper .items_container ul{
@@ -600,7 +600,7 @@
     .dv3 .btns_wrapper{
         max-width: 420px;
         width: 100%;
-        margin: 0 auto 0 auto;
+        margin: -10px auto 0 auto;
     }
     .dv3 .btns_wrapper .btns_container{
         flex-direction: row;
@@ -797,7 +797,7 @@
         box-sizing: border-box;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 0px 43.7px 2.3px rgba(0, 0, 0, 0.59);
-        width: 700px;
+        width: 625px;
     }
     .dv4 .in_tabs_wrapper .in_tabs_container{
 
@@ -887,12 +887,14 @@
         padding-right: 30px;
         position: relative;
     }
-    .dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .center_tab_text_wrapper p:before{
+
+    .dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .center_tab_text_wrapper h6{font-size: 20px;font-family: "Proxima Nova";font-weight: 700;color:#000;margin: 0;padding-left: 20px;padding-bottom: 10px;margin-bottom: 10px;position: relative;}
+    .dv4 .in_tabs_wrapper .in_tabs_container ul li .tab_content_wrapper .tab_content_container .center_tab_wrapper .center_tab_container .center_tab_text_wrapper h6:before{
         content: '';
         display: block;
         position: absolute;
         left: 20px;
-        top: -22px;
+        bottom: 0px;
         background-color: #bcd6ed;
         width: 33px;
         height: 5px;
@@ -1014,7 +1016,7 @@
 @media screen and (max-width: 1024px){
     /*header button*/
     .fixed .tel_container{position: relative;}
-    .fixed .container .fex_box_wrapper{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;justify-content: space-between;align-items: center;}
+    .fixed .container .fex_box_wrapper{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;justify-content: space-between;align-items: center;min-height: 80px;}
     .fixed .logo_container{position: static;}
     .fixed .container .fex_box_wrapper:after{display: none;}
     .fixed .header_menu_container{position: absolute;top:100%;right: -20px;width: calc(100% + 40px);max-width: none;z-index: 100;background-color: #fff;padding: 0;display: none;}

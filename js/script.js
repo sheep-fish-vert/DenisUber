@@ -71,9 +71,10 @@ $(document).ready(function (){
     //=====================================
     $('.fancybox_recall').click(function (){
         var form=$(this).data('form-pop');
+        var hrefId = $(this).attr('href');
         $('#recall form').data('form-pop',form);
         $('#recall form input[name=what_form]').val($('#recall form input[name=what_form]').val()+' по кнопке: '+form)
-        $.fancybox.open({href : '#recall',padding: 0})
+        $.fancybox.open({href : hrefId,padding: 0})
         return false;
     });
     //headre slider-------------------------------------

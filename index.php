@@ -48,9 +48,12 @@
                 d.addEventListener("DOMContentLoaded", f, false);
             } else { f(); }
         })(document, window, "yandex_metrika_callbacks");
+
         </script>
         <noscript><div><img src="//mc.yandex.ru/watch/36574020" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
+
+        <noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE3OTA3O2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0cy5qcyIsaW5pdF9sc3RhdHMpfTtsb2Fkc2NyaXB0KCJqcXVlcnktMS4xMC4yLm1pbi5qcyIsanF1ZXJ5X2xzdGF0cyk="></script></noindex>
 
     </head>
 
@@ -72,7 +75,7 @@
                     <div class="header_menu_container acl">
                         <ul>
                             <li>
-                                <a href="#how_it_work">КАК ЭТО РАБОТАЕТ</a>
+                                <a href="#how_it_work">КАК МЫ РАБОТАЕМ</a>
                             </li>
                             <li>
                                 <a href="#advantage">ПРИЕМУЩЕСТВА</a>
@@ -82,6 +85,12 @@
                             </li>
                             <li>
                                 <a href="#comments">ОТЗЫВЫ</a>
+                            </li>
+                            <li>
+                                <a href="#our_clients">НАШИ КЛИЕНТЫ</a>
+                            </li>
+                            <li>
+                                <a href="#fotogallery">ФОТОГАЛЕРЕЯ</a>
                             </li>
                             <li>
                                 <a href="#contacts">КОНТАКТЫ</a>
@@ -111,7 +120,7 @@
                                         </div>
                                         <div class="buttons_wrapper">
                                             <div class="auto_recall">
-                                                <a href="#recall" class="fancybox_recall" data-form-pop="header-car-btn">Заказать машину</a>
+                                                <a href="#ofis" class="fancybox_recall" data-form-pop="header-car-btn">Заказать машину</a>
                                             </div>
                                             <div class="call_back">
                                                 <a href="#recall" class="fancybox_recall" data-form-pop="header-callback-btn">Заказать звонок</a>
@@ -144,12 +153,12 @@
                                         </div>
                                         <div class="desc">
                                             <p>
-                                                Дачные переезды
+                                                Дачный переезд
                                             </p>
                                         </div>
                                         <div class="buttons_wrapper">
                                             <div class="auto_recall">
-                                                <a href="#recall" class="fancybox_recall" data-form-pop="header-car-btn">Заказать машину</a>
+                                                <a href="#dacha" class="fancybox_recall" data-form-pop="header-car-btn">Заказать машину</a>
                                             </div>
                                             <div class="call_back">
                                                 <a href="#recall" class="fancybox_recall" data-form-pop="header-callback-btn">Заказать звонок</a>
@@ -158,13 +167,13 @@
                                     </div>
                                     <div class="right_desc">
                                         <div class="title">
-                                            <h2>ДАЧНЫЕ ПЕРЕЕЗДЫ</h2>
+                                            <h2>ДАЧНЫЙ ПЕРЕЕЗД</h2>
                                         </div>
                                         <div class="desc">
                                             <p>
                                                 Демонтаж и монтаж элементов<br>
-                                                интерера, мебели и сан техники. <br>
-                                                Делаем даже самые сложные задачи
+                                                интерера, мебели и сан техники<br>
+                                                Виполним даже самые сложные задачи
                                             </p>
                                         </div>
                                     </div>
@@ -187,7 +196,7 @@
                                         </div>
                                         <div class="buttons_wrapper">
                                             <div class="auto_recall">
-                                                <a href="#recall" class="fancybox_recall" data-form-pop="header-car-btn">Заказать машину</a>
+                                                <a href="#kvartira" class="fancybox_recall" data-form-pop="header-car-btn">Заказать машину</a>
                                             </div>
                                             <div class="call_back">
                                                 <a href="#recall" class="fancybox_recall" data-form-pop="header-callback-btn">Заказать звонок</a>
@@ -224,40 +233,40 @@
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i1.png);"></div>
                                 <div class="txt">
-                                    1. ПРИНИМАЕМ ЗАЯВКУ
+                                    1. ПРИНИМАЕМ ВАШУ ЗАЯВКУ
                                 </div>
                             </li>
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i2.png);"></div>
                                 <div class="txt">
-                                    2. согласовуем габариты
+                                    2. согласовЫВАЕМ ОБЪЕМ
                                     <br>перевозки
                                 </div>
                             </li>
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i3.png);"></div>
                                 <div class="txt">
-                                    3. Составляем алгоритм
-                                    <br>демонтажа
+                                    3. ЗАКЛОЮЧАЕМ ДОГОВОР
                                 </div>
                             </li>
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i4.png);"></div>
                                 <div class="txt">
-                                    6. Собираем и обустраиваем
-                                    <br>новое место
+                                    6. БЫСТРАЯ И ПРОФЕССИНАЛЬНАЯ СБОРКА
+                                    <br>НА НОВОМ МЕСТЕ
                                 </div>
                             </li>
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i5.png);"></div>
                                 <div class="txt">
-                                    5. Загружаем
+                                    5. ДОСТАВКА К МЕСТУ НАЗНАЧЕНИЯ
                                 </div>
                             </li>
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i6.png);"></div>
                                 <div class="txt">
-                                    4. Демонтируем
+                                    4. ПРОИЗВОДИМ АККУРАТНЫЙ
+                                    <br>демонтаж
                                 </div>
                             </li>
                         </ul>
@@ -268,7 +277,7 @@
         <div class="wrapper dv3 acl has_nav" id="advantage">
             <div class="container acl">
                 <div class="title_container acl">
-                    <h2>Приемущества</h2>
+                    <h2>наши Приемущества</h2>
                 </div>
                 <div class="items_wrapper">
                     <div class="items_container">
@@ -287,7 +296,7 @@
                                             </div>
                                             <div class="li_content">
                                                 <p>
-                                                    Собственный автопарк из 36 авто.
+                                                    Собственный автомобильный парк из 36 грузовых автомобилей
                                                 </p>
                                             </div>
                                         </div>
@@ -304,12 +313,12 @@
                                         </div>
                                         <div class="txt_container">
                                             <div class="li_title">
-                                                <h3>НАДЕЖНОСТЬ</h3>
+                                                <h3>НАС РЕКОМЕНДУЮТ</h3>
                                             </div>
                                             <div class="li_content">
                                                 <p>
-                                                    в 98% случаях, клиенты нас рекомендуют
-                                                    <br>близким и друзьям.
+                                                    98% клиентов нас рекомендуют
+                                                    <br>своим близким и друзьям
                                                 </p>
                                             </div>
                                         </div>
@@ -330,7 +339,7 @@
                                             </div>
                                             <div class="li_content">
                                                 <p>
-                                                    Опрятные, вежлевые
+                                                    Опрятные, вежливые
                                                     <br>и профессиональные грузчики.
                                                 </p>
                                             </div>
@@ -348,13 +357,13 @@
                                         </div>
                                         <div class="txt_container">
                                             <div class="li_title">
-                                                <h3>КВАЛИФИКАЦИЯ</h3>
+                                                <h3>ОТЛАЖЕННОСТЬ ПРОЦЕССА</h3>
                                             </div>
                                             <div class="li_content">
                                                 <p>
-                                                    Собственный учебный
-                                                    <br> центр, где сотрудники
-                                                    <br> повышают квалификацию!
+                                                    Работаем быстро,
+                                                    <br>слаженно и бесшумно
+                                                    <br>24 часа.
                                                 </p>
                                             </div>
                                         </div>
@@ -375,8 +384,8 @@
                                             </div>
                                             <div class="li_content">
                                                 <p>
-                                                    15 лет на рынке
-                                                    <br>доставок!
+                                                    более 15 лет
+                                                    <br>на рынке услуг по переезду офисов, квартир, дач
                                                 </p>
                                             </div>
                                         </div>
@@ -415,13 +424,12 @@
                                         </div>
                                         <div class="txt_container">
                                             <div class="li_title">
-                                                <h3>доверие</h3>
+                                                <h3>КОНТРОЛЬ КАЧЕСТВА</h3>
                                             </div>
                                             <div class="li_content">
                                                 <p>
-                                                    55% клиентов вновь
-                                                    <br> заказывают наши
-                                                    <br> услуги.
+                                                    На время переезда к Вам прикрепляеться персональный менеджер
+                                                    <br>который следит за качеством оказиваемой услуги прямо на объекте.
                                                 </p>
                                             </div>
                                         </div>
@@ -438,11 +446,11 @@
                                         </div>
                                         <div class="txt_container">
                                             <div class="li_title">
-                                                <h3>профессионализм</h3>
+                                                <h3>материальная ответственность</h3>
                                             </div>
                                             <div class="li_content">
                                                 <p>
-                                                    Работаем с любыми объектами, для нас это не трудность!
+                                                    Ваши вещи не постадают при перевозке - по желанию клиента груз застрахован
                                                 </p>
                                             </div>
                                         </div>
@@ -562,6 +570,7 @@
                                                 </div>
                                                 <div class="center_tab_text_wrapper">
                                                     <div class="text_flex">
+                                                        <h6>Офисный пеереезд</h6>
                                                         <p>
                                                             Офисный переезд гораздо лучше доверить профессиональной компании, которая качественно в максимально короткие сроки выполнит
                                                             большой объем работ за вас.
@@ -599,6 +608,7 @@
                                                 </div>
                                                 <div class="center_tab_text_wrapper">
                                                     <div class="text_flex">
+                                                        <h6>Квартирный пеереезд</h6>
                                                         <p>
                                                             Мы грамотно и быстро осуществим для Вас квартирный переезд. При этом мы гарантируем точное выполнение сроков и сохранность
                                                             вашей собственности.
@@ -636,6 +646,7 @@
                                                 </div>
                                                 <div class="center_tab_text_wrapper">
                                                     <div class="text_flex">
+                                                        <h6>Дачный пеереезд</h6>
                                                         <p>
                                                             В настоящее время, дачный переезд – очень актуальный для многих людей. Ведь загородный дом - это отличная возможность отдохнуть
                                                             от городской суеты.
@@ -856,7 +867,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrapper our-clients">
+        <div class="wrapper our-clients" id="our_clients">
             <div class="container">
 
                 <div class="container-title">
@@ -898,7 +909,7 @@
 
             </div>
         </div>
-        <div class="wrapper fotogallery">
+        <div class="wrapper fotogallery" id="fotogallery">
             <div class="container with-texture">
 
                 <div class="container-title">
@@ -1117,14 +1128,17 @@
     </div>
 
     <div class="hidden_block">
-        <div id="recall">
+
+        <div id="recall" class="popup-main">
            <div class="convert cfix">
                <div class="left-spice">
                    <img src="img/dv6/pop.jpg" alt="" />
                </div>
                <div class="right-spice">
                     <div class="converting">
-                        <div class="title-form">EASY moving</div>
+                        <div class="title-form">
+                            <h6>EASY moving</h6>
+                        </div>
                         <div class="form-we-need">
                             <form action="mail/mailer.php" name="pop" class="pop-form">
                                 <div class="contact-form-row cfix">
@@ -1163,6 +1177,157 @@
                </div>
            </div>
         </div>
+
+        <div id="ofis" class="popup-main">
+           <div class="convert cfix">
+               <div class="left-spice">
+                   <img src="img/dv6/pop.jpg" alt="" />
+               </div>
+               <div class="right-spice">
+                    <div class="converting">
+                        <div class="title-form">
+                            <h6>EASY moving</h6>
+                            <p>Заказать офисный переезд</p>
+                        </div>
+                        <div class="form-we-need">
+                            <form action="mail/mailer.php" name="pop" class="pop-form">
+                                <div class="contact-form-row cfix">
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="text" name="contact_name" required="required" value="" placeholder="Имя">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="email" name="contact_email" required="required" placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-form-row cfix">
+                                    <div class="contact-form-item-submit">
+                                        <button type="submit" class="contact-submit">
+                                            <span>заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </div>
+
+        <div id="kvartira" class="popup-main">
+           <div class="convert cfix">
+               <div class="left-spice">
+                   <img src="img/dv6/pop.jpg" alt="" />
+               </div>
+               <div class="right-spice">
+                    <div class="converting">
+                        <div class="title-form">
+                            <h6>EASY moving</h6>
+                            <p>Заказать квартирный переезд</p>
+                        </div>
+                        <div class="form-we-need">
+                            <form action="mail/mailer.php" name="pop" class="pop-form">
+                                <div class="contact-form-row cfix">
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="text" name="contact_name" required="required" value="" placeholder="Имя">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="email" name="contact_email" required="required" placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-form-row cfix">
+                                    <div class="contact-form-item-submit">
+                                        <button type="submit" class="contact-submit">
+                                            <span>заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </div>
+
+        <div id="dacha" class="popup-main">
+           <div class="convert cfix">
+               <div class="left-spice">
+                   <img src="img/dv6/pop.jpg" alt="" />
+               </div>
+               <div class="right-spice">
+                    <div class="converting">
+                        <div class="title-form">
+                            <h6>EASY moving</h6>
+                            <p>Заказать дачный переезд</p>
+                        </div>
+                        <div class="form-we-need">
+                            <form action="mail/mailer.php" name="pop" class="pop-form">
+                                <div class="contact-form-row cfix">
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="text" name="contact_name" required="required" value="" placeholder="Имя">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="email" name="contact_email" required="required" placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="contact-form-item">
+                                        <div class="contact-form-item-input form_row">
+                                            <div class="form_input">
+                                                <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-form-row cfix">
+                                    <div class="contact-form-item-submit">
+                                        <button type="submit" class="contact-submit">
+                                            <span>заказать</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+               </div>
+           </div>
+        </div>
+
         <div id="spas">
             <div class="convert">
                 <div class="headtext">Спасибо за заявку</div>
@@ -1170,6 +1335,7 @@
             </div>
         </div>
     </div>
+
     <footer class="footer">
 
         <div class="footer-telefone">
@@ -1192,6 +1358,12 @@
                 </li>
                 <li>
                     <a href="#comments">ОТЗЫВЫ</a>
+                </li>
+                <li>
+                    <a href="#our_clients">НАШИ КЛИЕНТЫ</a>
+                </li>
+                <li>
+                    <a href="#fotogallery">ФОТОГАЛЕРЕЯ</a>
                 </li>
                 <li>
                     <a href="#contacts">КОНТАКТЫ</a>

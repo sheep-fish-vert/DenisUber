@@ -60,8 +60,8 @@
 .footer-telefone a:hover, .footer-socials a:hover{text-decoration: underline;}
 .footer-socials a{margin-right: 15px;}
 .footer-socials a:last-child{margin-right: 0;}
-.footer .footer-nav{padding-top: 30px;padding-bottom: 36px;}
-.footer .footer-nav li{display: inline-block;margin: 0 2.1%;}
+.footer .footer-nav{padding-top: 30px;padding-bottom: 21px;}
+.footer .footer-nav li{display: inline-block;margin: 0 2.1% 15px 2.1%;}
 .footer .footer-nav li a{display: inline-block;text-decoration: none;color: #f6f6f6;font-family: "ProximaNova", sans-serif;font-weight: bold;padding: 0 5px;text-transform: uppercase;transition: all ease .2s;}
 .footer .footer-copy{padding-bottom: 25px;font-size: 14px;color: #e4e4e4;font-family: "ProximaNova", sans-serif;}
 .footer .footer-nav li a:hover{color: rgb(149, 185, 223);}
