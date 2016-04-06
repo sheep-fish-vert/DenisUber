@@ -56,18 +56,22 @@
 
 /*footer*/
 .footer{background-color: #282828;text-align: center;background-image:url(../img/footer/footer-background.png);background-repeat: no-repeat;background-position: center center;position: relative;}
-.footer-telefone{padding-top:26px;margin-bottom: 20px;}
+.footer-telefone{padding-top:23px;margin-bottom: 17px;}
 .footer-telefone a, .footer-socials a{font-size: 14px;color:#fff;text-decoration: none;font-family: "ProximaNova", sans-serif;}
+.footer-telefone a{margin: 0 7px;}
 .footer-telefone a:hover, .footer-socials a:hover{text-decoration: underline;}
 .footer-socials a{margin-right: 15px;}
 .footer-socials a:last-child{margin-right: 0;}
-.footer .footer-nav{padding-top: 30px;padding-bottom: 21px;}
-.footer .footer-nav li{display: inline-block;margin: 0 2.1% 15px 2.1%;}
+.footer .footer-nav{padding-top: 25px;padding-bottom: 14px;}
+.footer .footer-nav li{display: inline-block;margin: 0 2.1% 12px 2.1%;}
 .footer .footer-nav li a{display: inline-block;text-decoration: none;color: #f6f6f6;font-family: "ProximaNova", sans-serif;font-weight: bold;padding: 0 5px;text-transform: uppercase;transition: all ease .2s;}
 .footer .footer-copy{padding-bottom: 25px;font-size: 14px;color: #e4e4e4;font-family: "ProximaNova", sans-serif;}
 .footer .footer-nav li a:hover{color: rgb(149, 185, 223);}
 /*/footer*/
 
+@media screen and (max-width: 880px){
+    .footer{background-size: contain;}
+}
 
 @media screen and (max-width: 880px){
     /*dv8*/
@@ -87,6 +91,10 @@
     .dv8 .contacts_form{margin-bottom: 40px;}
     .dv8 .form-we-need form{max-width: 360px;margin:0 auto;}
     /*/dv8*/
+
+    /*footer*/
+    .footer-telefone a{display: block;margin: 6px 1px;font-size: 12px;}
+    /*/footer*/
 }
 @media screen and (max-width: 479px){
     /*dv7*/
@@ -98,6 +106,9 @@
     .dv8 .contacts{padding-left: 0;padding-right: 0;padding: 60px 30px 46px;}
     .dv8 .title_container {padding-bottom: 40px;font-size: 30px;}
     /*/dv8*/
+    /*footer*/
+    .footer-telefone a{font-size: 14px;}
+    /*/footer*/
 }
 @media screen and (max-width: 360px){
     /*dv7*/

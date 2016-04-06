@@ -1393,6 +1393,7 @@
 
         <div class="footer-telefone">
             <a href="callto:+74956637373">+7 (812) 389-49-52</a>
+            <a href="mailto:ofisnyj-pereezd@mail.ru">ofisnyj-pereezd@mail.ru</a>
         </div>
         <div class="footer-socials">
             <a href="#">VKONTAKTE</a>
