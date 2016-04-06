@@ -1061,6 +1061,9 @@
                     <div class="title_container">
                         <h2>КОНТАКТЫ</h2>
                     </div>
+                    <div class="subtile">
+                        <p>Мы открыты для вас</p>
+                    </div>
                     <div class="contacts_wrap">
                         <div class="contacts_form form-we-need">
                             <form action="mail/mailer.php" name="zakaz" class="contacts-form">
@@ -1105,15 +1108,15 @@
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-2"></span>
-                                    <a href="mailto:uber@mail.ru">Uber@mail.ru</a>
+                                    <a href="mailto:ofisnyj-pereezd@mail.ru">ofisnyj-pereezd@mail.ru</a>
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-3"></span>
-                                    <a href="callto:+74956637373">+7 (812) 389-49-52</a>
+                                    <a href="callto:+78123894952">+7 (812) 389-49-52</a>
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-4"></span>
-                                    <p>Время работы Ежедневно с 9:00-22:00</p>
+                                    <p>Время работы Ежедневно с 9:00-23:00</p>
                                 </div>
                             </div>
                         </div>
