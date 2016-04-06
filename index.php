@@ -765,7 +765,7 @@
                     <div class="comment_slider_wrap">
 
                         <div class="item">
-                            <a href="img/dv7/coment-image1.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image4.jpg" class="fancybox">
                                 <img src="img/dv7/coment-image4.jpg" alt="" />
                             </a>
                             <!--
@@ -788,7 +788,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image2.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image5.jpg" class="fancybox">
                                 <img src="img/dv7/coment-image5.jpg" alt="" />
                             </a>
                             <!--
@@ -834,13 +834,13 @@
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image4.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image2.jpg" class="fancybox">
                                 <img src="img/dv7/coment-image2.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image5.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image1.jpg" class="fancybox">
                                 <img src="img/dv7/coment-image1.jpg" alt="" />
                             </a>
                         </div>
@@ -1193,7 +1193,7 @@
                             <p>Заказать офисный переезд</p>
                         </div>
                         <div class="form-we-need">
-                            <form action="mail/mailer.php" name="pop" class="pop-form">
+                            <form action="mail/mailer.php" name="pop" class="ofis-form">
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item">
                                         <div class="contact-form-item-input form_row">
@@ -1243,7 +1243,7 @@
                             <p>Заказать квартирный переезд</p>
                         </div>
                         <div class="form-we-need">
-                            <form action="mail/mailer.php" name="pop" class="pop-form">
+                            <form action="mail/mailer.php" name="pop" class="kvartira-form">
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item">
                                         <div class="contact-form-item-input form_row">
@@ -1293,7 +1293,7 @@
                             <p>Заказать дачный переезд</p>
                         </div>
                         <div class="form-we-need">
-                            <form action="mail/mailer.php" name="pop" class="pop-form">
+                            <form action="mail/mailer.php" name="pop" class="dacha-form">
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item">
                                         <div class="contact-form-item-input form_row">
@@ -1343,7 +1343,7 @@
                              <p>Стать нашим клиентом</p>
                          </div>
                          <div class="form-we-need">
-                             <form action="mail/mailer.php" name="pop" class="pop-form">
+                             <form action="mail/mailer.php" name="pop" class="our-client-form">
                                  <div class="contact-form-row cfix">
                                      <div class="contact-form-item">
                                          <div class="contact-form-item-input form_row">
