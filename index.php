@@ -876,32 +876,32 @@
 
                 <div class="our-clients-main">
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client1.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client2.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client3.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client4.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client5.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client6.png" alt="" />
                         </a>
                     </div>
@@ -1326,6 +1326,56 @@
                     </div>
                </div>
            </div>
+        </div>
+
+        <div id="our_client" class="popup-main">
+            <div class="convert cfix">
+                <div class="left-spice">
+                    <img src="img/dv6/pop.jpg" alt="" />
+                </div>
+                <div class="right-spice">
+                     <div class="converting">
+                         <div class="title-form">
+                             <h6>EASY moving</h6>
+                             <p>Стать нашим клиентом</p>
+                         </div>
+                         <div class="form-we-need">
+                             <form action="mail/mailer.php" name="pop" class="pop-form">
+                                 <div class="contact-form-row cfix">
+                                     <div class="contact-form-item">
+                                         <div class="contact-form-item-input form_row">
+                                             <div class="form_input">
+                                                 <input type="text" name="contact_name" required="required" value="" placeholder="Имя компании">
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="contact-form-item">
+                                         <div class="contact-form-item-input form_row">
+                                             <div class="form_input">
+                                                 <input type="email" name="contact_email" required="required" placeholder="E-mail">
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="contact-form-item">
+                                         <div class="contact-form-item-input form_row">
+                                             <div class="form_input">
+                                                 <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="contact-form-row cfix">
+                                     <div class="contact-form-item-submit">
+                                         <button type="submit" class="contact-submit">
+                                             <span>заказать</span>
+                                         </button>
+                                     </div>
+                                 </div>
+                             </form>
+                         </div>
+                     </div>
+                </div>
+            </div>
         </div>
 
         <div id="spas">
