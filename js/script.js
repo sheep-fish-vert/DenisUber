@@ -314,4 +314,8 @@ $(document).ready(function (){
         }
     });
 
+    $('.our-clients-main a').fancybox({
+        padding:0
+    });
+
 });

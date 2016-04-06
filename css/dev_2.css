@@ -74,7 +74,7 @@
 
 }
 @media screen and (max-width: 1280px){
-    #recall{background-color: white; width:auto; }
+    .popup-main{background-color: white; width:auto; }
 }
 @media screen and (max-width: 1024px){
     .dv6 .left-side {width: 100%; float: none; min-height: 0; padding: 40px 0 20px;}
@@ -83,8 +83,8 @@
 
 }
 @media screen and (max-width: 992px){
-    #recall .convert .left-spice {display: none;}
-    #recall .convert .right-spice {float: none; width: 100%;box-sizing: border-box; height: auto; padding: 50px 20px;}
+    .popup-main .convert .left-spice {display: none;}
+    .popup-main .convert .right-spice {float: none; width: 100%;box-sizing: border-box; height: auto; padding: 50px 20px;}
 }
 
 @media screen and (max-width: 789px){
