@@ -215,6 +215,10 @@ $(document).ready(function() {
     validate('.zakaz-form', { submitFunction: validationCall });
     validate('.pop-form', { submitFunction: validationCall });
     validate('.contacts-form', { submitFunction: validationCall });
+    validate('.ofis-form', { submitFunction: validationCall });
+    validate('.kvartira-form', { submitFunction: validationCall });
+    validate('.dacha-form', { submitFunction: validationCall });
+    validate('.our-client-form', { submitFunction: validationCall });
 
    Maskedinput();
    fancyboxForm();
