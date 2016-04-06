@@ -1011,7 +1011,7 @@
 
 
 /*new fix*/
-.mobile-button-wrap{display: none;}
+.mobile-button-wrap{display: none; cursor: pointer;}
 
 @media screen and (max-width: 1024px){
     /*header button*/
@@ -1132,6 +1132,7 @@
 
 }
 @media screen and (max-width: 767px){
+    .wrapper.fixed { opacity: 0.8}
 
     /* header */
 

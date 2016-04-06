@@ -766,7 +766,7 @@
 
                         <div class="item">
                             <a href="img/dv7/coment-image1.jpg" class="fancybox">
-                                <img src="img/dv7/coment-image1.jpg" alt="" />
+                                <img src="img/dv7/coment-image4.jpg" alt="" />
                             </a>
                             <!--
                             <div class="bquote">
@@ -789,7 +789,7 @@
 
                         <div class="item">
                             <a href="img/dv7/coment-image2.jpg" class="fancybox">
-                                <img src="img/dv7/coment-image2.jpg" alt="" />
+                                <img src="img/dv7/coment-image5.jpg" alt="" />
                             </a>
                             <!--
                             <div class="bquote">
@@ -835,13 +835,13 @@
 
                         <div class="item">
                             <a href="img/dv7/coment-image4.jpg" class="fancybox">
-                                <img src="img/dv7/coment-image4.jpg" alt="" />
+                                <img src="img/dv7/coment-image2.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="item">
                             <a href="img/dv7/coment-image5.jpg" class="fancybox">
-                                <img src="img/dv7/coment-image5.jpg" alt="" />
+                                <img src="img/dv7/coment-image1.jpg" alt="" />
                             </a>
                         </div>
 
@@ -876,32 +876,32 @@
 
                 <div class="our-clients-main">
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client1.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client2.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client3.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client4.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client5.png" alt="" />
                         </a>
                     </div>
                     <div class="our-clients-item">
-                        <a href="#">
+                        <a href="#our_client">
                             <img src="img/our-client/our-client6.png" alt="" />
                         </a>
                     </div>
@@ -1061,6 +1061,9 @@
                     <div class="title_container">
                         <h2>КОНТАКТЫ</h2>
                     </div>
+                    <div class="subtile">
+                        <p>Мы открыты для вас</p>
+                    </div>
                     <div class="contacts_wrap">
                         <div class="contacts_form form-we-need">
                             <form action="mail/mailer.php" name="zakaz" class="contacts-form">
@@ -1105,15 +1108,15 @@
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-2"></span>
-                                    <a href="mailto:uber@mail.ru">Uber@mail.ru</a>
+                                    <a href="mailto:ofisnyj-pereezd@mail.ru">ofisnyj-pereezd@mail.ru</a>
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-3"></span>
-                                    <a href="callto:+74956637373">+7 (812) 389-49-52</a>
+                                    <a href="callto:+78123894952">+7 (812) 389-49-52</a>
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-4"></span>
-                                    <p>Время работы Ежедневно с 9:00-22:00</p>
+                                    <p>Время работы Ежедневно с 9:00-23:00</p>
                                 </div>
                             </div>
                         </div>
@@ -1326,6 +1329,56 @@
                     </div>
                </div>
            </div>
+        </div>
+
+        <div id="our_client" class="popup-main">
+            <div class="convert cfix">
+                <div class="left-spice">
+                    <img src="img/dv6/pop.jpg" alt="" />
+                </div>
+                <div class="right-spice">
+                     <div class="converting">
+                         <div class="title-form">
+                             <h6>EASY moving</h6>
+                             <p>Стать нашим клиентом</p>
+                         </div>
+                         <div class="form-we-need">
+                             <form action="mail/mailer.php" name="pop" class="pop-form">
+                                 <div class="contact-form-row cfix">
+                                     <div class="contact-form-item">
+                                         <div class="contact-form-item-input form_row">
+                                             <div class="form_input">
+                                                 <input type="text" name="contact_name" required="required" value="" placeholder="Имя компании">
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="contact-form-item">
+                                         <div class="contact-form-item-input form_row">
+                                             <div class="form_input">
+                                                 <input type="email" name="contact_email" required="required" placeholder="E-mail">
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="contact-form-item">
+                                         <div class="contact-form-item-input form_row">
+                                             <div class="form_input">
+                                                 <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <div class="contact-form-row cfix">
+                                     <div class="contact-form-item-submit">
+                                         <button type="submit" class="contact-submit">
+                                             <span>заказать</span>
+                                         </button>
+                                     </div>
+                                 </div>
+                             </form>
+                         </div>
+                     </div>
+                </div>
+            </div>
         </div>
 
         <div id="spas">

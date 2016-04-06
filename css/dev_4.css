@@ -30,6 +30,7 @@
 /*/dv7*/
 
 /*dv8*/
+.dv8 .subtile{font-size: 18px;font-family: 'Proxima Nova', sans-serif;font-weight: 600;color:#000;padding: 20px 0 20px 0;text-align: left;}
 .dv8{background: url(../img/some-pattern.jpg) left top;}
 .dv8>*{box-sizing: border-box;}
 .dv8 .contacts{padding: 65px 30px 110px;text-align: center;}
