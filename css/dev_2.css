@@ -96,7 +96,8 @@
 
 @media screen and (max-width: 666px){
 
-    .dv5 .supertext .row2 span{font-size: 66px;}
+    .dv5 .container{height: 450px;}
+    .dv5 .supertext .row2 span{font-size: 60px;}
 
     .dv6 .left-side p { font-size: 36px;line-height: 48px;}
     .dv6 .left-side h2 { font-size: 50px;}
@@ -112,13 +113,14 @@
     .dv5 .supertext .row2{font-size: 90px;}
     .dv5 .supertext .row3{font-size: 18px;}
     .dv5 .supertext .row4{font-size: 24px;}
-    .dv5 .supertext .row5{font-size: 60px;}
+    .dv5 .supertext .row5{font-size: 62px;}
     .dv5 .supertext .bottonrow {padding: 0 20px 0 80px;}
 }
 
 @media screen and (max-width: 479px){
 
-    .dv5 .supertext .row2 span{font-size: 36px;}
+    .dv5 .supertext .row2 span{font-size: 43.9px;}
+    .dv5 .supertext .row4{font-size: 22.2px;line-height: 25px;}
 
 }
 @media screen and (max-width: 320px){
@@ -126,7 +128,7 @@
     .dv5 .supertext .row3 span{padding: 0;}
     .dv5 .supertext{letter-spacing: 0.4px;}
     .dv5 .supertext .row3 {font-size: 16px;}
-    .dv5 .supertext .row4 {font-size: 20px;display: block;text-align: center;letter-spacing: -0.1px;}
+    .dv5 .supertext .row4 {display: block;text-align: center;letter-spacing: -0.1px;}
 }
 
 

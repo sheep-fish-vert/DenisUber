@@ -5,10 +5,12 @@ jQuery.browser.webkit = /webkit/.test(navigator.userAgent.toLowerCase());
 jQuery.browser.opera = /opera/.test(navigator.userAgent.toLowerCase());
 jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
 var scroller=jQuery.browser.webkit ? "body": "html";
+
 function IsEmail(email) {
   var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   return regex.test(email);
 }
+
 function goTo(){
     $('.dv2 .ul_menu li a').click(function(e){
         e.preventDefault();
@@ -190,6 +192,14 @@ $(document).ready(function (){
             autoSize:true
         });
 
+        $('.fancybox-fotogallery').fancybox({
+            padding:0,
+            fitToView:true,
+            autoSize:true,
+            closeBtn:false,
+            wrapCSS:'fotogallery-fancybox-wrap'
+        });
+
     }
     slickComment();
 
@@ -271,7 +281,7 @@ $(document).ready(function (){
     }
     navigationScroll_Click();
 
-    function headeButer(menuMobile,toggleMenu){
+    function headeButer(menuMobile, toggleMenu){
         if(menuMobile){
             menuMobile.click(function(event) {
                 if($(window).width()<=1024){
@@ -299,4 +309,5 @@ $(document).ready(function (){
             $('.fixed .header_menu_container').removeAttr('style');
         }
     });
+
 });

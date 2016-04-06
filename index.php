@@ -23,6 +23,35 @@
         </script>
 
         <title>Офисные перееезды в Санкт-Петербурге (СПб)</title>
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter36574020 = new Ya.Metrika({id:36574020,
+                            webvisor:true,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true});
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="//mc.yandex.ru/watch/36574020" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+
     </head>
 
 <body>
@@ -37,7 +66,7 @@
                     </div>
 
                     <div class="tel_container acl">
-                        <a href="tel:+74956637373">+7 (495) 663-73-73</a>
+                        <a href="tel:+74956637373">+7 (812) 389-49-52</a>
                     </div>
 
                     <div class="header_menu_container acl">
@@ -644,7 +673,7 @@
             <div class="container acl">
                 <div class="convert">
                     <div class="supertext">
-                        <div class="row1"> <span>Доверьте</span><span>переезд </span></div>
+                        <div class="row1"> <span>Доверьте </span><span>переезд </span></div>
                         <div class="row2">
                             <span>easy moving</span>
                         </div>
@@ -714,161 +743,119 @@
             </div>
         </div>
         <div class="wrapper dv7 acl has_nav" id="comments">
-                <div class="comment_slider_img">
-                    <img src="img/dv7/comment_slider_img.jpg" alt="">
-                </div>
-                <div class="container acl">
-                    <div class="comment_slider">
-                        <div class="title_container">
-                            <h2>ОТЗЫВЫ</h2>
+            <div class="comment_slider_img">
+                <img src="img/dv7/comment_slider_img.jpg" alt="">
+            </div>
+            <div class="container acl">
+                <div class="comment_slider">
+                    <div class="title_container">
+                        <h2>ОТЗЫВЫ</h2>
+                    </div>
+                    <div class="comment_slider_wrap">
+
+                        <div class="item">
+                            <a href="img/dv7/coment-image1.jpg" class="fancybox">
+                                <img src="img/dv7/coment-image1.jpg" alt="" />
+                            </a>
+                            <!--
+                            <div class="bquote">
+                                <img src="img/dv7/bquote.png" alt="">
+                            </div>
+                            <div class="slider_text">
+                                Хорошие художники копируют, великие художники воруют.
+                            </div>
+                            <div class="slider_person">
+                                <div class="slider_person_img">
+                                    <img src="img/dv7/slider_person_img.png" alt="">
+                                </div>
+                                <div class="slider_person_desc">
+                                    <div class="slider_person_name">Паша Макаров</div>
+                                    <div class="slider_person_text">Дизайнер</div>
+                                </div>
+                            </div>
+                            -->
                         </div>
-                        <div class="comment_slider_wrap">
 
-                            <div class="item">
-                                <a href="img/dv7/coment-image1.png" class="fancybox">
-                                    <img src="img/dv7/coment-image1.png" alt="" />
-                                </a>
-                                <!--
-                                <div class="bquote">
-                                    <img src="img/dv7/bquote.png" alt="">
+                        <div class="item">
+                            <a href="img/dv7/coment-image2.jpg" class="fancybox">
+                                <img src="img/dv7/coment-image2.jpg" alt="" />
+                            </a>
+                            <!--
+                            <div class="bquote">
+                                <img src="img/dv7/bquote.png" alt="">
+                            </div>
+                            <div class="slider_text">
+                                Хорошие художники копируют, великие художники воруют.
+                            </div>
+                            <div class="slider_person">
+                                <div class="slider_person_img">
+                                    <img src="img/dv7/slider_person_img.png" alt="">
                                 </div>
-                                <div class="slider_text">
-                                    Хорошие художники копируют, великие художники воруют.
+                                <div class="slider_person_desc">
+                                    <div class="slider_person_name">Паша Макаров</div>
+                                    <div class="slider_person_text">Дизайнер</div>
                                 </div>
-                                <div class="slider_person">
-                                    <div class="slider_person_img">
-                                        <img src="img/dv7/slider_person_img.png" alt="">
-                                    </div>
-                                    <div class="slider_person_desc">
-                                        <div class="slider_person_name">Паша Макаров</div>
-                                        <div class="slider_person_text">Дизайнер</div>
-                                    </div>
-                                </div>
-                                -->
                             </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image2.png" class="fancybox">
-                                    <img src="img/dv7/coment-image2.png" alt="" />
-                                </a>
-                                <!--
-                                <div class="bquote">
-                                    <img src="img/dv7/bquote.png" alt="">
-                                </div>
-                                <div class="slider_text">
-                                    Хорошие художники копируют, великие художники воруют.
-                                </div>
-                                <div class="slider_person">
-                                    <div class="slider_person_img">
-                                        <img src="img/dv7/slider_person_img.png" alt="">
-                                    </div>
-                                    <div class="slider_person_desc">
-                                        <div class="slider_person_name">Паша Макаров</div>
-                                        <div class="slider_person_text">Дизайнер</div>
-                                    </div>
-                                </div>
-                                -->
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image3.png" class="fancybox">
-                                    <img src="img/dv7/coment-image3.png" alt="" />
-                                </a>
-                                <!--
-                                <div class="bquote">
-                                    <img src="img/dv7/bquote.png" alt="">
-                                </div>
-                                <div class="slider_text">
-                                    Хорошие художники копируют, великие художники воруют.
-                                </div>
-                                <div class="slider_person">
-                                    <div class="slider_person_img">
-                                        <img src="img/dv7/slider_person_img.png" alt="">
-                                    </div>
-                                    <div class="slider_person_desc">
-                                        <div class="slider_person_name">Паша Макаров</div>
-                                        <div class="slider_person_text">Дизайнер</div>
-                                    </div>
-                                </div>
-                                -->
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image4.png" class="fancybox">
-                                    <img src="img/dv7/coment-image4.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image5.png" class="fancybox">
-                                    <img src="img/dv7/coment-image5.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image1.png" class="fancybox">
-                                    <img src="img/dv7/coment-image1.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image2.png" class="fancybox">
-                                    <img src="img/dv7/coment-image2.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image3.png" class="fancybox">
-                                    <img src="img/dv7/coment-image3.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image4.png" class="fancybox">
-                                    <img src="img/dv7/coment-image4.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image5.png" class="fancybox">
-                                    <img src="img/dv7/coment-image5.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image1.png" class="fancybox">
-                                    <img src="img/dv7/coment-image1.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image2.png" class="fancybox">
-                                    <img src="img/dv7/coment-image2.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image3.png" class="fancybox">
-                                    <img src="img/dv7/coment-image3.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image4.png" class="fancybox">
-                                    <img src="img/dv7/coment-image4.png" alt="" />
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="img/dv7/coment-image5.png" class="fancybox">
-                                    <img src="img/dv7/coment-image5.png" alt="" />
-                                </a>
-                            </div>
-
+                            -->
                         </div>
+
+                        <div class="item">
+                            <a href="img/dv7/coment-image3.jpg" class="fancybox">
+                                <img src="img/dv7/coment-image3.jpg" alt="" />
+                            </a>
+                            <!--
+                            <div class="bquote">
+                                <img src="img/dv7/bquote.png" alt="">
+                            </div>
+                            <div class="slider_text">
+                                Хорошие художники копируют, великие художники воруют.
+                            </div>
+                            <div class="slider_person">
+                                <div class="slider_person_img">
+                                    <img src="img/dv7/slider_person_img.png" alt="">
+                                </div>
+                                <div class="slider_person_desc">
+                                    <div class="slider_person_name">Паша Макаров</div>
+                                    <div class="slider_person_text">Дизайнер</div>
+                                </div>
+                            </div>
+                            -->
+                        </div>
+
+                        <div class="item">
+                            <a href="img/dv7/coment-image4.jpg" class="fancybox">
+                                <img src="img/dv7/coment-image4.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="img/dv7/coment-image5.jpg" class="fancybox">
+                                <img src="img/dv7/coment-image5.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="img/dv7/coment-image6.jpg" class="fancybox">
+                                <img src="img/dv7/coment-image6.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="img/dv7/coment-image7.jpg" class="fancybox">
+                                <img src="img/dv7/coment-image7.jpg" alt="" />
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="img/dv7/coment-image8.jpg" class="fancybox">
+                                <img src="img/dv7/coment-image8.jpg" alt="" />
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
+        </div>
         <div class="wrapper our-clients">
             <div class="container">
 
@@ -920,51 +907,138 @@
 
                 <div class="fotogallery-wrap">
                     <div class="fotogallery-main">
+
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img1.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img1.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img2.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img2.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img3.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img3.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img4.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img4.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img5.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img5.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img6.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img6.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img7.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img7.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img8.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img8.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img.png" class="fancybox">
-                                <img src="img/fotogallery/fotogallery-img.png" alt="" />
+                            <a href="img/fotogallery/fotogallery-img9.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img9.jpg" alt="">
                             </a>
                         </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img10.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img10.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img11.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img11.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img12.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img12.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img13.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img13.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img14.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img14.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img15.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img15.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img16.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img16.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img17.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img17.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img18.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img18.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img19.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img19.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img20.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img20.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img21.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img21.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img22.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img22.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img23.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img23.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img24.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img24.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img25.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img25.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="fotogallery-item">
+                            <a href="img/fotogallery/fotogallery-img26.jpg" class="fancybox-fotogallery">
+                                <img src="img/fotogallery/fotogallery-img26.jpg" alt="">
+                            </a>
+                        </div>
+
                     </div>
                 </div>
 
@@ -1024,7 +1098,7 @@
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-3"></span>
-                                    <a href="callto:+74956637373">+7 (495) 663-73-73</a>
+                                    <a href="callto:+74956637373">+7 (812) 389-49-52</a>
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-4"></span>
@@ -1041,11 +1115,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 
     <div class="hidden_block">
         <div id="recall">
@@ -1104,7 +1173,7 @@
     <footer class="footer">
 
         <div class="footer-telefone">
-            <a href="callto:+74956637373">+7 (495) 663-73-73</a>
+            <a href="callto:+74956637373">+7 (812) 389-49-52</a>
         </div>
         <div class="footer-socials">
             <a href="#">VKONTAKTE</a>
