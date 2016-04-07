@@ -961,11 +961,11 @@
                                 <img src="img/fotogallery/fotogallery-img2.jpg" alt="">
                             </a>
                         </div>
-                        <div class="fotogallery-item">
+<!--                         <div class="fotogallery-item">
                             <a href="img/fotogallery/fotogallery-img3.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img3.jpg" alt="">
                             </a>
-                        </div>
+                        </div> -->
                         <div class="fotogallery-item">
                             <a href="img/fotogallery/fotogallery-img4.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img4.jpg" alt="">
