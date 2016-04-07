@@ -50,14 +50,14 @@
 .dv8 .contacts_addres_row .icon.icon-2{background-image: url(../img/dv8/icon-2.png);}
 .dv8 .contacts_addres_row .icon.icon-3{background-image: url(../img/dv8/icon-3.png);}
 .dv8 .contacts_addres_row .icon.icon-4{background-image: url(../img/dv8/icon-4.png);}
-.dv8 .contacts_addres_row p,.dv8 .contacts_addres_row a{color: #616161;font-size: 14px;font-family: "ProximaNova", sans-serif;font-weight: 400;display: inline-block;text-decoration: none;width: calc(100% - 36px);vertical-align: middle;}
+.dv8 .contacts_addres_row p,.dv8 .contacts_addres_row a,.dv8 .contacts_addres_row span{color: #616161;font-size: 14px;font-family: "ProximaNova", sans-serif;font-weight: 400;display: inline-block;text-decoration: none;width: calc(100% - 36px);vertical-align: middle;}
 .dv8 #contact_map{height: 291px;width: 100%;margin-bottom: 37px;}
 /*/dv8*/
 
 /*footer*/
 .footer{background-color: #282828;text-align: center;background-image:url(../img/footer/footer-background.png);background-repeat: no-repeat;background-position: center center;position: relative;}
 .footer-telefone{padding-top:23px;margin-bottom: 17px;}
-.footer-telefone a, .footer-socials a{font-size: 14px;color:#fff;text-decoration: none;font-family: "ProximaNova", sans-serif;}
+.footer-telefone a, .footer-socials a,.footer-socials span,.footer-telefone span{font-size: 14px;color:#fff;text-decoration: none;font-family: "ProximaNova", sans-serif;}
 .footer-telefone a{margin: 0 7px;}
 .footer-telefone a:hover, .footer-socials a:hover{text-decoration: underline;}
 .footer-socials a{margin-right: 15px;}
