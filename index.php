@@ -69,7 +69,7 @@
                     </div>
 
                     <div class="tel_container acl">
-                        <a href="tel:+74956637373">+7 (812) 389-49-52</a>
+                        <a href="tel:+78123894952">+7 (812) 389-49-52</a>
                     </div>
 
                     <div class="header_menu_container acl">
@@ -1450,7 +1450,7 @@
     <footer class="footer">
 
         <div class="footer-telefone">
-            <a href="callto:+74956637373">+7 (812) 389-49-52</a>
+            <a href="callto:+78123894952">+7 (812) 389-49-52</a>
             <a href="mailto:ofisnyj-pereezd@mail.ru">ofisnyj-pereezd@mail.ru</a>
         </div>
         <div class="footer-socials">
@@ -1484,7 +1484,7 @@
             <div class="mobile-button-wrap"><span class="mobile-button"><span></span></span></div>
         </div>
         <div class="footer-copy">
-            <p>© 2016 EASY moving. Все права защищены</p>
+            <p>© 2016 <a href="http://sheep.fish" target="_blank">Sheep.Fish</a>. Все права защищены</p>
         </div>
         </div>
     </footer>

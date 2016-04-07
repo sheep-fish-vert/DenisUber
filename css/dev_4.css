@@ -66,6 +66,7 @@
 .footer .footer-nav li{display: inline-block;margin: 0 2.1% 12px 2.1%;}
 .footer .footer-nav li a{display: inline-block;text-decoration: none;color: #f6f6f6;font-family: "ProximaNova", sans-serif;font-weight: bold;padding: 0 5px;text-transform: uppercase;transition: all ease .2s;}
 .footer .footer-copy{padding-bottom: 25px;font-size: 14px;color: #e4e4e4;font-family: "ProximaNova", sans-serif;}
+.footer .footer-copy a{text-decoration: none;color: #f6f6f6;font-family: "ProximaNova", sans-serif;}
 .footer .footer-nav li a:hover{color: rgb(149, 185, 223);}
 /*/footer*/
 
@@ -116,10 +117,13 @@
     /*dv8*/
     .dv8 .contacts{padding-left: 0;padding-right: 0;padding: 60px 30px 46px;}
     .dv8 .title_container {padding-bottom: 40px;font-size: 30px;}
+    .dv8 .subtile{text-align: center;}
     /*/dv8*/
     /*footer*/
     .footer-telefone a{font-size: 14px;}
+    .footer .footer-copy{margin-right: -20px;text-align: center;padding-bottom: 20px !important;}
     /*/footer*/
+
 }
 @media screen and (max-width: 360px){
     /*dv7*/
