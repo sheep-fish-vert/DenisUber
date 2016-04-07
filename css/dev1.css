@@ -1013,6 +1013,10 @@
 /*new fix*/
 .mobile-button-wrap{display: none; cursor: pointer;}
 
+
+@media screen and (min-width: 1366px){
+    .dv1 .slider .right_desc{max-width: 630px;}
+}
 @media screen and (max-width: 1024px){
     /*header button*/
     .fixed .tel_container{position: relative;}

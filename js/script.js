@@ -13,7 +13,7 @@ function IsEmail(email) {
 
 function goTo(){
     $('.dv2 .ul_menu li a').click(function(e) {
-        
+
         e.preventDefault();
         var href = $(this).attr('href');
         if(href=='#dv4'){
@@ -256,7 +256,7 @@ $(document).ready(function (){
 
     function navigationScroll_Click(){
         var headHeight = $('.wrapper.fixed').outerHeight();
-        
+
         $(window).scroll(function(event) {
             var scrolltop = $(window).scrollTop();
             $('.header_menu_container li').removeClass('active');
@@ -274,8 +274,10 @@ $(document).ready(function (){
 
         $('.header_menu_container li a,.footer-nav li a').click(function(event) {
             event.preventDefault();
-            $('.fixed .header_menu_container').slideUp();   
-            $('.wrapper.fixed .mobile-button').removeClass('active');
+            if( !$('html').hasClass('desktop') || $(window).width()<= 400){
+                $('.fixed .header_menu_container').slideUp();
+                $('.wrapper.fixed .mobile-button').removeClass('active');
+            }
             var ide = $(this).attr('href');
 
             $('body,html').animate({

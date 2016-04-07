@@ -172,8 +172,8 @@
                                         <div class="desc">
                                             <p>
                                                 Демонтаж и монтаж элементов<br>
-                                                интерера, мебели и сан техники<br>
-                                                Виполним даже самые сложные задачи
+                                                интерьера, мебели и сан техники<br>
+                                                Выполним даже самые сложные задачи
                                             </p>
                                         </div>
                                     </div>
@@ -224,7 +224,7 @@
         <div class="wrapper dv2 acl has_nav" id="how_it_work">
             <div class="container acl">
                 <div class="title_container acl">
-                    <h2>КАК ЭТО РАБОТАЕТ</h2>
+                    <h2>КАК МЫ РАБОТАЕМ</h2>
                 </div>
                 <div class="items_wrapper">
                     <div class="items_container acl">
@@ -252,7 +252,7 @@
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i4.png);"></div>
                                 <div class="txt">
-                                    6. БЫСТРАЯ И ПРОФЕССИНАЛЬНАЯ СБОРКА
+                                    6. БЫСТРАЯ И ПРОФЕССИОНАЛЬНАЯ СБОРКА
                                     <br>НА НОВОМ МЕСТЕ
                                 </div>
                             </li>
@@ -277,7 +277,7 @@
         <div class="wrapper dv3 acl has_nav" id="advantage">
             <div class="container acl">
                 <div class="title_container acl">
-                    <h2>наши Приемущества</h2>
+                    <h2>наши Преимущества</h2>
                 </div>
                 <div class="items_wrapper">
                     <div class="items_container">
@@ -429,7 +429,7 @@
                                             <div class="li_content">
                                                 <p>
                                                     На время переезда к Вам прикрепляется персональный менеджер
-                                                    <br>который следит за качеством оказиваемой услуги прямо на объекте.
+                                                    <br>который следит за качеством оказываемой услуги прямо на объекте.
                                                 </p>
                                             </div>
                                         </div>
@@ -493,7 +493,7 @@
                                             <div class="txt_wrapper">
                                                 <div class="txt_container">
                                                     <p>
-                                                        Самая популярная услуга компании, ежедневно мы помагаем перехать десяткам офисов. Правильно составленый алгоритм работ делает
+                                                        Самая популярная услуга компании, ежедневно мы помогаем перехать десяткам офисов. Правильно составленный алгоритм работ делает
                                                         весь процесс быстрым, если его правильно спланировать.
                                                         <br>И ЭТО НАША ЗАДАЧА.
                                                     </p>
@@ -517,7 +517,7 @@
                                                 <div class="txt_container">
                                                     <p>
                                                         Покупка новой сантехники, подставок для бытовой техники, и других мелочей всегда трудность, когда мы покидаем старое место
-                                                        жительства. Теперь не нужно думать об этом, UBER обо всем позаботится
+                                                        жительства. Теперь не нужно думать об этом, обо всем позаботится
                                                         ! Мы не оставляем за собой ничего... кроме позитивных эмоций!
                                                     </p>
                                                 </div>
@@ -539,9 +539,9 @@
                                             <div class="txt_wrapper">
                                                 <div class="txt_container">
                                                     <p>
-                                                        Большое количество элементов интерера зачастую оставляют при переезде, так как его трудно разбирать и собирать на новом месте.
-                                                        Компания UBER уже
-                                                        <br> десяток лет занимаеться подобными работами, и мы знаем как правильно
+                                                        Большое количество элементов интерьера зачастую оставляют при переезде, так как его трудно разбирать и собирать на новом месте.
+                                                        Компания уже
+                                                        <br> пятнадцать лет занимаеться подобными работами, и мы знаем как правильно
                                                         это сделать !
                                                     </p>
                                                 </div>
@@ -573,7 +573,7 @@
                                                         <h6>Офисный пеереезд</h6>
                                                         <p>
                                                             Офисный переезд гораздо лучше доверить профессиональной компании, которая качественно в максимально короткие сроки выполнит
-                                                            большой объем работ за вас.
+                                                            большой объем работ в место Вас.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -765,7 +765,7 @@
                     <div class="comment_slider_wrap">
 
                         <div class="item">
-                            <a href="img/dv7/coment-image4.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image4.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
                                 <img src="img/dv7/coment-image4.jpg" alt="" />
                             </a>
                             <!--
@@ -788,7 +788,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image5.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image5.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
                                 <img src="img/dv7/coment-image5.jpg" alt="" />
                             </a>
                             <!--
@@ -811,7 +811,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image3.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image3.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
                                 <img src="img/dv7/coment-image3.jpg" alt="" />
                             </a>
                             <!--
@@ -834,31 +834,31 @@
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image2.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image2.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
                                 <img src="img/dv7/coment-image2.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image1.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image1.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
                                 <img src="img/dv7/coment-image1.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image6.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image6.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
                                 <img src="img/dv7/coment-image6.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image7.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image7.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
                                 <img src="img/dv7/coment-image7.jpg" alt="" />
                             </a>
                         </div>
 
                         <div class="item">
-                            <a href="img/dv7/coment-image8.jpg" class="fancybox">
+                            <a href="img/dv7/coment-image8.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
                                 <img src="img/dv7/coment-image8.jpg" alt="" />
                             </a>
                         </div>
@@ -1062,7 +1062,7 @@
                         <h2>КОНТАКТЫ</h2>
                     </div>
                     <div class="subtile">
-                        <p>Мы открыты для вас</p>
+                        <p>Мы открыты для Вас</p>
                     </div>
                     <div class="contacts_wrap">
                         <div class="contacts_form form-we-need">
