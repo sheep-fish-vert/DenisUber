@@ -30,7 +30,7 @@
 /*/dv7*/
 
 /*dv8*/
-.dv8 .subtile{font-size: 18px;font-family: 'Proxima Nova', sans-serif;font-weight: 600;color:#000;padding: 20px 0 20px 0;text-align: left;}
+.dv8 .subtile{font-size: 24px;font-family: 'Proxima Nova', sans-serif;font-weight: 600;color:#000;padding: 20px 0 20px 0;text-align: left;}
 .dv8{background: url(../img/some-pattern.jpg) left top;}
 .dv8>*{box-sizing: border-box;}
 .dv8 .contacts{padding: 65px 30px 110px;text-align: center;}
@@ -66,9 +66,22 @@
 .footer .footer-nav li{display: inline-block;margin: 0 2.1% 12px 2.1%;}
 .footer .footer-nav li a{display: inline-block;text-decoration: none;color: #f6f6f6;font-family: "ProximaNova", sans-serif;font-weight: bold;padding: 0 5px;text-transform: uppercase;transition: all ease .2s;}
 .footer .footer-copy{padding-bottom: 25px;font-size: 14px;color: #e4e4e4;font-family: "ProximaNova", sans-serif;}
+.footer .footer-copy a{text-decoration: none;color: #f6f6f6;font-family: "ProximaNova", sans-serif;}
 .footer .footer-nav li a:hover{color: rgb(149, 185, 223);}
 /*/footer*/
 
+
+/*fix fancy box*/
+.fancybox-nav{width: 66px !important;background-color: rgba(0, 0, 0, .9) !important;}
+.fancybox-next{right: auto !important;left: 100% !important}
+.fancybox-prev{left: auto !important;right: 100% !important;}
+.fancybox-nav span{background: none !important}
+.fancybox-nav span:after{content: '';width: 12px;height: 12px;border-left:3px solid white;border-bottom: 3px solid white;transform: rotate(45deg);position: absolute;top: 8px;left: 4px;}
+.fancybox-nav span:before{width: 57%;content: '';height: 3px;background-color: #fff;top: 14px;position: absolute;left: 10px;}
+.fancybox-next span:after{transform: rotate(-130deg);left: auto;right: 9px;}
+.fancybox-nav span:before{left: auto;right: 10px;}
+.fancybox-nav span{visibility: visible !important;}
+/*/fix fancy box*/
 @media screen and (max-width: 880px){
     .footer{background-size: contain;}
 }
@@ -105,10 +118,18 @@
     /*dv8*/
     .dv8 .contacts{padding-left: 0;padding-right: 0;padding: 60px 30px 46px;}
     .dv8 .title_container {padding-bottom: 40px;font-size: 30px;}
+    .dv8 .subtile{text-align: center;}
     /*/dv8*/
     /*footer*/
     .footer-telefone a{font-size: 14px;}
+    .footer .footer-copy{margin-right: -20px;text-align: center;padding-bottom: 20px !important;}
     /*/footer*/
+
+    .fancybox-next{right: -2px !important;left: auto !important}
+    .fancybox-prev{left: 0 !important;right: auto !important;}
+    .fancybox-nav{width: 35px !important;}
+    .fancybox-next span{right: 0 !important;}
+    .fancybox-prev span{left: 0 !important;}
 }
 @media screen and (max-width: 360px){
     /*dv7*/

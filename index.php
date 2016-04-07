@@ -16,7 +16,7 @@
         <link type="text/css" rel="stylesheet" href="css/dev_4.css">
 
         <script>
-            var ajaxUrl = 'ajax.php'
+            var ajaxUrl = '/mail/mailer.php'
             var cordX =59.947774,
                 cordY =30.272796
                 googleText = 'Санкт-Петербург, 7-я линия В.О., д.76, офис 511';
@@ -41,7 +41,9 @@
                     </div>
 
                     <div class="tel_container acl">
+
                         <a data-were-click='header' class='call-click' href="tel:+74956637373">+7 (812) 389-49-52</a>
+
                     </div>
 
                     <div class="header_menu_container acl">
@@ -62,7 +64,7 @@
                                 <a href="#our_clients">НАШИ КЛИЕНТЫ</a>
                             </li>
                             <li>
-                                <a href="#fotogallery">ФОТОГАЛЕРЕЯ</a>
+                                <a href="#fotogallery">ФОТО РАБОТЫ</a>
                             </li>
                             <li>
                                 <a href="#contacts">КОНТАКТЫ</a>
@@ -144,7 +146,7 @@
                                         <div class="desc">
                                             <p>
                                                 Демонтаж и монтаж элементов<br>
-                                                интерьера, мебели и сан техники<br>
+                                                интерьера, мебели и сантехники<br>
                                                 Выполним даже самые сложные задачи
                                             </p>
                                         </div>
@@ -422,7 +424,7 @@
                                             </div>
                                             <div class="li_content">
                                                 <p>
-                                                    Ваши вещи не пострадают при перевозке - по желанию клиента груз застрахован
+                                                    Ваши вещи не пострадают при перевозке - по желанию клиента груз будет застрахован
                                                 </p>
                                             </div>
                                         </div>
@@ -465,7 +467,7 @@
                                             <div class="txt_wrapper">
                                                 <div class="txt_container">
                                                     <p>
-                                                        Самая популярная услуга компании, ежедневно мы помогаем перехать десяткам офисов. Правильно составленный алгоритм работ делает
+                                                        Самая популярная услуга компании, ежедневно мы помогаем переехать десяткам офисов. Правильно составленный алгоритм работ делает
                                                         весь процесс быстрым, если его правильно спланировать.
                                                         <br>И ЭТО НАША ЗАДАЧА.
                                                     </p>
@@ -511,7 +513,7 @@
                                             <div class="txt_wrapper">
                                                 <div class="txt_container">
                                                     <p>
-                                                        Большое количество элементов интерера зачастую оставляют при переезде, так как его трудно разбирать и собирать на новом месте.
+                                                        Большое количество элементов интерьера зачастую оставляют при переезде, так как его трудно разобрать и собрать на новом месте.
                                                         Компания EASY уже
                                                         <br> десяток лет занимаеться подобными работами, и мы знаем как правильно
                                                         это сделать !
@@ -522,7 +524,28 @@
                                     </div>
                                 </div>
                             </li>
-
+                            <li>
+                                <div class="content_li_container">
+                                    <div class="img_li_wrapper">
+                                        <div class="img_container" style="background-image: url(img/dv4/i4.png)"></div>
+                                    </div>
+                                    <div class="txt_li_wrapper">
+                                        <div class="txt_li_container">
+                                            <div class="title_li_container">
+                                                <h3>ресторанный переезд</h3>
+                                            </div>
+                                            <div class="txt_wrapper">
+                                                <div class="txt_container">
+                                                    <p>
+                                                        Рестораны сменившие свое место обслуживания персоналом, часто сталкиваются с трудным переездом - разборкой декораций, предметов интерьера,
+                                                        <br>сантехники и кухонного оборудования. Доверьте эти задачи НАМ, мы помогли удачно переехать уже десяткам заведений, и знаем толк в этом.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -563,7 +586,7 @@
                                         </div>
                                     </div>
                                     <div class="btn_tab_container">
-                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab2-btn">заказать</a>
+                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab2-btn">Заказать машину</a>
                                     </div>
                                 </div>
                             </li>
@@ -601,7 +624,7 @@
                                         </div>
                                     </div>
                                     <div class="btn_tab_container">
-                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab3-btn">заказать</a>
+                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab3-btn">Заказать машину</a>
                                     </div>
                                 </div>
                             </li>
@@ -640,6 +663,43 @@
                                     </div>
                                     <div class="btn_tab_container">
                                         <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab1-btn">заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tab_content_wrapper">
+                                    <div class="tab_content_container">
+                                        <div class="top_img">
+                                            <img alt="false" src="img/dv4/img-1.jpg">
+                                        </div>
+                                        <div class="center_tab_wrapper">
+                                            <div class="center_tab_container">
+                                                <div class="left_img_container">
+                                                    <img alt="false" src="img/dv4/img-2.jpg">
+                                                </div>
+                                                <div class="center_tab_text_wrapper">
+                                                    <div class="text_flex">
+                                                        <h6>РЕСТОРАННЫЙ ПЕРЕЕЗД</h6>
+                                                        <p>
+                                                            Не знаете кому доверить сложный переезд, или не хотите нанимать подрядчиков из разных фирм? Мы справимся с этими задачами в считанные часы, убедитесь сами !
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bot_tab_wrapper">
+                                            <div class="bot_tab_container">
+                                                <div class="left_img_container">
+                                                    <img alt="false" src="img/dv4/img-3.jpg">
+                                                </div>
+                                                <div class="right_img_container">
+                                                    <img alt="false" src="img/dv4/img-4.jpg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn_tab_container">
+                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab1-btn">Заказать машину</a>
                                     </div>
                                 </div>
                             </li>
@@ -885,7 +945,7 @@
             <div class="container with-texture">
 
                 <div class="container-title">
-                    <span>фотогалерея</span>
+                    <span>Фото работы</span>
                 </div>
 
                 <div class="fotogallery-wrap">
@@ -1066,6 +1126,7 @@
                                     <div class="contact-form-item-submit">
                                         <button type="submit" class="contact-submit" data-form-pop='contact'>
                                             <span>заказать</span>
+
                                         </button>
                                     </div>
                                 </div>
@@ -1113,6 +1174,7 @@
                     <div class="converting">
                         <div class="title-form">
                             <h6>EASY moving</h6>
+                            <p>Заказать звонок</p>
                         </div>
                         <div class="form-we-need">
                             <form action="mail/mailer.php" name="pop" class="pop-form">
@@ -1364,7 +1426,7 @@
     <footer class="footer">
 
         <div class="footer-telefone">
-            <a href="callto:+74956637373">+7 (812) 389-49-52</a>
+            <a href="callto:+78123894952">+7 (812) 389-49-52</a>
             <a href="mailto:ofisnyj-pereezd@mail.ru">ofisnyj-pereezd@mail.ru</a>
         </div>
         <div class="footer-socials">
@@ -1389,7 +1451,7 @@
                     <a href="#our_clients">НАШИ КЛИЕНТЫ</a>
                 </li>
                 <li>
-                    <a href="#fotogallery">ФОТОГАЛЕРЕЯ</a>
+                    <a href="#fotogallery">ФОТО РАБОТЫ</a>
                 </li>
                 <li>
                     <a href="#contacts">КОНТАКТЫ</a>
@@ -1398,7 +1460,7 @@
             <div class="mobile-button-wrap"><span class="mobile-button"><span></span></span></div>
         </div>
         <div class="footer-copy">
-            <p>© 2016 EASY moving. Все права защищены</p>
+            <p>© 2016 <a href="http://sheep.fish" target="_blank">Sheep.Fish</a>. Все права защищены</p>
         </div>
         </div>
     </footer>
