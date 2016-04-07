@@ -30,7 +30,7 @@
 /*/dv7*/
 
 /*dv8*/
-.dv8 .subtile{font-size: 18px;font-family: 'Proxima Nova', sans-serif;font-weight: 600;color:#000;padding: 20px 0 20px 0;text-align: left;}
+.dv8 .subtile{font-size: 24px;font-family: 'Proxima Nova', sans-serif;font-weight: 600;color:#000;padding: 20px 0 20px 0;text-align: left;}
 .dv8{background: url(../img/some-pattern.jpg) left top;}
 .dv8>*{box-sizing: border-box;}
 .dv8 .contacts{padding: 65px 30px 110px;text-align: center;}
@@ -73,7 +73,8 @@
 
 /*fix fancy box*/
 .fancybox-nav{width: 66px !important;background-color: rgba(0, 0, 0, .9) !important;}
-.fancybox-next{right: -2px !important;}
+.fancybox-next{right: auto !important;left: 100% !important}
+.fancybox-prev{left: auto !important;right: 100% !important;}
 .fancybox-nav span{background: none !important}
 .fancybox-nav span:after{content: '';width: 12px;height: 12px;border-left:3px solid white;border-bottom: 3px solid white;transform: rotate(45deg);position: absolute;top: 8px;left: 4px;}
 .fancybox-nav span:before{width: 57%;content: '';height: 3px;background-color: #fff;top: 14px;position: absolute;left: 10px;}
@@ -124,6 +125,11 @@
     .footer .footer-copy{margin-right: -20px;text-align: center;padding-bottom: 20px !important;}
     /*/footer*/
 
+    .fancybox-next{right: -2px !important;left: auto !important}
+    .fancybox-prev{left: 0 !important;right: auto !important;}
+    .fancybox-nav{width: 35px !important;}
+    .fancybox-next span{right: 0 !important;}
+    .fancybox-prev span{left: 0 !important;}
 }
 @media screen and (max-width: 360px){
     /*dv7*/

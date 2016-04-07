@@ -90,7 +90,7 @@
                                 <a href="#our_clients">НАШИ КЛИЕНТЫ</a>
                             </li>
                             <li>
-                                <a href="#fotogallery">ФОТОГАЛЕРЕЯ</a>
+                                <a href="#fotogallery">ФОТО РАБОТЫ</a>
                             </li>
                             <li>
                                 <a href="#contacts">КОНТАКТЫ</a>
@@ -971,7 +971,7 @@
             <div class="container with-texture">
 
                 <div class="container-title">
-                    <span>фотогалерея</span>
+                    <span>Фото работы</span>
                 </div>
 
                 <div class="fotogallery-wrap">
@@ -1151,7 +1151,7 @@
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item-submit">
                                         <button type="submit" class="contact-submit">
-                                            <span>заказать</span>
+                                            <span>Отправить</span>
                                         </button>
                                     </div>
                                 </div>
@@ -1475,7 +1475,7 @@
                     <a href="#our_clients">НАШИ КЛИЕНТЫ</a>
                 </li>
                 <li>
-                    <a href="#fotogallery">ФОТОГАЛЕРЕЯ</a>
+                    <a href="#fotogallery">ФОТО РАБОТЫ</a>
                 </li>
                 <li>
                     <a href="#contacts">КОНТАКТЫ</a>
