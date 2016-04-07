@@ -246,7 +246,7 @@
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i3.png);"></div>
                                 <div class="txt">
-                                    3. ЗАКЛОЮЧАЕМ ДОГОВОР
+                                    3. ЗАКЛЮЧАЕМ ДОГОВОР
                                 </div>
                             </li>
                             <li>
