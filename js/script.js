@@ -64,10 +64,6 @@ function fotogalleryInit(){
 $(document).ready(function (){
 
     fotogalleryInit();
-    $('.zakaz-form', '.contacts-form').submit(function() {
-        redFlag = $(this).find('.contact-submit').attr('data-form-pop');
-        console.log(redFlag);
-    });
 
     //Маски на телефоны
     $('input[type=tel]').mask('+9(999)999-99-99');
@@ -78,7 +74,7 @@ $(document).ready(function (){
         var form=$(this).data('form-pop');
         var hrefId = $(this).attr('href');
 
-        redFlag = $(this).attr('data-form-pop');
+        redFlag = $(this).attr('data-form-pop')+'_'+$(this).attr('href');
         console.log(redFlag);
 
         $('#recall form').data('form-pop',form);

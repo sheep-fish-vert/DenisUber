@@ -437,7 +437,7 @@
                 <div class="btns_wrapper">
                     <div class="btns_container">
                         <div class="btn_car">
-                            <a href="#recall" class="fancybox_recall" data-form-pop="dv3-car-btn">Заказать машину</a>
+                            <a href="#kvartira" class="fancybox_recall" data-form-pop="dv3-car-btn">Заказать машину</a>
                         </div>
                         <div class="btn_recall">
                             <a href="#recall" class="fancybox_recall" data-form-pop="dv3-recall-btn">Заказать звонок</a>
@@ -1493,11 +1493,6 @@
     <script type="text/javascript" src="js/validate_script.js"></script>
 
     <script type="text/javascript" src="js/ajax.js"></script>
-    <!-- Yandex.Metrika informer -->
-<a href="https://metrika.yandex.ru/stat/?id=36623925&amp;from=informer"
-target="_blank" rel="nofollow"><img src="//informer.yandex.ru/informer/36623925/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
-style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:36623925,lang:'ru'});return false}catch(e){}"/></a>
-<!-- /Yandex.Metrika informer -->
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
@@ -1526,7 +1521,7 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
     } else { f(); }
 })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="//mc.yandex.ru/watch/36623925" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
 <!-- /Yandex.Metrika counter -->
 
 </body>

@@ -119,6 +119,54 @@ function validationCall(form) {
     });
 }
 
+function validationCallZakaz(form) {
+// yaMetrick
+    yandexID.reachGoal('purchase-now');    
+    
+  var thisForm = $(form);
+  var formSur = thisForm.serialize();
+
+    $.ajax({
+        url : thisForm.attr('action'),
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim() == 'true') {
+                thisForm.trigger("reset");
+                popNext("#spas", "#recall");
+            }
+            else {
+               thisForm.trigger('reset');
+            }
+
+        }
+    });
+}
+
+function validationCallContact(form) {
+// yaMetrick
+    yandexID.reachGoal('contact');    
+    
+  var thisForm = $(form);
+  var formSur = thisForm.serialize();
+
+    $.ajax({
+        url : thisForm.attr('action'),
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim() == 'true') {
+                thisForm.trigger("reset");
+                popNext("#spas", "#recall");
+            }
+            else {
+               thisForm.trigger('reset');
+            }
+
+        }
+    });
+}
+
 /* Отправка формы с файлом */
 function validationCallDocument(form){
 
@@ -214,9 +262,9 @@ function fancyboxForm(){
 
 $(document).ready(function() {
 
-    validate('.zakaz-form', { submitFunction: validationCall });
+    validate('.zakaz-form', { submitFunction: validationCallZakaz });
     validate('.pop-form', { submitFunction: validationCall });
-    validate('.contacts-form', { submitFunction: validationCall });
+    validate('.contacts-form', { submitFunction: validationCallContact });
     validate('.ofis-form', { submitFunction: validationCall });
     validate('.kvartira-form', { submitFunction: validationCall });
     validate('.dacha-form', { submitFunction: validationCall });
