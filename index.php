@@ -920,132 +920,132 @@
                     <div class="fotogallery-main">
 
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img1.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img1.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img1.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img2.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img2.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img2.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img3.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img3.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img3.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img4.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img4.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img4.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img5.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img5.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img5.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img6.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img6.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img6.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img7.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img7.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img7.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img8.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img8.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img8.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img9.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img9.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img9.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img10.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img10.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img10.jpg" alt="">
                             </a>
                         </div>
-                        <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img11.jpg" class="fancybox-fotogallery">
+                        <div class="fotogallery-item" data-fancybox-group="fotogallery-1">
+                            <a href="img/fotogallery/fotogallery-img11.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img11.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img12.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img12.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img12.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img13.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img13.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img13.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img14.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img14.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img14.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img15.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img15.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img15.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img16.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img16.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img16.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img17.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img17.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img17.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img18.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img18.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img18.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img19.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img19.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img19.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img20.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img20.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img20.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img21.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img21.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img21.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img22.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img22.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img22.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img23.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img23.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img23.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img24.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img24.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img24.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img25.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img25.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img25.jpg" alt="">
                             </a>
                         </div>
                         <div class="fotogallery-item">
-                            <a href="img/fotogallery/fotogallery-img26.jpg" class="fancybox-fotogallery">
+                            <a href="img/fotogallery/fotogallery-img26.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img26.jpg" alt="">
                             </a>
                         </div>
