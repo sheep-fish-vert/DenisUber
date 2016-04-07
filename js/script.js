@@ -73,6 +73,10 @@ $(document).ready(function (){
     $('.fancybox_recall').click(function (){
         var form=$(this).data('form-pop');
         var hrefId = $(this).attr('href');
+
+        redFlag = $(this).attr('data-form-pop')+'_'+$(this).attr('href');
+        console.log(redFlag);
+
         $('#recall form').data('form-pop',form);
         $('#recall form input[name=what_form]').val($('#recall form input[name=what_form]').val()+' по кнопке: '+form)
         $.fancybox.open({href : hrefId,padding: 0})
