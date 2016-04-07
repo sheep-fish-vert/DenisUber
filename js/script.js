@@ -74,8 +74,7 @@ $(document).ready(function (){
         var form=$(this).data('form-pop');
         var hrefId = $(this).attr('href');
 
-        redFlag = $(this).attr('data-form-pop')+'_'+$(this).attr('href');
-        console.log(redFlag);
+        redFlag = $(this).attr('data-form-pop')+'_'+($(this).attr('href')).substr(1);
 
         $('#recall form').data('form-pop',form);
         $('#recall form input[name=what_form]').val($('#recall form input[name=what_form]').val()+' по кнопке: '+form)
