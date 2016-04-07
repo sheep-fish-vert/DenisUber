@@ -1125,8 +1125,7 @@
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item-submit">
                                         <button type="submit" class="contact-submit" data-form-pop='contact'>
-                                            <span>заказать</span>
-
+                                            <span>Отправить</span>
                                         </button>
                                     </div>
                                 </div>
