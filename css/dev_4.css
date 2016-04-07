@@ -130,6 +130,7 @@
     .fancybox-nav{width: 35px !important;}
     .fancybox-next span{right: 0 !important;}
     .fancybox-prev span{left: 0 !important;}
+    .fancybox-nav{background-color: rgba(0, 0, 0, 0.71) !important;}
 }
 @media screen and (max-width: 360px){
     /*dv7*/
