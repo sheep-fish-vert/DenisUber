@@ -24,34 +24,6 @@
 
         <title>Офисные перееезды в Санкт-Петербурге (СПб)</title>
 
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript">
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function() {
-                try {
-                    w.yaCounter36574020 = new Ya.Metrika({id:36574020,
-                            webvisor:true,
-                            clickmap:true,
-                            trackLinks:true,
-                            accurateTrackBounce:true});
-                } catch(e) { }
-            });
-
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () { n.parentNode.insertBefore(s, n); };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else { f(); }
-        })(document, window, "yandex_metrika_callbacks");
-
-        </script>
-        <noscript><div><img src="//mc.yandex.ru/watch/36574020" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
 
         <noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE3OTA3O2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0cy5qcyIsaW5pdF9sc3RhdHMpfTtsb2Fkc2NyaXB0KCJqcXVlcnktMS4xMC4yLm1pbi5qcyIsanF1ZXJ5X2xzdGF0cyk="></script></noindex>
 
@@ -69,7 +41,7 @@
                     </div>
 
                     <div class="tel_container acl">
-                        <a href="tel:+74956637373">+7 (812) 389-49-52</a>
+                        <a data-were-click='header' class='call-click' href="tel:+74956637373">+7 (812) 389-49-52</a>
                     </div>
 
                     <div class="header_menu_container acl">
@@ -696,7 +668,7 @@
                         </div>
                         <div class="row4"> <span>ваши</span> <span>Вещи</span> <span>скажут</span> <span>вам</span></div>
                         <div class="row5">спасибо</div>
-                        <a href="#recall" class="bottonrow fancybox_recall">
+                        <a href="#recall" data-form-pop="header-dv5-btn" class="bottonrow fancybox_recall">
                            заказать
                         </a>
                     </div>
@@ -742,7 +714,7 @@
                             </div>
                             <div class="contact-form-row cfix">
                                 <div class="contact-form-item-submit">
-                                    <button type="submit" class="contact-submit">
+                                    <button type="submit" class="contact-submit" data-form-pop='purchase-now'>
                                         <span>заказать</span>
                                     </button>
                                 </div>
@@ -1066,7 +1038,7 @@
                     </div>
                     <div class="contacts_wrap">
                         <div class="contacts_form form-we-need">
-                            <form action="mail/mailer.php" name="zakaz" class="contacts-form">
+                            <form action="mail/mailer.php" name="contact" class="contacts-form">
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item">
                                         <div class="contact-form-item-input form_row">
@@ -1092,7 +1064,7 @@
                                 </div>
                                 <div class="contact-form-row cfix">
                                     <div class="contact-form-item-submit">
-                                        <button type="submit" class="contact-submit">
+                                        <button type="submit" class="contact-submit" data-form-pop='contact'>
                                             <span>заказать</span>
                                         </button>
                                     </div>
@@ -1459,6 +1431,41 @@
     <script type="text/javascript" src="js/validate_script.js"></script>
 
     <script type="text/javascript" src="js/ajax.js"></script>
+    <!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=36623925&amp;from=informer"
+target="_blank" rel="nofollow"><img src="//informer.yandex.ru/informer/36623925/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:36623925,lang:'ru'});return false}catch(e){}"/></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    var redFlag; 
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yandexID = new Ya.Metrika({
+                    id:36623925,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/36623925" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 </body>
 

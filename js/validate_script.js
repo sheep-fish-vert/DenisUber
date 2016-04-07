@@ -95,8 +95,10 @@ function validate(form, options){
 }
 
 /*Отправка формы с вызовом попапа*/
-function validationCall(form){
-
+function validationCall(form) {
+// yaMetrick
+    yandexID.reachGoal(redFlag);    
+    
   var thisForm = $(form);
   var formSur = thisForm.serialize();
 
