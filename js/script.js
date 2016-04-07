@@ -272,6 +272,7 @@ $(document).ready(function (){
             }
         });
 
+        
         $('.header_menu_container li a,.footer-nav li a').click(function(event) {
             event.preventDefault();
             $('.fixed .header_menu_container').slideUp();   

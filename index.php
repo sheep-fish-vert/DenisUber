@@ -78,7 +78,7 @@
                                 <a href="#how_it_work">КАК МЫ РАБОТАЕМ</a>
                             </li>
                             <li>
-                                <a href="#advantage">ПРИЕМУЩЕСТВА</a>
+                                <a href="#advantage">ПРЕИМУЩЕСТВА</a>
                             </li>
                             <li>
                                 <a href="#our_services">УСЛУГИ</a>
@@ -111,7 +111,7 @@
                                 <div class="flex_container">
                                     <div class="left_desc">
                                         <div class="title">
-                                            <h1>easy <span>moving</span></h1>
+                                            <div class='h1' >easy <span>moving</span></div>
                                         </div>
                                         <div class="desc">
                                             <p>
@@ -149,7 +149,7 @@
                                 <div class="flex_container">
                                     <div class="left_desc">
                                         <div class="title">
-                                            <h1>easy <span>moving</span></h1>
+                                            <div class='h1'>easy <span>moving</span></div>
                                         </div>
                                         <div class="desc">
                                             <p>
@@ -172,7 +172,7 @@
                                         <div class="desc">
                                             <p>
                                                 Демонтаж и монтаж элементов<br>
-                                                интерера, мебели и сан техники<br>
+                                                интерера, мебели и сантехники<br>
                                                 Виполним даже самые сложные задачи
                                             </p>
                                         </div>
@@ -187,7 +187,7 @@
                                 <div class="flex_container">
                                     <div class="left_desc">
                                         <div class="title">
-                                            <h1>easy <span>moving</span></h1>
+                                            <div class='h1'>easy <span>moving</span></div>
                                         </div>
                                         <div class="desc">
                                             <p>
@@ -277,7 +277,7 @@
         <div class="wrapper dv3 acl has_nav" id="advantage">
             <div class="container acl">
                 <div class="title_container acl">
-                    <h2>наши Приемущества</h2>
+                    <h2>наши Преимущества</h2>
                 </div>
                 <div class="items_wrapper">
                     <div class="items_container">
@@ -517,7 +517,7 @@
                                                 <div class="txt_container">
                                                     <p>
                                                         Покупка новой сантехники, подставок для бытовой техники, и других мелочей всегда трудность, когда мы покидаем старое место
-                                                        жительства. Теперь не нужно думать об этом, UBER обо всем позаботится
+                                                        жительства. Теперь не нужно думать об этом, EASY обо всем позаботится
                                                         ! Мы не оставляем за собой ничего... кроме позитивных эмоций!
                                                     </p>
                                                 </div>
@@ -540,7 +540,7 @@
                                                 <div class="txt_container">
                                                     <p>
                                                         Большое количество элементов интерера зачастую оставляют при переезде, так как его трудно разбирать и собирать на новом месте.
-                                                        Компания UBER уже
+                                                        Компания EASY уже
                                                         <br> десяток лет занимаеться подобными работами, и мы знаем как правильно
                                                         это сделать !
                                                     </p>
@@ -1405,7 +1405,7 @@
                     <a href="#how_it_work">КАК МЫ РАБОТАЕМ</a>
                 </li>
                 <li>
-                    <a href="#advantage">ПРИЕМУЩЕСТВА</a>
+                    <a href="#advantage">ПРЕИМУЩЕСТВА</a>
                 </li>
                 <li>
                     <a href="#our_services">УСЛУГИ</a>
@@ -1426,7 +1426,7 @@
             <div class="mobile-button-wrap"><span class="mobile-button"><span></span></span></div>
         </div>
         <div class="footer-copy">
-            <p>© 2016 Uber. Все права защищены</p>
+            <p>© 2016 EASY moving. Все права защищены</p>
         </div>
         </div>
     </footer>

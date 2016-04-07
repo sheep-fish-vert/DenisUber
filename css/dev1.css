@@ -206,7 +206,7 @@
     .dv1 .slider .left_desc .title{
 
     }
-    .dv1 .slider .left_desc .title h1{
+    .dv1 .slider .left_desc .title .h1{
         font-size: 150px;
         font-family: "Proxima Nova";
         color: rgb(255, 254, 254);
@@ -217,7 +217,7 @@
         margin-left: -9px;
         margin-bottom: 10px;
     }
-    .dv1 .slider .left_desc .title h1 span{
+    .dv1 .slider .left_desc .title .h1 span{
         font-size: 125px;
         text-transform: none;
     }
@@ -1171,11 +1171,11 @@
 
         .dv1 .slider_wrapper .slider .item .container{align-items:flex-start;padding-top: 80px;height: 640px;}
         .dv1 .slider_wrapper .slider{height: 640px;}
-        .dv1 .slider .left_desc .title h1{font-size: 75px;line-height: 100px;}
+        .dv1 .slider .left_desc .title .h1{font-size: 75px;line-height: 100px;}
         .dv1 .slider .left_desc .desc{margin-bottom: 20px;}
         .dv1 .slider .left_desc .desc p{font-size: 22px;line-height: 30px;}
         .dv1 .slider .right_desc .desc p{font-size: 26px;line-height: 32px;}
-        .dv1 .slider .left_desc .title h1 span{font-size: 75px;}
+        .dv1 .slider .left_desc .title .h1 span{font-size: 75px;}
 
     /* /slider-top */
 
@@ -1230,8 +1230,8 @@
     /* slider-top */
 
 
-        .dv1 .slider .left_desc .title h1{font-size: 50px;line-height: 58px;}
-        .dv1 .slider .left_desc .title h1 span{font-size: 45px;}
+        .dv1 .slider .left_desc .title .h1{font-size: 50px;line-height: 58px;}
+        .dv1 .slider .left_desc .title .h1 span{font-size: 45px;}
         .dv1 .slider .left_desc .desc{margin-bottom: 18px;}
         .dv1 .slider .left_desc .desc p{font-size: 18px;line-height: 26px;}
         .dv1 .slider .left_desc .buttons_wrapper{display: block;}
@@ -1280,4 +1280,8 @@
         .footer-socials{margin-bottom: 10px;}
 
     /* /footer */
+}
+
+@media screen and (max-width: 830px){
+    .footer-socials a {margin-right: 0px !important; display: block;}
 }
