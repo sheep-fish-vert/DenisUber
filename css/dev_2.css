@@ -51,8 +51,9 @@
 
 /* popup */
 .popup-main{background-color: white; width:1000px; }
-.popup-main .convert .left-spice{width: 50%; max-height: 511px; overflow: hidden; float: left;}
-.popup-main .convert .right-spice{width: 50%;height: 511px; float: left; display: flex; justify-content: center; align-items: center;}
+.popup-main .convert .left-spice{width: 60%; max-height: 511px; overflow: hidden; float: left;}
+.popup-main .convert .left-spice img{max-width: 107%;}
+.popup-main .convert .right-spice{width: 40%;height: 511px; float: left; display: flex; justify-content: center; align-items: center;}
 .popup-main .convert .right-spice .converting {width: 360px;}
 .popup-main .right-spice .title-form{padding-bottom: 20px; text-align: center;}
 .popup-main .right-spice .title-form p{}
@@ -81,7 +82,8 @@
     .dv6 .left-side {width: 100%; float: none; min-height: 0; padding: 40px 0 20px;}
     .dv6 .right-side { width: 100%; float: none;  min-height: 0; padding: 20px 0 40px;}
 
-
+    .popup-main .convert .right-spice{height: 503px;}
+    .popup-main .convert .left-spice{max-height: 503px;}
 }
 @media screen and (max-width: 992px){
     .popup-main .convert .left-spice {display: none;}

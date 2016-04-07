@@ -52,8 +52,8 @@
         </script>
         <noscript><div><img src="//mc.yandex.ru/watch/36574020" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
         <!-- /Yandex.Metrika counter -->
-
-        <noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE3OTA3O2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0cy5qcyIsaW5pdF9sc3RhdHMpfTtsb2Fkc2NyaXB0KCJqcXVlcnktMS4xMC4yLm1pbi5qcyIsanF1ZXJ5X2xzdGF0cyk="></script></noindex>
+<!--         <noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE3OTA3O2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0cy5qcyIsaW5pdF9sc3RhdHMpfTtsb2Fkc2NyaXB0KCJqcXVlcnktMS4xMC4yLm1pbi5qcyIsanF1ZXJ5X2xzdGF0cyk="></script></noindex> -->
+        <noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE3OTA3O2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0c19hdXRvLmpzIixpbml0X2xzdGF0cyl9O2xvYWRzY3JpcHQoImpxdWVyeS0xLjEwLjIubWluLmpzIixqcXVlcnlfbHN0YXRzKQ=="></script></noindex>
 
     </head>
 
@@ -69,7 +69,8 @@
                     </div>
 
                     <div class="tel_container acl">
-                        <a href="tel:+78123894952">+7 (812) 389-49-52</a>
+                        <!-- <a href="tel:+78123894952">+7 (812) 389-49-52</a> -->
+                        <span class="lptracker_phone">+7 812 389-49-52</span>
                     </div>
 
                     <div class="header_menu_container acl">
@@ -1170,7 +1171,8 @@
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-3"></span>
-                                    <a href="callto:+78123894952">+7 (812) 389-49-52</a>
+                                    <!-- <a href="callto:+78123894952">+7 (812) 389-49-52</a> -->
+                                    <span class="lptracker_phone">+7 812 389-49-52</span>
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-4"></span>
@@ -1451,7 +1453,8 @@
     <footer class="footer">
 
         <div class="footer-telefone">
-            <a href="callto:+78123894952">+7 (812) 389-49-52</a>
+            <!-- <a href="callto:+78123894952">+7 (812) 389-49-52</a> -->
+            <span class="lptracker_phone">+7 812 389-49-52</span>
             <a href="mailto:ofisnyj-pereezd@mail.ru">ofisnyj-pereezd@mail.ru</a>
         </div>
         <div class="footer-socials">

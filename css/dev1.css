@@ -113,7 +113,7 @@
         right: 30px;
         top:calc(50% - 32px);
     }
-    .fixed .tel_container a{
+    .fixed .tel_container a,.fixed .tel_container span{
         font-size: 17px;
         font-family: "Proxima Nova";
         color: rgb(40, 40, 40);
