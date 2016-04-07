@@ -6,6 +6,7 @@
         <meta charset="utf-8" />
 
         <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link rel="icon" href="img/fixed/favicon.ico" type="image/x-icon">
 
         <link type="text/css" rel="stylesheet" href="fonts/fonts.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
@@ -957,11 +958,11 @@
                                 <img src="img/fotogallery/fotogallery-img1.jpg" alt="">
                             </a>
                         </div>
-                        <div class="fotogallery-item">
+                        <!-- <div class="fotogallery-item">
                             <a href="img/fotogallery/fotogallery-img2.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img2.jpg" alt="">
                             </a>
-                        </div>
+                        </div> -->
 <!--                         <div class="fotogallery-item">
                             <a href="img/fotogallery/fotogallery-img3.jpg" class="fancybox-fotogallery" data-fancybox-group="fotogallery-1">
                                 <img src="img/fotogallery/fotogallery-img3.jpg" alt="">
