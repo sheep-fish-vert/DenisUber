@@ -69,6 +69,17 @@
 .footer .footer-nav li a:hover{color: rgb(149, 185, 223);}
 /*/footer*/
 
+
+/*fix fancy box*/
+.fancybox-nav{width: 66px !important;background-color: rgba(0, 0, 0, .9) !important;}
+.fancybox-next{right: -2px !important;}
+.fancybox-nav span{background: none !important}
+.fancybox-nav span:after{content: '';width: 12px;height: 12px;border-left:3px solid white;border-bottom: 3px solid white;transform: rotate(45deg);position: absolute;top: 8px;left: 4px;}
+.fancybox-nav span:before{width: 57%;content: '';height: 3px;background-color: #fff;top: 14px;position: absolute;left: 10px;}
+.fancybox-next span:after{transform: rotate(-130deg);left: auto;right: 9px;}
+.fancybox-nav span:before{left: auto;right: 10px;}
+.fancybox-nav span{visibility: visible !important;}
+/*/fix fancy box*/
 @media screen and (max-width: 880px){
     .footer{background-size: contain;}
 }

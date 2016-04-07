@@ -16,7 +16,7 @@
         <link type="text/css" rel="stylesheet" href="css/dev_4.css">
 
         <script>
-            var ajaxUrl = 'ajax.php'
+            var ajaxUrl = '/mail/mailer.php'
             var cordX =59.947774,
                 cordY =30.272796
                 googleText = 'Санкт-Петербург, 7-я линия В.О., д.76, офис 511';
@@ -550,7 +550,28 @@
                                     </div>
                                 </div>
                             </li>
-
+                            <li>
+                                <div class="content_li_container">
+                                    <div class="img_li_wrapper">
+                                        <div class="img_container" style="background-image: url(img/dv4/i4.png)"></div>
+                                    </div>
+                                    <div class="txt_li_wrapper">
+                                        <div class="txt_li_container">
+                                            <div class="title_li_container">
+                                                <h3>ресторанный переезд</h3>
+                                            </div>
+                                            <div class="txt_wrapper">
+                                                <div class="txt_container">
+                                                    <p>
+                                                        Рестораны сменившие свое место обслуживания персоналом, часто сталкиваются с трудным переездом - разборкой декорации, предметов интерьера,
+                                                        <br>сан-техники и кухонного оборудования. Доверьте эти задачи НАМ, мы помогли удачно переехать уже десяткам заведений, и знаем толк в этом.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -591,7 +612,7 @@
                                         </div>
                                     </div>
                                     <div class="btn_tab_container">
-                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab2-btn">заказать</a>
+                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab2-btn">Заказать машину</a>
                                     </div>
                                 </div>
                             </li>
@@ -629,7 +650,7 @@
                                         </div>
                                     </div>
                                     <div class="btn_tab_container">
-                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab3-btn">заказать</a>
+                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab3-btn">Заказать машину</a>
                                     </div>
                                 </div>
                             </li>
@@ -668,6 +689,43 @@
                                     </div>
                                     <div class="btn_tab_container">
                                         <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab1-btn">заказать</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tab_content_wrapper">
+                                    <div class="tab_content_container">
+                                        <div class="top_img">
+                                            <img alt="false" src="img/dv4/img-1.jpg">
+                                        </div>
+                                        <div class="center_tab_wrapper">
+                                            <div class="center_tab_container">
+                                                <div class="left_img_container">
+                                                    <img alt="false" src="img/dv4/img-2.jpg">
+                                                </div>
+                                                <div class="center_tab_text_wrapper">
+                                                    <div class="text_flex">
+                                                        <h6>РЕСТОРАННЫЙ ПЕРЕУЗД</h6>
+                                                        <p>
+                                                            Не знаете кому доверить сложный переезд, или не хотите нанимать подрядчиков из разных фирм? Мы справляемся с этими задачами в считаные часы, убедитесь сами !
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bot_tab_wrapper">
+                                            <div class="bot_tab_container">
+                                                <div class="left_img_container">
+                                                    <img alt="false" src="img/dv4/img-3.jpg">
+                                                </div>
+                                                <div class="right_img_container">
+                                                    <img alt="false" src="img/dv4/img-4.jpg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn_tab_container">
+                                        <a href="#recall" class="fancybox_recall" data-form-pop="dv4-tab1-btn">Заказать машину</a>
                                     </div>
                                 </div>
                             </li>
