@@ -42,7 +42,7 @@
 
                     <div class="tel_container acl">
                         <!-- <a href="tel:+78123894952">+7 (812) 389-49-52</a> -->
-                        <span class="lptracker_phone">+7 812 389-49-52</span>
+                        <a href="tel:+78123894952" class="lptracker_phone">+7 812 389-49-52</a>
                         <!-- <a data-were-click='header' class='call-click' href="tel:+74956637373">+7 (812) 389-49-52</a> -->
                     </div>
 
@@ -447,6 +447,7 @@
             </div>
         </div>
         <div class="wrapper dv4 acl has_nav" id="our_services">
+            <div class="dv4-subtitle">офисные и квартирные переезды в Санкт-Петербурге</div>
             <div class="container acl">
                 <div class="title_container acl">
                     <h2>наши услуги</h2>
@@ -537,7 +538,7 @@
                                             <div class="txt_wrapper">
                                                 <div class="txt_container">
                                                     <p>
-                                                        Рестораны сменившие свое место обслуживания персоналом, часто сталкиваются с трудным переездом - разборкой декораций, предметов интерьера,
+                                                        Рестораны сменившие свое место обслуживания, часто сталкиваются с трудным переездом, разборкой декораций, предметов интерьера,
                                                         <br>сантехники и кухонного оборудования. Доверьте эти задачи НАМ, мы помогли удачно переехать уже десяткам заведений, и знаем толк в этом.
                                                     </p>
                                                 </div>
@@ -1145,7 +1146,7 @@
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-3"></span>
                                     <!-- <a href="callto:+78123894952">+7 (812) 389-49-52</a> -->
-                                    <span class="lptracker_phone">+7 812 389-49-52</span>
+                                    <a href="callto:+78123894952" class="lptracker_phone">+7 812 389-49-52</a>
                                 </div>
                                 <div class="contacts_addres_row">
                                     <span class="icon icon-4"></span>
@@ -1427,7 +1428,7 @@
 
         <div class="footer-telefone">
             <!-- <a href="callto:+78123894952">+7 (812) 389-49-52</a> -->
-            <span class="lptracker_phone">+7 812 389-49-52</span>
+            <a class="lptracker_phone" href="callto:+78123894952">+7 812 389-49-52</a>
             <a href="mailto:ofisnyj-pereezd@mail.ru">ofisnyj-pereezd@mail.ru</a>
         </div>
         <div class="footer-socials">

@@ -71,6 +71,10 @@
 /*/footer*/
 
 
+/*some fix*/
+.dv4-subtitle{position: absolute;left: 50%;top:121px;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);font-family: 'Proxima Nova';font-weight: 300;color: rgba(122, 122, 122, 0.51);font-size: 53px;letter-spacing: -2.1px;width: 100%;max-width: 1240px;text-align: center;}
+/*/some fix*/
+
 /*fix fancy box*/
 .fancybox-nav{width: 66px !important;background-color: rgba(0, 0, 0, .9) !important;}
 .fancybox-next{right: auto !important;left: 100% !important}
