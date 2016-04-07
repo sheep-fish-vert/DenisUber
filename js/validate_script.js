@@ -98,7 +98,7 @@ function validate(form, options){
 function validationCall(form) {
 // yaMetrick
     yandexID.reachGoal(redFlag);    
-    
+    console.log(redFlag);
   var thisForm = $(form);
   var formSur = thisForm.serialize();
 
