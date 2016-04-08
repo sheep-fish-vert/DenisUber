@@ -357,6 +357,7 @@
     }
     .dv2 .title_container{
         padding: 40px 0 0 0;
+        text-align: center;
     }
     .dv2 .title_container h2{
         font-size: 36px;
@@ -367,7 +368,11 @@
         text-align: center;
         font-weight: 900;
         letter-spacing: 6px;
+        display: inline-block;
+        position: relative;
     }
+    .dv2 .title_container h2:after{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #2c2c2c;right: -30px;top: 13px;}
+    .dv2 .title_container h2:before{content: '';display: block;position: absolute;width: 10px;height: 10px;border-radius: 50%;background-color: #2c2c2c;left: -30px;top: 13px;}
     .dv2 .items_wrapper{
         padding: 95px 0 20px 0;
         position: relative;
@@ -385,6 +390,7 @@
         position: relative;
         display: inline-flex;
         flex-wrap: wrap;
+        width: 100%;
     }
     .dv2 .items_wrapper .items_container ul li{
         position: relative;
@@ -412,7 +418,7 @@
     }
     .dv2 .items_wrapper .items_container ul li .txt{
         position: relative;
-        font-size: 18px;
+        font-size: 16px;
         font-family: "Proxima Nova";
         color: rgb(0, 0, 0);
         text-transform: uppercase;
@@ -654,7 +660,7 @@
 /* dv4 */
 
     .dv4{
-        padding-top: 30px;
+        padding-top: 45px;
         background-position: top center;
         background-repeat: no-repeat;
         background-image: url(../img/dv4/bg.png);
@@ -1063,6 +1069,7 @@
     /* dv2 */
 
         .dv2 .items_wrapper .items_container{background-image: none;}
+        .dv2 .items_wrapper .items_container ul:last-child{flex-direction: row-reverse;}
         .dv2 .items_wrapper .items_container img{display: none;}
         .dv2 .items_wrapper .items_container ul li{margin:0 0 50px 0;}
         .dv2 .items_wrapper .items_container ul li:after{display: none;}
@@ -1172,6 +1179,9 @@
         .our-clients-item{width: calc(50% - 7px);}
 
     /* /our-clients */
+
+    .dv2 .items_wrapper .items_container ul li{width: 100%;}
+    .dv2 .items_wrapper .items_container ul:last-child{flex-direction: column-reverse;}
 
 }
 

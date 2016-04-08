@@ -97,7 +97,7 @@ function validate(form, options){
 /*Отправка формы с вызовом попапа*/
 function validationCall(form) {
 // yaMetrick
-    yandexID.reachGoal(redFlag);    
+    yandexID.reachGoal(redFlag);
   var thisForm = $(form);
   var formSur = thisForm.serialize();
 
@@ -108,7 +108,8 @@ function validationCall(form) {
         success : function(data){
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
-                popNext("#spas", "#recall");
+                //popNext("#spas", "#recall");
+                document.location = './thanks.php';
             }
             else {
                thisForm.trigger('reset');
@@ -120,8 +121,8 @@ function validationCall(form) {
 
 function validationCallZakaz(form) {
 // yaMetrick
-    yandexID.reachGoal('purchase-now');    
-    
+    yandexID.reachGoal('purchase-now');
+
   var thisForm = $(form);
   var formSur = thisForm.serialize();
 
@@ -132,7 +133,8 @@ function validationCallZakaz(form) {
         success : function(data){
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
-                popNext("#spas", "#recall");
+                //popNext("#spas", "#recall");
+                document.location = './thanks.php';
             }
             else {
                thisForm.trigger('reset');
@@ -144,8 +146,8 @@ function validationCallZakaz(form) {
 
 function validationCallContact(form) {
 // yaMetrick
-    yandexID.reachGoal('contact');    
-    
+    yandexID.reachGoal('contact');
+
   var thisForm = $(form);
   var formSur = thisForm.serialize();
 
@@ -156,7 +158,8 @@ function validationCallContact(form) {
         success : function(data){
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
-                popNext("#spas", "#recall");
+                //popNext("#spas", "#recall");
+                document.location = './thanks.php';
             }
             else {
                thisForm.trigger('reset');

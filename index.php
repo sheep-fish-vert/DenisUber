@@ -17,13 +17,13 @@
         <link type="text/css" rel="stylesheet" href="css/dev_4.css">
 
         <script>
-            var ajaxUrl = '/mail/mailer.php'
+            var ajaxUrl = '/mail/mailer.php';
             var cordX =59.947774,
                 cordY =30.272796
                 googleText = 'Санкт-Петербург, 7-я линия В.О., д.76, офис 511';
         </script>
 
-        <title>Офисные перееезды в Санкт-Петербурге (СПб)</title>
+        <title>Офисные переезды в Санкт-Петербурге (СПб)</title>
 
 <!--         <noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE3OTA3O2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0cy5qcyIsaW5pdF9sc3RhdHMpfTtsb2Fkc2NyaXB0KCJqcXVlcnktMS4xMC4yLm1pbi5qcyIsanF1ZXJ5X2xzdGF0cyk="></script></noindex> -->
         <noindex><script async src="data:text/javascript;charset=utf-8;base64,ZnVuY3Rpb24gbG9hZHNjcmlwdChlLHQpe3ZhciBuPWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpO24uc3JjPSIvL2xwdHJhY2tlci5ydS9hcGkvIitlO24ub25yZWFkeXN0YXRlY2hhbmdlPXQ7bi5vbmxvYWQ9dDtkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKG4pO3JldHVybiAxfXZhciBpbml0X2xzdGF0cz1mdW5jdGlvbigpe2xzdGF0cy5zaXRlX2lkPTE3OTA3O2xzdGF0cy5yZWZlcmVyKCl9O3ZhciBqcXVlcnlfbHN0YXRzPWZ1bmN0aW9uKCl7alFzdGF0Lm5vQ29uZmxpY3QoKTtsb2Fkc2NyaXB0KCJzdGF0c19hdXRvLmpzIixpbml0X2xzdGF0cyl9O2xvYWRzY3JpcHQoImpxdWVyeS0xLjEwLjIubWluLmpzIixqcXVlcnlfbHN0YXRzKQ=="></script></noindex>
@@ -86,7 +86,7 @@
                                 <div class="flex_container">
                                     <div class="left_desc">
                                         <div class="title">
-                                            <div class='h1' >easy <span>moving</span></div>
+                                            <h1 class='h1' >easy <span>moving</span></h1>
                                         </div>
                                         <div class="desc">
                                             <p>
@@ -224,6 +224,8 @@
                                     3. ЗАКЛЮЧАЕМ ДОГОВОР
                                 </div>
                             </li>
+                        </ul>
+                        <ul>
                             <li>
                                 <div class="img_container" style="background-image: url(img/dv2/i4.png);"></div>
                                 <div class="txt">
@@ -1500,7 +1502,7 @@
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     var redFlag;
-
+    var yandexID;
 (function (d, w, c) {
     (w[c] = w[c] || []).push(function() {
         try {

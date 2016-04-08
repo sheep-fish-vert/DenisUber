@@ -72,7 +72,9 @@
 
 
 /*some fix*/
-.dv4-subtitle{position: absolute;left: 50%;top:121px;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);font-family: 'Proxima Nova';font-weight: 300;color: rgba(122, 122, 122, 0.51);font-size: 53px;letter-spacing: -2.1px;width: 100%;max-width: 1240px;text-align: center;}
+.dv4-subtitle{position: absolute;left: 50%;top:133px;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);font-family: 'Proxima Nova';font-weight: 300;color: rgba(122, 122, 122, 0.51);font-size: 53px;letter-spacing: -2.1px;width: 100%;max-width: 1240px;text-align: center;}
+html.fancybox-margin.desktop .wrapper.fixed{left: -8px;}
+
 /*/some fix*/
 
 /*fix fancy box*/
@@ -86,6 +88,15 @@
 .fancybox-nav span:before{left: auto;right: 10px;}
 .fancybox-nav span{visibility: visible !important;}
 /*/fix fancy box*/
+
+
+
+
+
+/*thanks*/
+.thanks-body{padding-top: 0;}
+.thanks{min-height: 100vh;display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-items: center;text-align: center;background-image: url(../img/dv2/bg.png);background-position: center center;font-size: 26px;font-family: "ProximaNova", sans-serif;font-weight: 600;color: #545454;}
+/*/thanks*/
 @media screen and (max-width: 880px){
     .footer{background-size: contain;}
 }
@@ -101,6 +112,7 @@
     /*/footer*/
 }
 @media screen and (max-width: 767px){
+    html.fancybox-margin.desktop .wrapper.fixed{left: 0px;width: calc(100% - 17px);}
     /*dv8*/
     .dv8 .contacts{padding: 92px 30px 46px;}
     .dv8 .title_container{padding-bottom: 60px;}
@@ -135,6 +147,8 @@
     .fancybox-next span{right: 0 !important;}
     .fancybox-prev span{left: 0 !important;}
     .fancybox-nav{background-color: rgba(0, 0, 0, 0.71) !important;}
+
+    .thanks{font-size: 16px;}
 }
 @media screen and (max-width: 360px){
     /*dv7*/
