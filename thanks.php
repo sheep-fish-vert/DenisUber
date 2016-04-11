@@ -35,6 +35,9 @@
     <div class="wrapper thanks">
         <div class="thanks-wrap">
             <h1>Спасибо за заявку,<br>Мы свяжемся с Вами в ближайшее время</h1>
+            <div class="call_back">
+                <a href="./index.php" class="back-to-future">На главную</a>
+            </div>
         </div>
     </div>
 </div>

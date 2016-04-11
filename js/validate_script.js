@@ -109,7 +109,8 @@ function validationCall(form) {
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
                 //popNext("#spas", "#recall");
-                document.location = './thanks.php';
+               // document.location = './thanks.php';
+               window.open('./thanks.php','_blank');
             }
             else {
                thisForm.trigger('reset');
@@ -134,7 +135,8 @@ function validationCallZakaz(form) {
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
                 //popNext("#spas", "#recall");
-                document.location = './thanks.php';
+               // document.location = './thanks.php';
+                window.open('./thanks.php','_blank');
             }
             else {
                thisForm.trigger('reset');
@@ -159,7 +161,8 @@ function validationCallContact(form) {
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
                 //popNext("#spas", "#recall");
-                document.location = './thanks.php';
+                //document.location = './thanks.php';
+                window.open('./thanks.php','_blank');
             }
             else {
                thisForm.trigger('reset');

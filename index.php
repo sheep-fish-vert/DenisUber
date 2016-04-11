@@ -1473,8 +1473,8 @@
             <a href="mailto:ofisnyj-pereezd@mail.ru">ofisnyj-pereezd@mail.ru</a>
         </div>
         <div class="footer-socials">
-            <a href="#">VKONTAKTE</a>
-            <a href="#">INSTAGRAM</a>
+            <a href="http://vk.com/easy_moving">VKONTAKTE</a>
+            <a href="https://www.instagram.com/ofisnyjpereezd/">INSTAGRAM</a>
         </div>
         <div class="footer-nav">
             <ul>
