@@ -34,7 +34,7 @@
 <div class="global_wrapper acl">
     <div class="wrapper thanks">
         <div class="thanks-wrap">
-            <h1>Спасибо за заявку,<br>Мы свяжемся с Вами в бижайшее время</h1>
+            <h1>Спасибо за заявку,<br>Мы свяжемся с Вами в ближайшее время</h1>
         </div>
     </div>
 </div>

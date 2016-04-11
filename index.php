@@ -192,6 +192,44 @@
                             </div>
                         </div>
                     </div>
+                    <div class="item" style="background-image: url(img/dv1/ert.jpg);">
+                        <div class="container acl">
+                            <div class="fex_wrapper">
+                                <div class="flex_container">
+                                    <div class="left_desc">
+                                        <div class="title">
+                                            <div class='h1'>easy <span>moving</span></div>
+                                        </div>
+                                        <div class="desc">
+                                            <p>
+                                                Дачный переезд
+                                            </p>
+                                        </div>
+                                        <div class="buttons_wrapper">
+                                            <div class="auto_recall">
+                                                <a href="#dacha" class="fancybox_recall" data-form-pop="header-car-btn">Заказать машину</a>
+                                            </div>
+                                            <div class="call_back">
+                                                <a href="#recall" class="fancybox_recall" data-form-pop="header-callback-btn">Заказать звонок</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right_desc">
+                                        <div class="title">
+                                            <h2>ДАЧНЫЙ ПЕРЕЕЗД</h2>
+                                        </div>
+                                        <div class="desc">
+                                            <p>
+                                                Демонтаж и монтаж элементов<br>
+                                                интерьера, мебели и сантехники<br>
+                                                Выполним даже самые сложные задачи
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="navigator"></div>
             </div>
