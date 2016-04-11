@@ -76,7 +76,7 @@
     (w[c] = w[c] || []).push(function() {
         try {
             w.yandexID = new Ya.Metrika({
-                    id:36623925,
+                    id:36574020,
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true});
