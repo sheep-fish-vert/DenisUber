@@ -149,13 +149,19 @@
         position: relative;
         height: 780px;
     }
+    .dv1 .slider_wrapper .slider .slick-list{
+        position: relative;z-index: 500;
+    }
+    .dv1 .slider_wrapper .slider .slick-track{
+        display: flex;
+    }
     .dv1 .slider_wrapper .slider .item{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         z-index: 1;
-        opacity: 0;
-        position: absolute;
+        /*opacity: 0;*/
+        /*position: absolute;*/
         left: 0px;
         top: 0px;
         width: 100%;
@@ -304,7 +310,7 @@
         text-align: left;
         font-weight: 600;
     }
-    .dv1 .slider_wrapper .navigator{
+    .dv1 .slider_wrapper .slick-dots{
         flex-direction: row;
         justify-content: center;
         align-items: center;
@@ -317,7 +323,7 @@
         left: 0px;
         z-index: 600;
     }
-    .dv1 .slider_wrapper .navigator span{
+    .dv1 .slider_wrapper .slick-dots li{
         width: 10px;
         height: 10px;
         display: block;
@@ -326,18 +332,21 @@
         margin: 0 5px;
         cursor: pointer;
     }
-    .dv1 .slider_wrapper .navigator span.active{
+    .dv1 .slider_wrapper .slick-dots li.slick-active{
         background-color: #6a7dff;
     }
-    .dv1 .slider_wrapper .navigator span:hover{
+    .dv1 .slider_wrapper .slick-dots li:hover{
         background-color: #6a7dff;
+    }
+    .dv1 .slider_wrapper .slick-dots li button{
+        padding: 0;margin: 0;font-size: 0;background-color: transparent;border:none;
     }
     .dv1 .container:after{
         content: '';
         display: block;
         position: absolute;
         left: 0px;
-        bottom: 0px;
+        bottom: -1px;
         background-position: top center;
         background-repeat: no-repeat;
         background-image: url(../img/dv1/bot_bg.png);

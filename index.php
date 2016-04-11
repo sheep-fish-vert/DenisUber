@@ -750,7 +750,6 @@
                 </div>
             </div>
         </div>
-
         <div class="wrapper dv5 acl">
             <div class="comment_slider_img">
                 <img src="img/dv6/pop666.jpg" alt="">
@@ -777,7 +776,6 @@
                 </div>
             </div>
         </div>
-
         <div class="wrapper dv6 acl">
             <div class="container acl">
                 <div class="wrap-content cfix">
