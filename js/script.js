@@ -143,9 +143,17 @@ $(document).ready(function (){
         $('.dv4 .in_tabs_wrapper .in_tabs_container ul li').eq(index).addClass('active');
     })
     //===================================================
-    slider();
+    //slider();
     goTo();
 
+    $('.slider').slick({
+        arrows:false,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+    })
 
     function slickComment(){
 
