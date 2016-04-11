@@ -936,6 +936,32 @@
                                 <img src="img/dv7/coment-image8.jpg" alt="" />
                             </a>
                         </div>
+                        
+                        <div class="item">
+                            <a href="img/dv7/222.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
+                                <img src="img/dv7/222.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="img/dv7/333.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
+                                <img src="img/dv7/333.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="img/dv7/444.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
+                                <img src="img/dv7/444.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="img/dv7/555.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
+                                <img src="img/dv7/555.jpg" alt="" />
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="img/dv7/666.jpg" class="fancybox" data-fancybox-group="fotogallery-2">
+                                <img src="img/dv7/666.jpg" alt="" />
+                            </a>
+                        </div>
 
                     </div>
                 </div>
@@ -1123,6 +1149,8 @@
                                 <img src="img/fotogallery/fotogallery-img26.jpg" alt="">
                             </a>
                         </div>
+                        
+                      
 
                     </div>
                 </div>
