@@ -124,7 +124,6 @@ function validationCall(form) {
 function validationCallZakaz(form) {
 // yaMetrick
     yandexID.reachGoal('purchase-now');
-
   var thisForm = $(form);
   var formSur = thisForm.serialize();
 
@@ -151,7 +150,6 @@ function validationCallZakaz(form) {
 function validationCallContact(form) {
 // yaMetrick
     yandexID.reachGoal('contact');
-
   var thisForm = $(form);
   var formSur = thisForm.serialize();
 
