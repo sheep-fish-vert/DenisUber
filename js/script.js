@@ -162,7 +162,7 @@ $(document).ready(function (){
             slidesToShow: 5,
             infinite: true,
             autoplay:true,
-            arrows:false,
+            arrows:true,
             dots:true,
             responsive:[
                 {
@@ -194,9 +194,9 @@ $(document).ready(function (){
                         nextArrow:'<button type="button" class="slick-next"></button>'
                     }
                 }
-            ]
-            /*prevArrow:'<button type="button" class="slick-prev"></button>',
-            nextArrow:'<button type="button" class="slick-next"></button>'*/
+            ],
+            prevArrow:'<button type="button" class="slick-prev"></button>',
+            nextArrow:'<button type="button" class="slick-next"></button>'
         });
 
         $('.fancybox').fancybox({
